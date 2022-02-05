@@ -1,13 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+* {
+  border: 1px solid black;
+
+}
+
+@-moz-document url-prefix() { /* Disable scrollbar Firefox */
+  html{
+    scrollbar-width: none;
+  }
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {display:none;}
+
+div, h1, h2, h3, h4, p{
+  font-family: 'Inter', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.active{
+  font-weight: bold;
+}
+
+footer{
+  bottom: 0%;
+}
+
+.hero{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title{
+  font-family: 'Inter', sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.sub-head{
+  font-style: italic;
+  font-family: 'Prata', serif; 
+}
+
+.p5-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bigP{
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+}
+
+.navbar{
+  position: absolute;
+}
+
+.navbar-collapse{
+  background-color: tomato;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
