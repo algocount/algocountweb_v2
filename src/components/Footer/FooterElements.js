@@ -6,3 +6,6 @@ export const Foot = styled.footer`
     display: grid;
     grid-template: 100px / 20% 40% 40%;
 `
+
+
+

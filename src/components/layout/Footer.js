@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <Container as="footer" fixed="bottom">
 
-      <Container style={{ fontFamily: "'Inter', sans-serif" }}>
+      <Container style={{ fontFamily: "'Inter', sans-serif", paddingBottom:"1em" }}>
 
         <Row style={{display: "flex", justifyContent:"space-evenly"}}>
 
@@ -47,7 +47,7 @@ const Footer = () => {
                 style={{ color: "black", display: "flex" }}
                 href="mailto:algocountproject@gmail.com"
               >
-                <FaEnvelope size={24} />
+                <FaEnvelope size={24} style={{padding:".2em"}} />
                 <p className="contact-link">algocountproject@gmail.com</p>
               </a>
 
@@ -55,7 +55,7 @@ const Footer = () => {
                 style={{ color: "black", display: "flex" }}
                 href="https://twitter.com/algocount"
               >
-                <FaTwitter size={24} />
+                <FaTwitter size={24} style={{padding:".2em"}}/>
                 <p className="contact-link">@algocount</p>
               </a>
 
@@ -67,7 +67,7 @@ const Footer = () => {
                 }}
                 href="https://www.facebook.com/algocount/"
               >
-                <FaFacebook size={24} />
+                <FaFacebook size={24} style={{padding:".2em"}}/>
                 <p className="contact-link">@algocount</p>
               </a>
             </div>

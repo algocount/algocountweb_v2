@@ -43,14 +43,14 @@ const Project = () => {
         </p>
         <ul>
           <li>
-            <p className="expl">
+            <p className="expl body">
               What is the perception about the role of algorithms in the
               formation of public opinion in Italy? How much do Italians know
               about algorithms, their power, and the outcomes they produce?
             </p>
           </li>
           <li>
-            <p className="expl">
+            <p className="expl body">
               How can we visualise the intervention of algorithms in the
               formation of public opinion in the Italian context, to the aim of
               making the processes of information filtering and access by the
@@ -58,7 +58,7 @@ const Project = () => {
             </p>
           </li>
           <li>
-            <p className="expl">
+            <p className="expl body">
               What policies can be put in place, starting from the Italian
               context and then at a European and global level, in order to
               increase transparency, reduce opacity and enhance accountability

@@ -5,7 +5,7 @@ const Methodology = () => {
   return (
     <Layout>
       <Container className="col-container">
-        <Col md={8}>
+        <Col md={6}>
         
           <Container>
             <h1 className="intro header">THE RESEARCH PROCESS</h1>
@@ -47,20 +47,20 @@ const Methodology = () => {
               </p>
               <span>
                 <ul>
-                  <li>
+                  <li className="list-item">
                     the main actors involved in the discussion of news occurring
                     on digital platforms in Italy;{" "}
                   </li>
-                  <li>
+                  <li className="list-item">
                     the mediation role played by social media platforms in the
                     access to news from the general public;{" "}
                   </li>
-                  <li>
+                  <li className="list-item">
                     the topics that are more likely to be affected to
                     algorithmic processes in the formation of an algorithmic
                     public sphere;
                   </li>
-                  <li>
+                  <li className="list-item">
                     news consumption practices in the digital domain by Italian
                     users.
                   </li>
@@ -92,7 +92,7 @@ const Methodology = () => {
             <section className="expl body">
               <p>The dissemination phase will entail:</p>
               <ul>
-                <li>
+              <li className="list-item">
                   <p>
                     a set of non-academic outputs (e.g. newspaper or magazine
                     articles, podcasts, blogposts/opinion pieces, short videos)
@@ -100,20 +100,20 @@ const Methodology = () => {
                     members of the ALGOCOUNT research team{" "}
                   </p>
                 </li>
-                <li>
+                <li className="list-item">
                   <p>
                     the realization of a project website to host data
                     visualizations{" "}
                   </p>
                 </li>
-                <li>
+                <li className="list-item">
                   <p>
                     a set of workshop activities on “algorithmic literacy”
                     addressed to high school students aged 14-18, to be carried
                     out in schools in the area of Milan{" "}
                   </p>
                 </li>
-                <li>
+                <li className="list-item">
                   <p>
                     a conference/final event hosted at the Science Museum of
                     Milan that will mark the end of the project and involve

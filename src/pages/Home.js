@@ -1,4 +1,5 @@
 import { Container, Col } from "react-bootstrap";
+import Parallax from "../components/Parallax";
 import Layout from "../components/layout/Layout";
 import Logop5 from "../components/p5/Logop5";
 
@@ -19,7 +20,8 @@ const Home = () => {
       </div>
 
       <Container className="col-container">
-        <Col md={6}>
+        <Col style={{position:"relative"}} md={6}>
+        <Parallax />
         <h1 className="intro body">
           The Public Perception of Algorithms in Society: Accounting for the
           Algorithmic Public Opinion.
@@ -30,6 +32,7 @@ const Home = () => {
           specific focus on the formation of public opinion in the Italian
           context.
         </h1>
+
         </Col>
       </Container>
     </Layout>
