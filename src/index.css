@@ -1,88 +1,253 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 * {
-  border: 1px solid black;
-
+  /*border: 1px solid black;*/
 }
 
-@-moz-document url-prefix() { /* Disable scrollbar Firefox */
-  html{
+@-moz-document url-prefix() {
+  /* Disable scrollbar Firefox */
+  html {
     scrollbar-width: none;
   }
 }
 
+a{
+  font-family: "Inter", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -ms-overflow-style: none; 
+  -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
-body::-webkit-scrollbar {display:none;}
-
-div, h1, h2, h3, h4, p{
-  font-family: 'Inter', sans-serif;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-.active{
+.active {
   font-weight: bold;
 }
 
-footer{
+footer {
   bottom: 0%;
 }
 
-.hero{
+.hero {
   position: absolute;
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.title{
-  font-family: 'Inter', sans-serif;
-  font-size: 3em;
+.title {
+  font-family: "Inter", sans-serif;
+  font-size: 96px;
   font-weight: 700;
 }
 
-.sub-head{
+.sub-head {
+  font-family: "EB Garamond", serif;
   font-style: italic;
-  font-family: 'Prata', serif; 
+  font-weight: 500; 
 }
 
-.p5-container{
+.p5-container {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.bigP{
-  font-family: 'Inter', sans-serif;
-  font-size: 2em;
+.col-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em; 
+  margin-bottom: 2em;
 }
 
-.navbar{
+/*Navbar > Link > Underline Animation*/
+
+.menu-item {
+  display: block;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  padding: 0.2em 0;
+  margin: auto; 
+}
+
+.menu-item:hover{
+  color: black
+}
+
+.menu-item::after {
+  content: '';
   position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: black;
+  transition: all 0.2s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+  opacity: 1;
+  transform: scale(0);
+  transform-origin: center;
 }
 
-.navbar-collapse{
-  background-color: tomato;
-  height: 100%;
+.menu-item:hover::after,
+.menu-item:focus::after{
+  transform: scale(1);
+}
+
+.active::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: black;
+  transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+  opacity: 1;
+  transform: scale(1);
+  transform-origin: center;
 }
 
 
 
 
+/*Text Styling*/
+
+.intro {
+  font-family: "Inter", sans-serif;
+}
+
+.intro.header {
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.intro.body {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.3em;
+}
+
+.expl {
+  font-family: "EB Garamond", serif;
+}
+
+.expl.header {
+  font-family: "Inter", sans-serif;
+  font-size: 1.8em;
+  font-weight: 500; 
+}
+
+.expl.body {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #444; 
+}
+
+.consortium-card {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 750px) {
+  .consortium-card {
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+/*Methodology > Button Styling*/
+
+.method-button{
+  font-family: 'Inter', sans-serif;
+  background: none;
+  border-radius: 2em;
+  padding: .5em 1em .5em 1em; 
+  border: 1px solid;
+}
+
+@media only screen and (max-width: 750px) {
+  .method-button {
+    font-size: .9em;
+    margin: auto;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  padding: .5em;
+}
+
+.contacts{
+  color: black; 
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 750px) {
+  .contacts{
+    padding-top: 1em; 
+    align-items: center;
+  } 
+}
+
+.contact-link-container{
+  display: flex; 
+  flex-direction: column;
+}
+
+p.contact-link{
+  font-size: 0.75em;
+  padding: .2em;
+  margin-bottom: 0rem;   
+}
+
+@media only screen and (max-width: 750px) {
+  .contact-link-container{
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-bottom: 1em;
+  }
+  
+  .contact-link{
+    display: none; 
+  }
+}
+
+.logo-box{
+  padding: .5em; 
+}
+
+.inner-logo-box{
+  display: flex;
+}
 
 
 
-
+@media only screen and (max-width: 750px) {
+ .logo-box{
+    text-align: center;
+ } 
+ .inner-logo-box{
+  justify-content: space-evenly;
+}
+}

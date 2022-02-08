@@ -1,11 +1,11 @@
-import Header from "./Header";
 import Footer from "./Footer";
+import Navbar  from '../Navbar';
 
 const Layout = (props) => {
   return (
       <>
-      <Header/>
-      {props.children}
+      <Navbar/>
+        {props.children}
       <Footer/>
       </>
   );
