@@ -3,6 +3,8 @@ import Parallax from "../components/Parallax";
 import Layout from "../components/layout/Layout";
 import Logop5 from "../components/p5/Logop5";
 
+
+
 const Home = () => {
   //let vOffset = document.getElementsByClassName('navbar')[0].offsetHeight
 
@@ -32,7 +34,6 @@ const Home = () => {
           specific focus on the formation of public opinion in the Italian
           context.
         </h1>
-
         </Col>
       </Container>
     </Layout>

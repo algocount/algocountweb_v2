@@ -10,7 +10,7 @@ const Consortium = () => {
             //UNIMI
           }
           <Container>
-            <h1>The Research Team</h1>
+            <h1 className="intro header">The Research Team</h1>
           </Container>
 
           <Container className="col-container consortium-card">

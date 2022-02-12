@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 * {
   /*border: 1px solid black;*/
 }
@@ -227,9 +228,9 @@ p.contact-link{
 @media only screen and (max-width: 750px) {
   .contact-link-container{
     flex-direction: row;
-    justify-content: space-evenly;
     width: 60%;
     margin-bottom: 1em;
+    justify-content: center;
   }
   
   .contact-link{
@@ -254,4 +255,21 @@ p.contact-link{
  .inner-logo-box{
   justify-content: space-evenly;
 }
+}
+
+.parallax-box{
+  position: relative;
+  border: 1px solid black;
+}
+
+.social-container{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 750px){
+  .social-container{
+    
+  }
 }
