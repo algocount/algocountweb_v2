@@ -1,9 +1,9 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import { FaEnvelope, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import cariplo from "../../assets/cariplo.svg";
-import unimi from "../../assets/unimi.svg";
-import polimi from "../../assets/polimi.svg";
 import density from "../../assets/density.svg";
-import { FaTwitter, FaFacebook, FaInstagram, FaYoutube, FaEnvelope } from "react-icons/fa";
+import polimi from "../../assets/polimi.svg";
+import unimi from "../../assets/unimi.svg";
 
 //TO-DO: SET BREAKPOINTS
 

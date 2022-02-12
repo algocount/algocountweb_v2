@@ -1,13 +1,18 @@
+import { Col, Container, Row } from "react-bootstrap";
+import Navbar from "../Navbar";
 import Footer from "./Footer";
-import Navbar  from '../Navbar';
 
 const Layout = (props) => {
   return (
-      <>
-      <Navbar/>
-        {props.children}
-      <Footer/>
-      </>
+    <>
+      <Navbar />
+        <Container>
+          <Row className="justify-content-md-center">
+            <Col md={8} style={{paddingTop:"2.5em", paddingBottom:"5em"}}>{props.children}</Col>
+          </Row>
+        </Container>
+      <Footer />
+    </>
   );
 };
 
