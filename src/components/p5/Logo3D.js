@@ -6,6 +6,9 @@ export default function Logo3D(p5) {
   let dx = p5.mouseX - p5.width / 2
   let dy = p5.mouseY - p5.height / 2
   let v = p5.createVector(dx, dy, 0)
+  //Accounts for navbar and layout padding-top
+  let vOffset = document.getElementsByClassName('navbar')[0].offsetHeight + (16*2.5) 
+
   v.div(140)
 
   p5.preload = () => {
@@ -13,8 +16,8 @@ export default function Logo3D(p5) {
   }
 
   p5.setup = function () {
-    let vOffset = document.getElementsByClassName('navbar')[0].offsetHeight
     p5.createCanvas(p5.windowWidth, p5.windowHeight-vOffset, p5.WEBGL)
+    console.log(vOffset)
   }
 
   p5.draw = () => {
@@ -33,7 +36,6 @@ export default function Logo3D(p5) {
   }
 
   p5.windowResized = () => {
-    let vOffset = document.getElementsByClassName('navbar')[0].offsetHeight
     p5.resizeCanvas(p5.windowWidth, p5.windowHeight-vOffset, p5.WEBGL)
   }
 }

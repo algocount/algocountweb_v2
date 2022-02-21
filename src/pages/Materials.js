@@ -1,22 +1,18 @@
-import { Container, Col } from "react-bootstrap";
-import MaterialCard from "../components/MaterialCard";
-import Layout from "../components/layout/Layout";
-
+import Layout from "../components/Layout/Layout";
 import materialsList from "../materials.json";
+import { CardsContainer, MaterialCard } from "../components/MaterialsComponents";
+
 
 const Materials = () => {
   return (
     <Layout>
-      <Container className="col-container">
-        <Col md={9}>
-          <h1 className="intro header">Materials</h1>
-            <div style={{display:"flex", flexWrap:"wrap"}}>
-            {materialsList.map((item) => (
-                <MaterialCard {...item} />
-            ))}
-            </div>
-          </Col>
-      </Container>
+      <h1 className="intro header">Materials</h1>
+      <CardsContainer>
+      
+        {materialsList.map((item) => (
+          <MaterialCard {...item} />
+        ))}
+      </CardsContainer>
     </Layout>
   );
 };

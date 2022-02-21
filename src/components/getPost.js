@@ -8,10 +8,6 @@ const getPost = async () => {
 
   await fs.readdir(dirPath, (err, files) => {
 
-    if (err) {
-      return console.log("we uagliù è successo un guaio:\n" + err);
-    }
-
     files.forEach((file, i) => {
         
       var obj = {};

@@ -1,17 +1,17 @@
-import { Container, Col } from "react-bootstrap";
-import Layout from "../components/layout/Layout";
+import Layout from "../components/Layout/Layout";
 
 const Project = () => {
   return (
     <Layout>
-      <Container className="col-container">
-        <Col md={6}>
         <h1 className="intro header">THE ALGOCOUNT PROJECT</h1>
         <p className="intro body">
           In the context of a society pervasively intermediated by digital
           technologies, algorithms represent a new and important actor in the
           determination of social relations, cultural patterns and economic
-          outcomes. Algorithms ‘recommend’ which movies to watch, what items to
+          outcomes.
+        </p>
+        <p className="intro body"> 
+          Algorithms ‘recommend’ which movies to watch, what items to
           purchase, who to trust when using an online service, and are
           increasingly used as instruments of control for crime prevention,
           financial assessment and economic risk.
@@ -67,8 +67,6 @@ const Project = () => {
             </p>
           </li>
         </ul>
-        </Col>
-      </Container>
     </Layout>
   );
 };

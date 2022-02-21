@@ -1,7 +1,6 @@
-import React from "react";
 import Markdown from "react-markdown";
 import { Link } from "react-router-dom";
-import Layout from "./layout/Layout";
+import Layout from "../components/Layout/Layout";
 
 const Article = (props) => {
   return (

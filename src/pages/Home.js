@@ -1,7 +1,7 @@
-import { Container, Col } from "react-bootstrap";
-import Parallax from "../components/Parallax";
-import Layout from "../components/layout/Layout";
+import { Col, Container } from "react-bootstrap";
+import Layout from "../components/Layout/Layout";
 import Logop5 from "../components/p5/Logop5";
+import Parallax from "../components/Parallax";
 
 
 
@@ -20,22 +20,20 @@ const Home = () => {
           </h2>
         </Container>
       </div>
-
-      <Container className="col-container">
-        <Col style={{position:"relative"}} md={6}>
+        <div style={{position:"relative"}}>
         <Parallax />
         <h1 className="intro body">
           The Public Perception of Algorithms in Society: Accounting for the
           Algorithmic Public Opinion.
         </h1>
+        <br></br>
         <h1 className="intro body">
           Algocount project seeks to expand our current understanding of, and
           raise awareness about, the role of algorithms in society, with a
           specific focus on the formation of public opinion in the Italian
           context.
         </h1>
-        </Col>
-      </Container>
+        </div>
     </Layout>
   );
 };

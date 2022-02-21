@@ -20,12 +20,14 @@ export const Nav = styled.nav`
   justify-content: space-evenly;
   flex-direction: row;
   z-index: 10;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(4px);
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
 
   -webkit-transition: max-height 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
   -moz-transition: max-height 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
   -o-transition: max-height 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
   transition: max-height 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+  background: rgba(255, 255, 255, 0.4);
 
   @media only screen and (max-width: 750px) {
     flex-direction: column;
@@ -34,6 +36,7 @@ export const Nav = styled.nav`
     font-size: 36px;
 
     &.open {
+      backdrop-filter: blur(8px);
       flex-direction: column;
       flex-wrap: nowrap;
       top: 0%;
@@ -43,12 +46,14 @@ export const Nav = styled.nav`
   }
 `;
 
-export const NavContainer = styled.div`
+export const NavContainer = styled.ul`
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   width: 85%;
   text-transform: uppercase;
+  padding-left: 0;
+  margin: 0; 
 
   @media only screen and (max-width: 750px) {
     width: auto;
@@ -60,6 +65,7 @@ export const NavContainer = styled.div`
     &.open {
       display: flex;
       flex-direction: column;
+      align-items:center; 
       height: 80%;
       animation: fadeInFromNone 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
       animation-fill-mode: forwards;
@@ -91,21 +97,70 @@ export const Button = styled.button`
   width: 48px;
   padding: 0%;
   border: none;
-  z-index: 10; 
+  z-index: 10;
 
   @media only screen and (max-width: 750px) {
     display: block;
     position: fixed;
-    top: 2%; 
+    top: 2%;
+  }
+`;
+
+export const SNavLink = styled(NavLink)`
+  display: block;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  padding: 0.2em 0;
+  margin: auto;
+  
+
+  &:hover {
+    color: black;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: black;
+    transition: all 0.2s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    transform: scale(1);
+  }
+
+  &.active {
+    font-weight: 700;
+  }
+
+  &.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: black;
+    transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+    opacity: 1;
+    transform: scale(1);
+    transform-origin: center;
   }
 `;
 
 export const NavItem = (props) => {
   return (
-    <li style={{listStyle:"none", display:"flex"}}>
-      <NavLink className="menu-item" to={props.to}>{props.children}</NavLink>
+    <li style={{ listStyle: "none", display: "flex" }}>
+      <SNavLink to={props.to}>{props.children}</SNavLink>
     </li>
   );
 };
-
-
