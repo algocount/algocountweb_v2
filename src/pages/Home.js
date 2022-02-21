@@ -1,4 +1,4 @@
-import { Col, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Layout from "../components/Layout/Layout";
 import Logop5 from "../components/p5/Logop5";
 import Parallax from "../components/Parallax";

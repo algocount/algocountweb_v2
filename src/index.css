@@ -15,9 +15,11 @@
 a {
   font-family: "Inter", sans-serif;
 }
-x body::-webkit-scrollbar {
+
+body::-webkit-scrollbar {
   display: none;
 }
+
 html {
   scrollbar-width: none;
 }

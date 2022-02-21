@@ -11,7 +11,7 @@ import Events from './pages/Events';
 
 function App() {
   return (
-    <Router>
+    <Router  basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/about' element={<About />} />
