@@ -8,11 +8,13 @@ export default function Logo3D(p5) {
   let v = p5.createVector(dx, dy, 0)
   //Accounts for navbar and layout padding-top
   let vOffset = document.getElementsByClassName('navbar')[0].offsetHeight + (16*2.5) 
+  let basePath = process.env.PUBLIC_URL 
 
   v.div(140)
 
   p5.preload = () => {
-    myLogo = p5.loadModel("/logo.obj")
+    myLogo = p5.loadModel(basePath + "/logo.obj")
+    console.log(basePath + "/logo.obj")
   }
 
   p5.setup = function () {
