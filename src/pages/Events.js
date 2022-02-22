@@ -1,4 +1,6 @@
 import Layout from "../components/Layout/Layout";
+import { CardsContainer, EventCard } from "../components/EventsComponents";
+import eventsList from "../events.json"
 
 const Events = () => {
   return (
@@ -10,6 +12,11 @@ const Events = () => {
         implementation of a Communication Plan aimed at the dissemination of
         research findings and the engagement of the general public.
       </p>
+      <CardsContainer>
+        {eventsList.map((item) => (
+            <EventCard {...item} />
+          ))}
+      </CardsContainer>
     </Layout>
   );
 };

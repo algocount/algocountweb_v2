@@ -26,6 +26,7 @@ const Card = styled.div `
         box-shadow: 0px 4px 8px rgba(0,0,0,0.05);
     }
 `
+
 const Img = styled.img`
     object-fit: cover;
     height: 250px;
@@ -40,7 +41,7 @@ const Name = styled.h2`
     margin: 1em .75em 0 .75em; 
 `
 
-const Role = styled.h2`
+const Description = styled.p`
     font-family: "EB Garamond", serif; 
     font-size: 0.875em; 
     font-weight: 400; 
@@ -53,7 +54,7 @@ export const MaterialCard = (props) => {
       <Card>
         <Img src={props.imgUrl} />
         <Name>{props.title}</Name>
-        <Role>{props.description}</Role>
+        <Description>{props.description}</Description>
         <button className="method-button"> <Link to={`/materials/${props.title.toLowerCase().replace(/ /g, "-")}`}>Read More</Link> </button>
       </Card>
     );

@@ -8,6 +8,7 @@ export default function Logo3D(p5) {
   let v = p5.createVector(dx, dy, 0)
   //Accounts for navbar and layout padding-top
   let vOffset = document.getElementsByClassName('navbar')[0].offsetHeight + (16*2.5) 
+  //Prefixes static file in production 
   let basePath = process.env.PUBLIC_URL 
 
   v.div(140)

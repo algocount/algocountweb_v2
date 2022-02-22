@@ -12,14 +12,14 @@ const Img = styled.img`
       max-height: 20em;
       width: auto;  
     }    
-  `
+`
 
 const Name = styled.h2`
     text-transform: uppercase; 
     font-size: 0.875em; 
     font-weight: 400; 
     letter-spacing: 1.25px;
-    `
+`
 
 const Bio = styled.p`
     font-family: "EB Garamond", serif; 
@@ -27,7 +27,7 @@ const Bio = styled.p`
     font-weight: 400; 
     letter-spacing: .5px; 
     bottom: 0%; 
-    `
+`;
 
 const Role = styled.h1`
   font-size: 2.875em;
@@ -41,7 +41,7 @@ const Role = styled.h1`
     font-size: 2em;
     letter-spacing: -1px;
   }
-  `;
+`;
 
 const ImgCol = styled(Col)`
     position: relative; 
@@ -51,7 +51,8 @@ const ImgCol = styled(Col)`
     @media only screen and (max-width: 750px) {
       margin-bottom: 4em;
     }    
-    `
+`;
+
 const TxtCol = styled(Col)`
     font-family: "Inter", sans-serif; 
     
@@ -60,7 +61,7 @@ const TxtCol = styled(Col)`
       margin-left: 2em; 
       margin-right: 2em;
     }    
-`
+`;
 
 const BlurBox = styled.div`
     position: absolute;  
@@ -73,7 +74,7 @@ const BlurBox = styled.div`
     &:hover{
         backdrop-filter: blur(0px);
     }
-`
+`;
 
 const ImgContainer = styled.div`
   position: relative; 

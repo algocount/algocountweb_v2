@@ -8,7 +8,6 @@ const Materials = () => {
     <Layout>
       <h1 className="intro header">Materials</h1>
       <CardsContainer>
-      
         {materialsList.map((item) => (
           <MaterialCard {...item} />
         ))}

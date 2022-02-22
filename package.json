@@ -34,7 +34,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
-    "compile-md": "node src/components/getMaterials.js"
+    "compile-mtl-md": "node src/components/getMaterials.js",
+    "compile-evnt-md": "node src/components/getEvents.js"
   },
   "eslintConfig": {
     "extends": [

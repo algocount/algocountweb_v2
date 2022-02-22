@@ -4,8 +4,10 @@ import About from './pages/About';
 import People from './pages/People';
 import Research from './pages/Research';
 import Materials from './pages/Materials';
-import Article from './pages/Article';
+import MaterialsArticle from './pages/MaterialsArticle';
+import EventsArticle from './pages/EventsArticle';
 
+import eventsList from "./events.json";
 import materialsList from "./materials.json";
 import Events from './pages/Events';
 
@@ -20,7 +22,12 @@ function App() {
           <Route exact path='/materials' element={<Materials />} />
           {materialsList.map( 
             (item) => (
-              <Route exact path={`/materials/${item.title.toLowerCase().replace(/ /g, "-").replace(/\n|\r/g, "")}`} element={<Article {...item}/>} key={item.key} />
+              <Route exact path={`/materials/${item.title.toLowerCase().replace(/ /g, "-").replace(/\n|\r/g, "")}`} element={<MaterialsArticle {...item}/>} key={item.key} />
+              ) 
+          )}
+          {eventsList.map( 
+            (item) => (
+              <Route exact path={`/events/${item.title.toLowerCase().replace(/ /g, "-").replace(/\n|\r/g, "")}`} element={<EventsArticle {...item}/>} key={item.key} />
               ) 
           )}
           <Route path='/events' element={<Events />} />

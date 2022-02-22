@@ -18,7 +18,7 @@ const Name = styled.h2`
 
 const Role = styled.h2`
     font-family: "EB Garamond", serif; 
-    font-size: 0.875em; 
+    font-size: 1em; 
     font-weight: 400; 
     letter-spacing: .25px; 
     margin: 0 .4em .4em .4em; 
