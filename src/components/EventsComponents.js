@@ -15,7 +15,7 @@ export const CardsContainer = styled.div`
 const Card = styled.div`
   color: black;  
   padding: 1em; 
-  text-decoration: none;
+  text-decoration: none !important;
   border: 1px solid black;
   margin: 0.5em;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
@@ -39,7 +39,7 @@ const Date = styled.h3`
 const Title = styled.h2`
   text-decoration: none;
   font-family: "Inter", sans-serif;   
-  font-size: 1.25em;
+  font-size: 1.5em;
   font-weight: 600;
   letter-spacing: -0.25px;
 `;
@@ -50,11 +50,12 @@ const Description = styled.p`
   font-size: 0.875em;
   font-weight: 400;
   letter-spacing: 0.25px;
+  margin: 0; 
 `;
 
 export const EventCard = (props) => {
   return (
-    <Link to={`/events/${props.title.toLowerCase().replace(/ /g, "-")}`}>
+    <Link style={{textDecoration:"none"}}to={`/events/${props.title.toLowerCase().replace(/ /g, "-")}`}>
       <Card>
         <Date>{props.date}</Date>
         <Title>{props.title}</Title>
