@@ -13,7 +13,7 @@ const Name = styled.h2`
     font-size: 0.875em; 
     font-weight: 400; 
     letter-spacing: 1.25px; 
-    margin: .4em .4em 0 .4em; 
+    margin: .4em .4em .4em .4em; 
 `
 
 const Role = styled.h2`
@@ -63,7 +63,7 @@ const ResearcherCard = (props) => {
 
 const PeopleResearchersBox = (props) => {
   return (
-    <SRow style={{ display: "flex" }}>
+    <SRow style={{ display: "flex", paddingBottom: "5em" }}>
       <Header>Research Team</Header>
       {props.researchers.map((item) => (
         <ResearcherCard {...item} />

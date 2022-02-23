@@ -15,6 +15,7 @@ const Img = styled.img`
 `
 
 const Name = styled.h2`
+    padding-left: 0.2em;
     text-transform: uppercase; 
     font-size: 0.875em; 
     font-weight: 400; 
