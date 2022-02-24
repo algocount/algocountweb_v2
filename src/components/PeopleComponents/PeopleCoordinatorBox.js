@@ -4,13 +4,26 @@ const Img = styled.div`
   display: flex;
   flex-grow: 1;
   width: 100%; 
-  max-width: 400px;
   height: 100%;
   box-shadow: 0px 0px 16px rgba(0,0,0,0.2);
   aspect-ratio: 3/4; 
   background-image: url(${props => props.src});
   background-size: cover; 
   background-position: center;  
+
+  &:before {
+    content: "";
+    position: absolute;  
+    inset: 0;
+    backdrop-filter: blur(3px);
+    transform: translate(-20%, 20%);
+    border: 1px solid black;
+    transition: all 0.4s ease-in-out; 
+  }
+
+  &:hover:before {
+    backdrop-filter: blur(0px);
+  }
 
   @media only screen and (max-width: 750px) {
       max-height: 20em;
@@ -32,6 +45,11 @@ const Bio = styled.p`
   font-weight: 400; 
   letter-spacing: .5px; 
   bottom: 0%; 
+  
+  @media only screen and (max-width: 750px) {
+    font-size: 1.2em; 
+  }
+
 `;
 
 const Role = styled.h1`
@@ -51,10 +69,6 @@ const Role = styled.h1`
 ;
 const ImgCol = styled.div`
     margin-bottom: 2.5em;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    display: grid; 
-    align-content: center; 
   
     @media only screen and (max-width: 750px) {
       margin-bottom: 4em;
@@ -63,32 +77,26 @@ const ImgCol = styled.div`
 
 const TxtCol = styled.div`
   font-family: "Inter", sans-serif; 
-    
-    @media only screen and (max-width: 750px) {
-      margin-top: 4em;
-      margin-left: 2em; 
-      margin-right: 2em;
-    }    
-`
-
-const BlurBox = styled.div`
-    position: absolute;  
-    inset: 0;
-    backdrop-filter: blur(3px);
-    transform: translate(-20%, 20%);
-    border: 1px solid black;
-    transition: all 0.4s ease-in-out; 
-
-    &:hover{
-        backdrop-filter: blur(0px);
-    }
-`;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-end; 
+  
+  @media only screen and (max-width: 750px) {
+    margin-top: 4em;
+    grid-row: 2; 
+  }    
+  `
 
 const ImgContainer = styled.div`
+  width: 60%; 
   position: relative; 
-  max-width: 60%;  
   height: auto; 
-  margin-bottom: auto;
+  margin: auto;
+  grid-column: 2;
+
+  @media only screen and (max-width: 750px) {
+    grid-row: 1; 
+  }    
 `
 
 const CoordinatorContainer = styled.div`
@@ -114,7 +122,6 @@ const PeopleCoordinatorBox = (props) => {
       <ImgCol>
         <ImgContainer>
           <Img id={props.name} src={props.src}/>
-          <BlurBox/>
         </ImgContainer>
       </ImgCol>
     </CoordinatorContainer>

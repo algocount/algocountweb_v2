@@ -1,12 +1,14 @@
 import { Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 
-const Img = styled.img`
+const Img = styled.div`
   width: 100%;
-  max-width: 400px;
-  max-height: 250px;
   height: auto;
   padding: 0; 
+  aspect-ratio: 1; 
+  background-image: url(${props => props.src});
+  background-size: cover; 
+  background-position: center;  
 `;
 
 const Name = styled.h2`
@@ -14,7 +16,6 @@ const Name = styled.h2`
   font-size: 0.875em;
   font-weight: 400;
   letter-spacing: 1.25px;
-  margin: 0.4em 0.4em 0.4em 0.4em;
 `;
 
 const Role = styled.h2`
@@ -22,7 +23,6 @@ const Role = styled.h2`
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 0.25px;
-  margin: 0 0.4em 0.4em 0.4em;
 `;
 
 const Header = styled.h1`
@@ -56,12 +56,18 @@ const Card = styled(Row)`
   }
 `;
 
+const TxtBox = styled.div `
+  padding: .5em; 
+`
+
 const ResearcherCard = (props) => {
   return (
     <Card>
       <Img src={props.src} />
-      <Name>{props.name}</Name>
-      <Role>{props.role}</Role>
+      <TxtBox>
+        <Name>{props.name}</Name>
+        <Role>{props.role}</Role>
+      </TxtBox>
     </Card>
   );
 };
