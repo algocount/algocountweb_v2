@@ -1,12 +1,16 @@
-import { useEffect, useRef } from "react";
-import { Col, Row } from "react-bootstrap";
 import styled from "styled-components";
 
-const Img = styled.img` 
+const Img = styled.div` 
+  display: flex;
+  flex-grow: 1;
   width: 100%; 
   max-width: 400px;
-  height: auto;
+  height: 100%;
   box-shadow: 0px 0px 16px rgba(0,0,0,0.2);
+  aspect-ratio: 3/4; 
+  background-image: url(${props => props.src});
+  background-size: cover; 
+  background-position: center;  
 
   @media only screen and (max-width: 750px) {
       max-height: 20em;
@@ -15,19 +19,19 @@ const Img = styled.img`
 `
 
 const Name = styled.h2`
-    padding-left: 0.2em;
-    text-transform: uppercase; 
-    font-size: 0.875em; 
-    font-weight: 400; 
-    letter-spacing: 1.25px;
+  padding-left: 0.2em;
+  text-transform: uppercase; 
+  font-size: 0.875em; 
+  font-weight: 400; 
+  letter-spacing: 1.25px;
 `
 
 const Bio = styled.p`
-    font-family: "EB Garamond", serif; 
-    font-size: 1em; 
-    font-weight: 400; 
-    letter-spacing: .5px; 
-    bottom: 0%; 
+  font-family: "EB Garamond", serif; 
+  font-size: 1em; 
+  font-weight: 400; 
+  letter-spacing: .5px; 
+  bottom: 0%; 
 `;
 
 const Role = styled.h1`
@@ -44,25 +48,28 @@ const Role = styled.h1`
   }
 `;
 
-const ImgCol = styled(Col)`
-    position: relative; 
-    justify-content: center; 
+;
+const ImgCol = styled.div`
     margin-bottom: 2.5em;
-    
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    display: grid; 
+    align-content: center; 
+  
     @media only screen and (max-width: 750px) {
       margin-bottom: 4em;
-    }    
+    }
 `;
 
-const TxtCol = styled(Col)`
-    font-family: "Inter", sans-serif; 
+const TxtCol = styled.div`
+  font-family: "Inter", sans-serif; 
     
     @media only screen and (max-width: 750px) {
       margin-top: 4em;
       margin-left: 2em; 
       margin-right: 2em;
     }    
-`;
+`
 
 const BlurBox = styled.div`
     position: absolute;  
@@ -84,29 +91,33 @@ const ImgContainer = styled.div`
   margin-bottom: auto;
 `
 
+const CoordinatorContainer = styled.div`
+  display: grid;
+  margin: 2.5em 0 5em 0; 
+  grid-template-columns: 3fr 2fr; 
+  grid-gap: 1em;
+  width: 100%; 
+  
+  @media only screen and (max-width: 750px){
+    grid-template-columns: 1fr; 
+  }
+`
+
 const PeopleCoordinatorBox = (props) => {
-
-  const imgRef = useRef(); 
-  const boxRef = useRef(); 
-
-  useEffect(() => {
-    
-  })
-
   return (
-    <Row style={{marginTop:"2.5em", marginBottom:"4em"}}>
-      <TxtCol md={6, { order: 'first' }}>
+    <CoordinatorContainer>
+      <TxtCol>
         <Name>{props.name}</Name>
         <Role>{props.role}</Role>
-        <Bio>{props.bio}</Bio>
+        <Bio> {props.bio} </Bio>
       </TxtCol>
-      <ImgCol className="d-flex" md={6} xs={{ order: 'first' }}>
+      <ImgCol>
         <ImgContainer>
-          <Img ref={imgRef} id={props.name} src={props.src}/>
-          <BlurBox ref={boxRef} />
+          <Img id={props.name} src={props.src}/>
+          <BlurBox/>
         </ImgContainer>
       </ImgCol>
-    </Row>
+    </CoordinatorContainer>
   );
 };
 

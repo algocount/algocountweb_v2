@@ -14,9 +14,14 @@ const FootHeader = styled.p`
 const LogoLink = styled.a`
   display: flex;
   justify-content: center;
-  padding: 0.5em;
+  padding: .5em;
+  padding-right: 1em;
   transition: all 0.4s ease-in-out;
   
+  @media only screen and (max-width: 750px) {
+    padding-right: none;
+  }
+
   &:hover{
     color: black;
     filter: blur(1px)

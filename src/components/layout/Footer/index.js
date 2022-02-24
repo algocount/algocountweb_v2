@@ -22,7 +22,7 @@ import {
 
 const Footer = () => {
   return (
-    <Container as="footer">
+    <Container as="footer" style={{paddingBottom:"1em"}}>
       <Row style={{justifyContent:"center"}}>
         <LogoBox xs={5} sm={3} md={2} title="Funded&nbsp;by:">
           <IconBox
