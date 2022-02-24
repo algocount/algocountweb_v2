@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import slugify from "./slugify";
 
 export const CardsContainer = styled.div`
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
   margin-top: 2em;
 
   @media only screen and (max-width: 750px) {
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 1fr;
   }
+
 `;
 
 const Card = styled.div`
@@ -28,10 +28,14 @@ const Card = styled.div`
   }
 `;
 
-const Img = styled.img`
-  object-fit: cover;
-  height: 250px;
+const Img = styled.div`
   width: 100%;
+  height: auto;
+  padding: 0; 
+  aspect-ratio: 4/3; 
+  background-image: url(${props => props.src});
+  background-size: cover; 
+  background-position: center;  
 `;
 
 const Name = styled.h2`
@@ -45,7 +49,7 @@ const Name = styled.h2`
 
 const Description = styled.p`
   font-family: "EB Garamond", serif;
-  font-size: 0.875em;
+  font-size: 0.975em;
   font-weight: 400;
   letter-spacing: 0.25px;
   margin: 0 0.75em 0.75em 0.75em;
@@ -77,6 +81,10 @@ const StyledLink = styled(Link)`
   &:hover {
       color: white; 
   }
+
+  @media only screen and (max-width: 750px) {
+    font-size: .85em;
+  }
 `;
 
 export const MaterialCard = (props) => {
@@ -88,7 +96,7 @@ export const MaterialCard = (props) => {
       <BtnContainer>
         <Button>
           <StyledLink
-            to={`/materials/${props.title.toLowerCase().replace(/ /g, "-")}`}
+            to={`/materials/${slugify(props.title)}`}
           >
             Read More
           </StyledLink>

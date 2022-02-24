@@ -11,6 +11,8 @@ import eventsList from "./events.json";
 import materialsList from "./materials.json";
 import Events from './pages/Events';
 
+import slugify from './components/slugify';
+
 function App() {
   return (
     <Router  basename={process.env.PUBLIC_URL}>
@@ -22,12 +24,12 @@ function App() {
           <Route exact path='/materials' element={<Materials />} />
           {materialsList.map( 
             (item) => (
-              <Route exact path={`/materials/${item.title.toLowerCase().replace(/ /g, "-").replace(/\n|\r/g, "")}`} element={<MaterialsArticle {...item}/>} key={item.key} />
+              <Route exact path={`/materials/${slugify(item.title)}`} element={<MaterialsArticle {...item}/>} key={item.key} />
               ) 
           )}
           {eventsList.map( 
             (item) => (
-              <Route exact path={`/events/${item.title.toLowerCase().replace(/ /g, "-").replace(/\n|\r/g, "")}`} element={<EventsArticle {...item}/>} key={item.key} />
+              <Route exact path={`/events/${slugify(item.title)}`} element={<EventsArticle {...item}/>} key={item.key} />
               ) 
           )}
           <Route path='/events' element={<Events />} />

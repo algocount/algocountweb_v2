@@ -98,10 +98,10 @@ export const Button = styled.button`
   padding: 0%;
   border: none;
   z-index: 10;
+  color: black; 
 
   @media only screen and (max-width: 750px) {
     display: block;
-    position: fixed;
     top: 2%;
   }
 `;

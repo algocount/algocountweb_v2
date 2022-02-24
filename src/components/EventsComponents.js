@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import slugify from "./slugify";
 
 export const CardsContainer = styled.div`
   display: grid;
@@ -55,7 +56,7 @@ const Description = styled.p`
 
 export const EventCard = (props) => {
   return (
-    <Link style={{textDecoration:"none"}}to={`/events/${props.title.toLowerCase().replace(/ /g, "-")}`}>
+    <Link style={{textDecoration:"none"}}to={`/events/${slugify(props.title)}`}>
       <Card>
         <Date>{props.date}</Date>
         <Title>{props.title}</Title>

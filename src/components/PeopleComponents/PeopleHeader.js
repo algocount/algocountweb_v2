@@ -1,4 +1,3 @@
-import { Row } from "react-bootstrap";
 import styled from "styled-components";
 
 const Role = styled.h1`
@@ -18,6 +17,7 @@ const Uni = styled.h2`
     font-size: 2em;
     letter-spacing: -1.2px;
   }
+
 `;
 
 const Department = styled.h3`
@@ -26,7 +26,7 @@ const Department = styled.h3`
   font-weight: 500;
 `;
 
-const SRow = styled(Row)`
+const SRow = styled.div`
   font-family: "Inter", sans-serif;
   text-align: center;
   padding-bottom: 1em;

@@ -1,4 +1,3 @@
-import { Row, Col } from "react-bootstrap";
 import styled from "styled-components";
 
 const Img = styled.div`
@@ -43,7 +42,7 @@ const PeopleContainer = styled.div`
   }
 `;
 
-const Card = styled(Row)`
+const Card = styled.div`
   border: 1px solid black;
   padding: 0;
   margin: 0.5em;

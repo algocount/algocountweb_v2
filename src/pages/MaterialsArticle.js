@@ -14,7 +14,7 @@ const MaterialsArticle = (props) => {
         </Link>
         <span style={{ fontWeight: "600" }}>{` / ${props.title}`}</span>
       </h1>
-      <img src={props.imgUrl.replace(".", "")} alt={props.title}/>
+      <img src={"." + props.imgUrl} alt={props.title} style={{width:"100%"}}/>
       <Markdown children={props.content} />
       <a href={props.resUrl}>
         <button>Go to the risorsa!</button>
