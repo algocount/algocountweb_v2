@@ -1,140 +1,86 @@
 import Layout from "../components/Layout/Layout";
+import { Header, Intro, SubHead, ListItem, Body } from "../components/typeComponents";
 
-const Methodology = () => {
+const Research = () => {
   return (
     <Layout>
-      <h1 className="intro header">THE RESEARCH PROCESS</h1>
-      <p className="intro body">
-        The Algocount project consists of seven actions; of these, two concern
-        the collection of primary empirical data, and one concerns the
-        implementation of a Communication Plan aimed at the dissemination of
-        research findings and the engagement of the general public.
-      </p>
+      <Header>THE RESEARCH PROCESS</Header>
+      <Intro>
+        The Algocount project unfolded around three main empirical phases:
+      </Intro>
+
       <div>
         <a href="#digital-methods">
           <button className="method-button">Digital Methods</button>
         </a>
-        <a href="#qualitative-interviews">
+        <a href="#focus-groups">
           <button className="method-button">Qualitative Interviews</button>
         </a>
-        <a href="#communication">
+        <a href="#interviews">
           <button className="method-button">Communication</button>
         </a>
       </div>
 
-      <h2 id="digital-methods" className="expl header">
-        Digital Methods
-      </h2>
-      <section className="expl body">
-        <p>
-          A particular element of interest is given by the fact that algorithms
-          hold an increasingly important role in the formation of public
-          opinion, that is now largely mediated by social media platforms and
-          digital resources.
-        </p>
-        <p>
-          These platforms are chosen in accordance with their widespread use and
-          their relevance as news providers in the Italian context. This will
-          allow to obtain a comprehensive data set that will generate insights
-          about:
-        </p>
-        <span>
-          <ul>
-            <li className="list-item">
-              the main actors involved in the discussion of news occurring on
-              digital platforms in Italy;{" "}
-            </li>
-            <li className="list-item">
-              the mediation role played by social media platforms in the access
-              to news from the general public;{" "}
-            </li>
-            <li className="list-item">
-              the topics that are more likely to be affected to algorithmic
-              processes in the formation of an algorithmic public sphere;
-            </li>
-            <li className="list-item">
-              news consumption practices in the digital domain by Italian users.
-            </li>
-          </ul>
-        </span>
-        <p>
-          Data collected from this part of the research will be processed to
-          develop a set of visualisations capable of providing both general and
-          detailed pictures of the digital Italian public sphere, the actors
-          involved, the role of social media in algorithmic processes and the
-          attitudes about news consumption by Italian users.
-        </p>
-      </section>
-
-      <h2 id="qualitative-interviews" className="expl header">
-        Qualitative Interviews
-      </h2>
-      <section className="expl body">
-        <div>
-          <p>
-            A particular element of interest is given by the fact that
-            algorithms hold an increasingly important role in the formation of
-            public opinion, that is now largely mediated by social media
-            platforms and digital resources.
-          </p>
-        </div>
-      </section>
-
-      <h2 id="communication" className="expl header">
-        Communication
-      </h2>
-      <section className="expl body">
-        <p>The dissemination phase will entail:</p>
+      <SubHead id="digital-methods">Digital Methods</SubHead>
+      <section>
+        <Body>
+          In a first phase, the research has consisted in the ‘reverse
+          engineering’ of algorithmic content circulation on 5 digital
+          platforms: Facebook, Twitter, YouTube, TikTok and Reddit. This was
+          conducted in accordance with digital methods (Rogers, 2013)
+          principles, and focusing on the macro-topic of the circulation of
+          information around the Covid-19 pandemic. The research has taken the
+          form of a data sprint, held in January 2021. This allowed to generate
+          insights about:
+        </Body>
         <ul>
-          <li className="list-item">
-            <p>
-              a set of non-academic outputs (e.g. newspaper or magazine
-              articles, podcasts, blogposts/opinion pieces, short videos)
-              targeting the general public, written/produced by the members of
-              the ALGOCOUNT research team{" "}
-            </p>
-          </li>
-          <li className="list-item">
-            <p>
-              the realization of a project website to host data visualizations{" "}
-            </p>
-          </li>
-          <li className="list-item">
-            <p>
-              a set of workshop activities on “algorithmic literacy” addressed
-              to high school students aged 14-18, to be carried out in schools
-              in the area of Milan{" "}
-            </p>
-          </li>
-          <li className="list-item">
-            <p>
-              a conference/final event hosted at the Science Museum of Milan
-              that will mark the end of the project and involve stakeholders and
-              the general public in the discussion of the main results of the
-              research.{" "}
-            </p>
-          </li>
+          <ListItem>
+            the main actors involved in the discussion of informational content
+            about Covid-19 on digital platforms in Italy
+          </ListItem>
+          <ListItem>
+            the mediation role played by algorithms in the access to information
+            about Covid-19 from the general public in the Italian context
+          </ListItem>
         </ul>
-        <p>
-          At the end of the research we expect we will have attained the
-          following results: - to have enhanced the knowledge of and about
-          algorithms in society for the general public, policy makers, relevant
-          stakeholders and the academic community; - to have shed new light on
-          the key issues that concern the diffusion of algorithms in society and
-          the normative challenges that underpin public decision making
-          processes at a local, national and international level for what
-          concerns algorithms and their emergent role in society; - to have
-          contributed to expanding the current understanding of the role of
-          algorithms in the formation of public opinion and culture in the
-          Italian context; - to have contributed to an enhancement of the
-          relationship between science, technology and society by means of
-          fostering greater knowledge and public trust about algorithms and, in
-          parallel, having stimulated the emergence of a revived call for, and
-          new processes of, algorithmic accountability.
-        </p>
+        <Body>
+          Data collected in this phase of the research has consented to develop
+          a set of visualisations capable of providing both general and detailed
+          pictures of the Italian digital public sphere, the actors involved,
+          the role of social media in algorithmic processes and the attitudes
+          about news consumption by Italian users.
+        </Body>
+      </section>
+
+      <SubHead id="focus-groups">Focus Groups</SubHead>
+      <section>
+        <Body>
+          In a second phase, a set of 5 focus groups with Italian-based ordinary
+          users of social media platforms, who regularly use digital resources
+          to access informational content, have been conducted to investigate
+          the ‘algorithmic imaginaries’ (Bucher, 2017) of Italian social media
+          users. This has involved 33 participants, of which 16 males and 17
+          females. These were conducted in collaboration with MUST (Science and
+          Technology Museum Leonardo da Vinci, Milan), collecting participants
+          among MUST attendees.
+        </Body>
+      </section>
+
+      <SubHead id="interviews">Interviews to key informants</SubHead>
+      <section>
+        <Body>
+          In a third phase, we interviewed 50 international key informants in
+          the fields of academic research, software development, activism,
+          policy and media to gather their expert opinions about the
+          ‘algorithmic public opinion’, in Italy and beyond. This is
+          propaedeutic to gather evidence upon which to base the development of
+          a set of policy proposals resulting from the Algocount research,
+          concerning algorithmic awareness in the Italian (and European)
+          context.
+        </Body>
       </section>
     </Layout>
   );
 };
 
-export default Methodology;
+export default Research;

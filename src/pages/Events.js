@@ -1,21 +1,27 @@
 import Layout from "../components/Layout/Layout";
 import { CardsContainer, EventCard } from "../components/EventsComponents";
-import eventsList from "../events.json"
+import eventsList from "../events.json";
+import {
+  Header,
+  Intro,
+  SubHead,
+  ListItem,
+  Body,
+} from "../components/typeComponents";
 
 const Events = () => {
   return (
     <Layout>
-      <h1 className="intro header">RECENT ACTIVITIES</h1>
-      <p className="intro body">
-        The Algocount project consists of seven actions; of these, two concern
-        the collection of primary empirical data, and one concerns the
-        implementation of a Communication Plan aimed at the dissemination of
-        research findings and the engagement of the general public.
-      </p>
+      <Header>RECENT ACTIVITIES</Header>
+      <Intro>
+        The research team disseminates their findings through a variety of
+        outputs directed to the general public. These are the most recent
+        workshops, meetings, and events organized by the team.
+      </Intro>
       <CardsContainer>
         {eventsList.map((item) => (
-            <EventCard {...item} />
-          ))}
+          <EventCard {...item} />
+        ))}
       </CardsContainer>
     </Layout>
   );

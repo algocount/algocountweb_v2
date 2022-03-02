@@ -36,9 +36,8 @@ const Navbar = () => {
 
           <NavContainer style={{width:"85%"}} className="navContainer">
             <NavItem to="/">Home</NavItem>
-            <NavItem to="/about">About</NavItem>
-            <NavItem to="/people">People</NavItem>
             <NavItem to="/research">Research</NavItem>
+            <NavItem to="/people">People</NavItem>
             <NavItem to="/materials">Materials</NavItem>
             <NavItem to="/events">Events</NavItem>
           </NavContainer>

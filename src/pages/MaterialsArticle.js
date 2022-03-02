@@ -18,7 +18,7 @@ const MaterialsArticle = (props) => {
       </h2>
       <img src={"." + props.imgUrl} alt={props.title} style={{ width: "100%",  }} />
       <Markdown children={props.content} />
-      <a href={props.resUrl}>
+      <a href={props.resUrl} target={"_blank"}>
         <button>Go to the risorsa!</button>
       </a>
     </Layout>

@@ -1,12 +1,13 @@
 import Layout from "../components/Layout/Layout";
 import materialsList from "../materials.json";
 import { CardsContainer, MaterialCard } from "../components/MaterialsComponents";
+import { Header } from "../components/typeComponents";
 
 
 const Materials = () => {
   return (
     <Layout>
-      <h1 className="intro header">Materials</h1>
+      <Header className="intro header">Materials</Header>
       <CardsContainer>
         {materialsList.map((item) => (
           <MaterialCard {...item} />

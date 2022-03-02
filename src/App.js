@@ -1,24 +1,20 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import People from './pages/People';
-import Research from './pages/Research';
-import Materials from './pages/Materials';
-import MaterialsArticle from './pages/MaterialsArticle';
-import EventsArticle from './pages/EventsArticle';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import slugify from './components/slugify';
 import eventsList from "./events.json";
 import materialsList from "./materials.json";
 import Events from './pages/Events';
-
-import slugify from './components/slugify';
+import EventsArticle from './pages/EventsArticle';
+import Home from './pages/Home';
+import Materials from './pages/Materials';
+import MaterialsArticle from './pages/MaterialsArticle';
+import People from './pages/People';
+import Research from './pages/Research';
 
 function App() {
   return (
     <Router  basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/' exact element={<Home />} />
-          <Route path='/about' element={<About />} />
           <Route path='/people' element={<People />} />
           <Route path='/research' element={<Research />} />
           <Route exact path='/materials' element={<Materials />} />
