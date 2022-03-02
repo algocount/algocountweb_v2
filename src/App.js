@@ -12,23 +12,23 @@ import Research from './pages/Research';
 
 function App() {
   return (
-    <Router  basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/' exact element={<Home />} />
           <Route path='/people' element={<People />} />
           <Route path='/research' element={<Research />} />
-          <Route exact path='/materials' element={<Materials />} />
+          <Route path='/materials' exact element={<Materials />} />
           {materialsList.map( 
             (item) => (
-              <Route exact path={`/materials/${slugify(item.title)}`} element={<MaterialsArticle {...item}/>} key={item.key} />
+              <Route path={`/materials/${slugify(item.title)}`} exact element={<MaterialsArticle {...item}/>} key={item.key} />
               ) 
           )}
           {eventsList.map( 
             (item) => (
-              <Route exact path={`/events/${slugify(item.title)}`} element={<EventsArticle {...item}/>} key={item.key} />
+              <Route path={`/events/${slugify(item.title)}`} exact element={<EventsArticle {...item}/>} key={item.key} />
               ) 
           )}
-          <Route path='/events' element={<Events />} />
+          <Route path='/events' exact element={<Events />} />
         </Routes>
     </Router>
 

@@ -4,9 +4,6 @@ import eventsList from "../events.json";
 import {
   Header,
   Intro,
-  SubHead,
-  ListItem,
-  Body,
 } from "../components/typeComponents";
 
 const Events = () => {

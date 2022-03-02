@@ -1,5 +1,50 @@
+import styled from "styled-components";
 import Layout from "../components/Layout/Layout";
-import { Header, Intro, SubHead, ListItem, Body } from "../components/typeComponents";
+import { Body, Header, Intro, ListItem, SubHead } from "../components/typeComponents";
+
+const BtnContainer = styled.div`
+  display: flex; 
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1em 0em;
+  margin-top: 3em; 
+  
+
+  @media only screen and (max-width.750px) {
+    flex-direction: column; 
+    margin-top: 1em; 
+  }
+`
+
+const StyledButton = styled.button`
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none; 
+  background-color: black; 
+  color: white; 
+  padding: .75em 1em; 
+  border: none; 
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 24%);
+  transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+  
+
+  &:hover {
+    transform: scale(1.025);
+    box-shadow: 0 1px 12px 0 rgb(0 0 0 / 24%);
+    color: white; 
+  }
+
+  @media only screen and (max-width: 750px) {
+    padding: .5em .75em; 
+    font-size: .85em;
+  }
+`;
+
 
 const Research = () => {
   return (
@@ -9,17 +54,17 @@ const Research = () => {
         The Algocount project unfolded around three main empirical phases:
       </Intro>
 
-      <div>
+      <BtnContainer>
         <a href="#digital-methods">
-          <button className="method-button">Digital Methods</button>
+          <StyledButton>Digital Methods</StyledButton>
         </a>
         <a href="#focus-groups">
-          <button className="method-button">Qualitative Interviews</button>
+          <StyledButton>Focus Groups</StyledButton>
         </a>
         <a href="#interviews">
-          <button className="method-button">Communication</button>
+          <StyledButton>Interviews</StyledButton>
         </a>
-      </div>
+      </BtnContainer>
 
       <SubHead id="digital-methods">Digital Methods</SubHead>
       <section>

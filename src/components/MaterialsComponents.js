@@ -5,7 +5,7 @@ import slugify from "./slugify";
 export const CardsContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1em;
+  grid-gap: 1.5em;
   margin-top: 2em;
 
   @media only screen and (max-width: 750px) {
@@ -17,14 +17,13 @@ export const CardsContainer = styled.div`
 const Card = styled.div`
   display: flex; 
   flex-direction: column; 
-  border: 1px solid black;
-  margin: 0.5em;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  border: .75px solid black;
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 24%);
   transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
 
   &:hover {
     transform: scale(1.025);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 12px 0 rgb(0 0 0 / 24%);
   }
 `;
 
@@ -44,13 +43,14 @@ const Name = styled.h2`
   font-size: 0.875em;
   font-weight: 400;
   letter-spacing: 1.25px;
-  margin: 1em 0.75em 0 0.75em;
+  margin: .75em 0.75em .5em .75em;
 `;
 
 const Description = styled.p`
   font-family: "EB Garamond", serif;
   font-size: 0.975em;
   font-weight: 400;
+  line-height: 1.25em; 
   letter-spacing: 0.25px;
   margin: 0 0.75em 0.75em 0.75em;
 `;
@@ -72,7 +72,7 @@ const Button = styled.button`
 
 const StyledLink = styled(Link)`
   text-transform: uppercase;
-  font-size: 0.65em;
+  font-size: 0.75em;
   font-weight: 400;
   letter-spacing: 1px;
   text-decoration: none; 
