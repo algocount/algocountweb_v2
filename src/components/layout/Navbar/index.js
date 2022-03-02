@@ -33,7 +33,6 @@ const Navbar = () => {
       >
         <Hamburger size={32} />
       </Button>
-
           <NavContainer style={{width:"85%"}} className="navContainer">
             <NavItem to="/">Home</NavItem>
             <NavItem to="/research">Research</NavItem>
