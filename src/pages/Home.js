@@ -26,7 +26,7 @@ const Home = () => {
               <Container className="hero">
                 <h1 className="title">Algocount</h1>
                 <h2 className="sub-head">
-                  Public Perception of Algorithms&nbsp;in&nbsp;Society:{" "}
+                  Public Perception of Algorithms&nbsp;in&nbsp;Society:
                   <br></br>
                   Accounting for the Algorithmic Public&nbsp;Opinion
                 </h2>

@@ -2,7 +2,7 @@
 date: 7 July 2022
 title: Algocount Final Event
 description: Call for Contributions
-imgUrl: https://lh6.googleusercontent.com/qLufcE-oyxAinkhMt9_a9RLuXL-rA-_zbpMEUhtj4hLY8hZPGICicgi0D5F_moIa80heFoXSEohj-H62qvhC=w1380-h1850-rw
+imgUrl: ./algo1.jpg
 resUrl: https://www.eventbrite.com/
 ---
 
