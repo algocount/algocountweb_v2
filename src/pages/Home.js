@@ -4,6 +4,12 @@ import Parallax from "../components/Parallax";
 import { Intro, Body, ListItem } from "../components/typeComponents";
 import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
+import {
+  CardsContainer,
+  MaterialCard,
+} from "../components/MaterialsComponents";
+import materialsList from "../materials.json";
+import eventsList from "../events.json";
 
 const Home = () => {
   return (
@@ -42,22 +48,30 @@ const Home = () => {
               </Intro>
             </div>
 
-            <div style={{marginTop: "4em"}}>
-              
+            <CardsContainer style={{paddingTop:"4em"}}>
+              {eventsList.map((item) => (
+                <MaterialCard pageName="events" {...item} />
+              ))}
+              {materialsList.map((item) => (
+                <MaterialCard pageName="events" {...item} />
+              ))}
+            </CardsContainer>
+
+            <div style={{ marginTop: "4em" }}>
               <Body>
                 In the context of a society pervasively intermediated by digital
                 technologies, algorithms represent a new and important actor in
                 the determination of social relations, cultural patterns and
                 economic outcomes.
               </Body>
-              
+
               <Body>
                 Algorithms ‘recommend’ which movies to watch, what items to
                 purchase, who to trust when using an online service, and are
                 increasingly used as instruments of control for crime
                 prevention, financial assessment and economic risk.
               </Body>
-              
+
               <Body>
                 Algorithms, however, also hold an increasingly important role in
                 the formation of public opinion, that is now largely mediated by
@@ -84,21 +98,20 @@ const Home = () => {
               </Body>
 
               <ul>
-              
                 <ListItem>
                   What is the perception about the role of algorithms in the
                   formation of public opinion in Italy? How much do Italians
                   know about algorithms, their power, and the outcomes they
                   produce?
                 </ListItem>
-              
+
                 <ListItem>
                   How can we visualise the intervention of algorithms in the
                   formation of public opinion in the Italian context, to the aim
                   of making the processes of information filtering and access by
                   the general public more accountable to public scrutiny?
                 </ListItem>
-              
+
                 <ListItem>
                   What policies can be put in place, starting from the Italian
                   context and then at a European and global level, in order to
@@ -106,15 +119,12 @@ const Home = () => {
                   accountability of the intermediation role algorithms play in
                   the formation of public opinion?
                 </ListItem>
-              
               </ul>
-            
             </div>
-          
           </Col>
         </Row>
       </Container>
-      <Footer/>
+      <Footer />
     </>
   );
 };
