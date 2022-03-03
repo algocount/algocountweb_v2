@@ -2,30 +2,35 @@ import Layout from "../components/Layout/Layout";
 import PeopleCoordinatorBox from "../components/PeopleComponents/PeopleCoordinatorBox";
 import PeopleHeader from "../components/PeopleComponents/PeopleHeader";
 import PeopleResearchersBox from "../components/PeopleComponents/PeopleResearchersBox";
+import {PeopleContainer, JustText} from "../components/PeopleComponents/PeopleResearchersBox";
 
-const ResUniMi = [
-  { key: 1,  name: "Lorenzo Mosca",                     role: "Project Coordinator",  src: "./gandi.jpg" },
-  { key: 2,  name: "Alessandro Gerosa",                 role: "Team Member",          src: "./gandi.jpg" },
-  { key: 3,  name: "Luca Giuffrè",                      role: "Team Member",          src: "./gandi.jpg" },
-  { key: 4,  name: "Diletta Huyskes",                   role: "Team Member",          src: "./gandi.jpg" },
-  { key: 5,  name: "Silvia Keeling",                    role: "Team Member",          src: "./gandi.jpg" },
-  { key: 6,  name: "Luisa Leonini",                     role: "Team Member",          src: "./gandi.jpg" },
-  { key: 7,  name: "Marco Orofino",                     role: "Team Member",          src: "./gandi.jpg" },
-  { key: 8,  name: "Alessandro Provetti",               role: "Team Member",          src: "./gandi.jpg" },
-  { key: 9,  name: "Urbano Reviglio",                   role: "Team Member",          src: "./gandi.jpg" },
-  { key: 10, name: "Sergio Splendore",                  role: "Team Member",          src: "./gandi.jpg" }
+const ResUniMi_Pic = [
+  { key: 1,  name: "Alessandro Gerosa",                 role: "Postdoctoral Research Fellow",         src: "./gandi.jpg" },
+  { key: 2,  name: "Luca Giuffrè",                      role: "Research Assistant",                   src: "./gandi.jpg" },
+  { key: 3,  name: "Diletta Huyskes",                   role: "Communications Manager, PhD Candidate",src: "./gandi.jpg" },
+  { key: 4,  name: "Silvia Keeling",                    role: "Postdoctoral Research Fellow",         src: "./gandi.jpg" },
+  { key: 5,  name: "Urbano Reviglio",                   role: "Postdoctoral Research Fellow",         src: "./gandi.jpg" },
 ];
+
+const ResUniMi_NoPic = [
+  { key: 1,  name: "Lorenzo Mosca",                     role: "Project Coordinator",                  src: "./gandi.jpg" },
+  { key: 2,  name: "Luisa Leonini",                     role: "Team Member",                          src: "./gandi.jpg" },
+  { key: 3,  name: "Marco Orofino",                     role: "Team Member",                          src: "./gandi.jpg" },
+  { key: 4,  name: "Alessandro Provetti",               role: "Team Member",                          src: "./gandi.jpg" },
+  { key: 5,  name: "Sergio Splendore",                  role: "Team Member",                          src: "./gandi.jpg" }
+]
 
 const ResPoliMi = [
   { key: 1, name: "Elena Aversa",                       role: "PhD Student",           src: "./elena.jpg" },
   { key: 2, name: "Maria De Los Àngeles Briones Rojas", role: "Postdoc",               src: "./angeles.jpg" },
-  { key: 3, name: "Tommaso Elli",                       role: "Unemployed",            src: "./elli.jpg" },
+  { key: 3, name: "Tommaso Elli",                       role: "Postdoc",               src: "./elli.jpg" },
   { key: 4, name: "Beatrice Gobbo",                     role: "PhD Candidate",         src: "./bea.jpg" }
 ];
 
 const People = () => {
   return (
     <Layout>
+
       <PeopleHeader
         role="Beneficiary"
         uni="University of Milan"
@@ -45,7 +50,11 @@ const People = () => {
         src="./gandi.jpg"
       />
 
-      <PeopleResearchersBox researchers={ResUniMi} />
+      <PeopleResearchersBox col={5} researchers={ResUniMi_Pic} />
+
+      <PeopleContainer col={5}>
+        {ResUniMi_NoPic.map((d)=>(<JustText name={d.name} role={d.role}></JustText>))}
+      </PeopleContainer>
 
       <PeopleHeader
         role="Partner"
@@ -66,7 +75,8 @@ const People = () => {
         src="./mikima.jpg"
       />
 
-      <PeopleResearchersBox researchers={ResPoliMi} />
+      <PeopleResearchersBox col={4} researchers={ResPoliMi} />
+
     </Layout>
   );
 };

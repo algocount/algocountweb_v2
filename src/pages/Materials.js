@@ -10,7 +10,7 @@ const Materials = () => {
       <Header className="intro header">Materials</Header>
       <CardsContainer>
         {materialsList.map((item) => (
-          <MaterialCard {...item} />
+          <MaterialCard pageName="materials" {...item} />
         ))}
       </CardsContainer>
     </Layout>

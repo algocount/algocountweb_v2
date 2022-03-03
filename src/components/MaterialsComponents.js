@@ -96,7 +96,7 @@ export const MaterialCard = (props) => {
       <BtnContainer>
         <Button>
           <StyledLink
-            to={`/materials/${slugify(props.title)}`} target={"_blank"}
+            to={`/${props.pageName}/${slugify(props.title)}`} target={"_blank"}
           >
             Read More
           </StyledLink>

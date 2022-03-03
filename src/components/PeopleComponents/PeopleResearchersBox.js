@@ -3,11 +3,11 @@ import styled from "styled-components";
 const Img = styled.div`
   width: 100%;
   height: auto;
-  padding: 0; 
-  aspect-ratio: 1; 
-  background-image: url(${props => props.src});
-  background-size: cover; 
-  background-position: center;  
+  padding: 0;
+  aspect-ratio: 1;
+  background-image: url(${(props) => props.src});
+  background-size: cover;
+  background-position: center;
 `;
 
 const Name = styled.h2`
@@ -31,11 +31,11 @@ const Header = styled.h1`
   letter-spacing: 1.25px;
 `;
 
-const PeopleContainer = styled.div`
+export const PeopleContainer = styled.div`
   display: grid;
-  grid-gap: 1em; 
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-bottom: 5em; 
+  grid-gap: 1em;
+  grid-template-columns: repeat(${(props) => props.col}, 1fr);
+  margin-bottom: 5em;
 
   @media only screen and (max-width: 750px) {
     grid-template-columns: 1fr 1fr;
@@ -44,8 +44,7 @@ const PeopleContainer = styled.div`
 
 const Card = styled.div`
   border: 1px solid black;
-  padding: 0;
-  margin: 0.5em;
+  margin-top: 1.5em;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
   transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
 
@@ -55,9 +54,18 @@ const Card = styled.div`
   }
 `;
 
-const TxtBox = styled.div `
-  padding: .5em; 
-`
+const TxtBox = styled.div`
+  padding: 0.5em;
+`;
+
+export const JustText = (props) => {
+  return (
+    <div>
+      <Name>{props.name}</Name>
+      <Role>{props.role}</Role>
+    </div>
+  );
+};
 
 const ResearcherCard = (props) => {
   return (
@@ -75,7 +83,7 @@ const PeopleResearchersBox = (props) => {
   return (
     <>
       <Header>Research Team</Header>
-      <PeopleContainer>
+      <PeopleContainer col={props.col}>
         {props.researchers.map((item) => (
           <ResearcherCard {...item} />
         ))}

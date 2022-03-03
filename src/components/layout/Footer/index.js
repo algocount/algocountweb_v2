@@ -32,13 +32,7 @@ const Footer = () => {
           />
         </LogoBox>
 
-        <LogoBox xs={5} sm={3} md={2} title="Supported&nbsp;by:">
-          <IconBox
-            src={leonardo}
-            alt="Museo Nazionale Scienza e Tecnologia Leonardo Da Vinci"
-            href="https://www.museoscienza.org"
-          />
-        </LogoBox>
+
 
         <LogoBox xs={12} md={4} title="Partners">
           <IconBox
@@ -55,6 +49,14 @@ const Footer = () => {
             src={density}
             alt="Laboratorio di Ricerca Density Design"
             href="https://www.densitydesign.org"
+          />
+        </LogoBox>
+
+        <LogoBox xs={5} sm={3} md={2} title="Collaborator:">
+          <IconBox
+            src={leonardo}
+            alt="Museo Nazionale Scienza e Tecnologia Leonardo Da Vinci"
+            href="https://www.museoscienza.org"
           />
         </LogoBox>
 

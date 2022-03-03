@@ -12,7 +12,7 @@ export const Intro = styled.p`
     font-family: "Inter", sans-serif;
     font-size: 3em; 
     font-weight: 600;
-    line-height: 1.1;  
+    line-height: 1.25;  
     letter-spacing: -1.3px; 
 `
 

@@ -14,22 +14,13 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" exact element={<Home />} />
+        <Route index path="/" exact element={<Home />} />
         <Route path="/people" element={<People />} />
         <Route path="/research" element={<Research />} />
         <Route path="/materials" exact element={<Materials />} />
         {materialsList.map((item) => (
           <Route
-            path={`/materials/${item.title
-              .toString()
-              .trim()
-              .toLowerCase()
-              .replace(/\s+/g, "-")
-              .replace(/[^\w\-]+/g, "")
-              .replace(/\-\-+/g, "-")
-              .replace(/^-+/, "")
-              .replace(/-+$/, "")}`}
-            element={<MaterialsArticle {...item} />}
+            path={`/materials/${slugify(item.title)}`} element={<MaterialsArticle {...item} />}
             key={item.key}
           />
         ))}

@@ -6,8 +6,7 @@ export default function Logo3D(p5) {
   let dx = p5.mouseX - p5.width / 2
   let dy = p5.mouseY - p5.height / 2
   let v = p5.createVector(dx, dy, 0)
-  //Accounts for navbar and layout padding-top
-  let vOffset = document.getElementsByClassName('navbar')[0].offsetHeight + (16*2.5) 
+  let vOffset = document.getElementsByClassName('navbar')[0].offsetHeight 
   //Prefixes static file in production 
   let basePath = process.env.PUBLIC_URL 
 
@@ -19,7 +18,7 @@ export default function Logo3D(p5) {
   }
 
   p5.setup = function () {
-    p5.createCanvas(p5.windowWidth, p5.windowHeight-vOffset, p5.WEBGL)
+    p5.createCanvas(p5.windowWidth, (p5.windowHeight-vOffset)*.85, p5.WEBGL)
     console.log(vOffset)
   }
 
@@ -28,7 +27,7 @@ export default function Logo3D(p5) {
     p5.ambientLight(255, 255, 249)
     p5.pointLight(200, 200, 200, dx, dy, -200)
     p5.specularMaterial(250, 250, 255)
-    p5.translate(-25, +25, 0)
+    p5.translate(-25, -25, -50)
     p5.shininess(1)
     let rotateAngle = p5.sin(p5.frameCount / 45)
     p5.rotateX(p5.mouseX * 0.001)
@@ -39,6 +38,6 @@ export default function Logo3D(p5) {
   }
 
   p5.windowResized = () => {
-    p5.resizeCanvas(p5.windowWidth, p5.windowHeight-vOffset, p5.WEBGL)
+    p5.resizeCanvas(p5.windowWidth, (p5.windowHeight-vOffset)*.85, p5.WEBGL)
   }
 }

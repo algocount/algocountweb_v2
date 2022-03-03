@@ -3,18 +3,26 @@ import Layout from "../components/Layout/Layout";
 import { Body, Header, Intro, ListItem, SubHead } from "../components/typeComponents";
 
 const BtnContainer = styled.div`
-  display: flex; 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
   width: 100%;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
   padding: 1em 0em;
   margin-top: 3em; 
+  justify-items: center;
+  grid-gap: 1em;
   
-
-  @media only screen and (max-width.750px) {
+  
+  @media only screen and (max-width: 750px) {
+    grid-template-rows: repeat(3, 1fr); 
+    grid-template-columns: 1fr;  
     flex-direction: column; 
     margin-top: 1em; 
+  }
+`
+
+const BtnWrapper = styled.a`
+  @media only screen and (max-width: 750px) {
+  width: 100%;
   }
 `
 
@@ -25,23 +33,24 @@ const StyledButton = styled.button`
   font-weight: 400;
   letter-spacing: 1px;
   text-decoration: none; 
-  background-color: black; 
-  color: white; 
+  color: black; 
+  background-color: white; 
   padding: .75em 1em; 
   border: none; 
+  border: .75px solid black; 
   box-shadow: 0 1px 6px 0 rgb(0 0 0 / 24%);
   transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
-  
 
   &:hover {
     transform: scale(1.025);
     box-shadow: 0 1px 12px 0 rgb(0 0 0 / 24%);
-    color: white; 
+    color: black; 
   }
 
   @media only screen and (max-width: 750px) {
     padding: .5em .75em; 
-    font-size: .85em;
+      font-size: .85em;
+    width: 100%; 
   }
 `;
 
@@ -55,15 +64,15 @@ const Research = () => {
       </Intro>
 
       <BtnContainer>
-        <a href="#digital-methods">
-          <StyledButton>Digital Methods</StyledButton>
-        </a>
-        <a href="#focus-groups">
-          <StyledButton>Focus Groups</StyledButton>
-        </a>
-        <a href="#interviews">
+        <BtnWrapper href="#digital-methods">
+          <StyledButton>Digital&nbsp;Methods</StyledButton>
+        </BtnWrapper>
+        <BtnWrapper href="#focus-groups">
+          <StyledButton>Focus&nbsp;Groups</StyledButton>
+        </BtnWrapper>
+        <BtnWrapper href="#interviews">
           <StyledButton>Interviews</StyledButton>
-        </a>
+        </BtnWrapper>
       </BtnContainer>
 
       <SubHead id="digital-methods">Digital Methods</SubHead>
