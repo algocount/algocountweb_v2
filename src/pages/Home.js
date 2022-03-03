@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Logop5 from "../components/p5/Logop5";
 import Parallax from "../components/Parallax";
-import { Intro, Body, ListItem } from "../components/typeComponents";
+import { Intro, Body, ListItem, SubHead } from "../components/typeComponents";
 import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
 import {
@@ -47,8 +47,10 @@ const Home = () => {
                 opinion in the Italian context.
               </Intro>
             </div>
+            
+            <SubHead style={{paddingTop:"3.5em"}}>Recent Activities</SubHead>
 
-            <CardsContainer style={{paddingTop:"4em"}}>
+            <CardsContainer>
               {eventsList.map((item) => (
                 <MaterialCard pageName="events" {...item} />
               ))}
