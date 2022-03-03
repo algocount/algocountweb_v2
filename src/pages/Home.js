@@ -2,8 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Logop5 from "../components/p5/Logop5";
 import Parallax from "../components/Parallax";
 import { Intro, Body, ListItem, SubHead } from "../components/typeComponents";
-import Navbar from "../components/Layout/Navbar";
-import Footer from "../components/Layout/Footer";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
 import {
   CardsContainer,
   MaterialCard,

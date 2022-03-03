@@ -1,4 +1,4 @@
-import Layout from "../components/Layout/Layout";
+import Layout from "../components/layout/Layout";
 import materialsList from "../materials.json";
 import { CardsContainer, MaterialCard } from "../components/MaterialsComponents";
 import { Header } from "../components/typeComponents";
