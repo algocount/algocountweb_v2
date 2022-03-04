@@ -11,6 +11,15 @@ import {
 import materialsList from "../materials.json";
 import eventsList from "../events.json";
 
+const filterEventsCards = eventsList.filter(item => 
+  item.key > 2
+)
+
+const filterMaterialCards = materialsList.filter(item => 
+  item.key > 3
+)
+
+
 const Home = () => {
   return (
     <>
@@ -51,10 +60,11 @@ const Home = () => {
             <SubHead style={{paddingTop:"3.5em"}}>Recent Activities</SubHead>
 
             <CardsContainer>
-              {eventsList.map((item) => (
+              
+              {filterEventsCards.map((item) => (
                 <MaterialCard pageName="events" {...item} />
               ))}
-              {materialsList.map((item) => (
+              {filterMaterialCards.map((item) => (
                 <MaterialCard pageName="events" {...item} />
               ))}
             </CardsContainer>

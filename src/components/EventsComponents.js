@@ -54,6 +54,11 @@ const Description = styled.p`
   margin: 0; 
 `;
 
+const Showcase = styled.p`
+  display:none
+`;
+
+
 export const EventCard = (props) => {
   return (
     <Link style={{textDecoration:"none"}}to={`/events/${slugify(props.title)}`} target={"_blank"}>

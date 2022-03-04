@@ -1,7 +1,7 @@
 ---
 title: PlacPlac
 description: A new dissemination format for Digital Methods research
-imgUrl: ./algo2.jpg
+imgUrl: ./placplac.jpg
 resUrl: http://placplac.densitydesign.org/login
 ---
 

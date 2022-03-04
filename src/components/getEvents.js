@@ -57,6 +57,7 @@ const getEvents = () => {
           imgUrl: metadata.imgUrl ? metadata.imgUrl : "No image url given",
           resUrl: metadata.resUrl ? metadata.resUrl : "No resource url given",
           content: content ? content : "No content given",
+          
         };
 
         eventList.push(eventItem);
