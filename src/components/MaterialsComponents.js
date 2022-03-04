@@ -20,11 +20,14 @@ const Card = styled.div`
   border: .75px solid black;
   box-shadow: 0 1px 6px 0 rgb(0 0 0 / 24%);
   transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+  filter:  blur(${props => props.type == "read more" ? "0px" : "1px"});
+  opacity: ${props => props.type == "read more" ? "1" : "0.45"}; 
 
   &:hover {
-    transform: scale(1.025);
-    box-shadow: 0 1px 12px 0 rgb(0 0 0 / 24%);
+    transform: scale(${props => props.type == "read more" ? "1.025" : "1"});
+    box-shadow: 0 1px ${props => props.type == "read more" ? "12" : "6"}px 0 rgb(0 0 0 / 24%);
   }
+  
 `;
 
 const Img = styled.div`
@@ -90,7 +93,7 @@ const StyledLink = styled(Link)`
 
 export const MaterialCard = (props) => {
   return (
-    <Card>
+    <Card {...props}>
       <Img src={props.imgUrl} />
       <Name>{props.title}</Name>
       <Description>{props.description}</Description>

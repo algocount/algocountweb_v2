@@ -1,7 +1,10 @@
 import Layout from "../components/Layout/Layout";
-import { CardsContainer, MaterialCard } from "../components/MaterialsComponents";
+import {
+  CardsContainer,
+  MaterialCard,
+} from "../components/MaterialsComponents";
 import eventsList from "../events.json";
-import { Header, Intro } from "../components/typeComponents";
+import { Body, Header, Intro } from "../components/typeComponents";
 
 const Events = () => {
   return (
@@ -11,8 +14,10 @@ const Events = () => {
         The research team disseminates their findings through a variety of
         outputs directed to the general public.
       </Intro>
-      <p>These are the most recent
-        workshops, meetings, and events organized by the team.</p>
+      <Body>
+        These are the most recent workshops, meetings, and events organized by
+        the team.
+      </Body>
       <CardsContainer>
         {eventsList.map((item) => (
           <MaterialCard pageName="events" {...item} />

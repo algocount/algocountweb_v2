@@ -19,6 +19,9 @@ const filterMaterialCards = materialsList.filter(item =>
   item.type === "read more"
 )
 
+const cardsToShow = filterMaterialCards.concat(filterEventsCards)
+console.log(cardsToShow)
+
 
 const Home = () => {
   return (
