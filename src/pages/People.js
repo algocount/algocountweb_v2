@@ -5,26 +5,26 @@ import PeopleResearchersBox from "../components/PeopleComponents/PeopleResearche
 import {PeopleContainer, JustText} from "../components/PeopleComponents/PeopleResearchersBox";
 
 const ResUniMi_Pic = [
-  { key: 1,  name: "Alessandro Gerosa",                 role: "Postdoctoral Research Fellow",         src: "./placeholder.jpg" },
-  { key: 2,  name: "Luca Giuffrè",                      role: "Research Assistant",                   src: "./placeholder.jpg" },
-  { key: 3,  name: "Diletta Huyskes",                   role: "Communications Manager, PhD Candidate",src: "./placeholder.jpg" },
-  { key: 4,  name: "Silvia Keeling",                    role: "Postdoctoral Research Fellow",         src: "./placeholder.jpg" },
-  { key: 5,  name: "Urbano Reviglio",                   role: "Postdoctoral Research Fellow",         src: "./placeholder.jpg" },
+  { key: 1,  name: "Alessandro Gerosa",                 role: "Postdoctoral Research Fellow",         src: "./place.jpg" },
+  { key: 2,  name: "Luca Giuffrè",                      role: "Research Assistant",                   src: "./giuffre.jpg" },
+  { key: 3,  name: "Diletta Huyskes",                   role: "Communications Manager, PhD Candidate",src: "./place.jpg" },
+  { key: 4,  name: "Silvia Keeling",                    role: "Postdoctoral Research Fellow",         src: "./place2.jpg" },
+  { key: 5,  name: "Urbano Reviglio",                   role: "Postdoctoral Research Fellow",         src: "./place.jpg" },
 ];
 
 const ResUniMi_NoPic = [
-  { key: 1,  name: "Lorenzo Mosca",                     role: "Project Coordinator",                  src: "./placeholder.jpg" },
-  { key: 2,  name: "Luisa Leonini",                     role: "Team Member",                          src: "./placeholder.jpg" },
+  { key: 1,  name: "Lorenzo Mosca",                     role: "Project Coordinator",                  src: "./place2.jpg" },
+  { key: 2,  name: "Luisa Leonini",                     role: "Team Member",                          src: "./place2.jpg" },
   { key: 3,  name: "Marco Orofino",                     role: "Team Member",                          src: "./placeholder.jpg" },
-  { key: 4,  name: "Alessandro Provetti",               role: "Team Member",                          src: "./placeholder.jpg" },
+  { key: 4,  name: "Alessandro Provetti",               role: "Team Member",                          src: "./place2.jpg" },
   { key: 5,  name: "Sergio Splendore",                  role: "Team Member",                          src: "./placeholder.jpg" }
 ]
 
 const ResPoliMi = [
-  { key: 1, name: "Elena Aversa",                       role: "PhD Student",           src: "./elena.jpg" },
-  { key: 2, name: "Maria De Los Àngeles Briones Rojas", role: "Postdoc",               src: "./angeles.jpg" },
-  { key: 3, name: "Tommaso Elli",                       role: "Postdoc",               src: "./elli.jpg" },
-  { key: 4, name: "Beatrice Gobbo",                     role: "PhD Candidate",         src: "./bea.jpg" }
+  { key: 1, name: "Elena Aversa",                       role: "PhD Student",           src: "./place2.jpg" },
+  { key: 2, name: "Maria De Los Àngeles Briones Rojas", role: "Postdoc",               src: "./place.jpg" },
+  { key: 3, name: "Tommaso Elli",                       role: "Postdoc",               src: "./place2.jpg" },
+  { key: 4, name: "Beatrice Gobbo",                     role: "PhD Candidate",         src: "./place2.jpg" }
 ];
 
 const People = () => {
