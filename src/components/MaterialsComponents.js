@@ -19,12 +19,12 @@ const Card = styled.div`
   border: 0.75px solid black;
   box-shadow: 0 1px 6px 0 rgb(0 0 0 / 24%);
   transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
-  filter: blur(${(props) => (props.type == "read more" ? "0px" : "1px")});
-  opacity: ${(props) => (props.type == "read more" ? "1" : "0.45")};
+  filter: blur(${(props) => (props.type == "read more\r" ? "0px" : "1px")});
+  opacity: ${(props) => (props.type == "read more\r" ? "1" : "0.45")};
 
   &:hover {
-    transform: scale(${(props) => (props.type == "read more" ? "1.025" : "1")});
-    box-shadow: 0 1px ${(props) => (props.type == "read more" ? "12" : "6")}px 0
+    transform: scale(${(props) => (props.type == "read more\r" ? "1.025" : "1")});
+    box-shadow: 0 1px ${(props) => (props.type == "read more\r" ? "12" : "6")}px 0
       rgb(0 0 0 / 24%);
   }
 `;
@@ -108,7 +108,7 @@ export const MaterialCard = (props) => {
       <Description>{props.description}</Description>
       <BtnContainer>
         <Button>
-          {props.type == "read more" ? (
+          {props.type == "read more\r" ? (
             <StyledLink
               to={`/${props.pageName}/${slugify(props.title)}`}
               target={"_blank"}

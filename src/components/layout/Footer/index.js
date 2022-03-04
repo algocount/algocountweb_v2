@@ -5,12 +5,13 @@ import leonardo from "../../../assets/leonardo.svg";
 import polimi from "../../../assets/polimi.svg";
 import unimi from "../../../assets/unimi.svg";
 import {
+  FooterMain, 
   ContactBox,
   IconBox,
   LogoBox,
   ContactLink,
   SocialBox,
-  Mail,
+  Mail
 } from "./FooterElements";
 import {
   FaEnvelope,
@@ -22,9 +23,8 @@ import {
 
 const Footer = () => {
   return (
-    <Container as="footer" style={{paddingBottom:"1em"}}>
-      <Row style={{justifyContent:"center"}}>
-        <LogoBox xs={5} sm={3} md={2} title="Funded&nbsp;by">
+    <FooterMain>
+        <LogoBox row={"1"} col={"1"} title="Funded&nbsp;by">
           <IconBox
             src={cariplo}
             alt="Fondazione Cariplo"
@@ -34,7 +34,7 @@ const Footer = () => {
 
 
 
-        <LogoBox xs={12} md={4} title="Partners">
+        <LogoBox row={"2"} col={"1 / span 2"} title="Partners">
           <IconBox
             src={unimi}
             alt="Università degli Studi di Milano Statale"
@@ -52,7 +52,7 @@ const Footer = () => {
           />
         </LogoBox>
 
-        <LogoBox xs={5} sm={3} md={2} title="Collaborator">
+        <LogoBox row={"1"} col={"2"} title="Collaborator">
           <IconBox
             src={leonardo}
             alt="Museo Nazionale Scienza e Tecnologia Leonardo Da Vinci"
@@ -60,7 +60,7 @@ const Footer = () => {
           />
         </LogoBox>
 
-        <ContactBox xs={12} md={4} title="Contacts">
+        <ContactBox row={"3"} col={"1 / span 2"} title="Contacts">
           <ContactLink href="mailto:algocountproject@gmail.com">
             <FaEnvelope/>
             <Mail>algocountproject@gmail.com</Mail>
@@ -80,8 +80,7 @@ const Footer = () => {
             </ContactLink>
           </SocialBox>
         </ContactBox>
-      </Row>
-    </Container>
+    </FooterMain>
   );
 };
 

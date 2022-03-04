@@ -25,6 +25,16 @@ const StyledButton = styled.button`
   }
 `;
 
+const Img = styled.div`
+  width: 100%;
+  height: auto;
+  padding: 0;
+  aspect-ratio: 21/9;
+  background-image: url(${(props) => props.src});
+  background-size: cover;
+  background-position: center;
+`;
+
 const StyledMarkdown = styled(Markdown)`
   h1 {
     font-family: "Inter", sans-serif; 
@@ -32,9 +42,9 @@ const StyledMarkdown = styled(Markdown)`
     letter-spacing: -1.8px;
     font-weight: 600;
     line-height:0.9; 
-    margin-bottom: 1.5em; 
+    margin-bottom: .5em; 
     margin-top: 1.5em; 
-  }  
+  }
   p{
     font-family: "EB Garamond", serif; 
     font-size: 1.25em; 
@@ -56,7 +66,7 @@ const MaterialsArticle = (props) => {
         </Link>
         <span style={{ fontWeight: "600" }}>{` / ${props.title}`}</span>
       </h2>
-      <img
+      <Img
         src={"." + props.imgUrl}
         alt={props.title}
         style={{ width: "100%" }}

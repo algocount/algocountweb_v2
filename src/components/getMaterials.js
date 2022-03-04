@@ -7,6 +7,8 @@ var materialList = [];
 const getMaterials = () => {
   fs.readdir(dirPath, (err, files) => {
 
+    if (err) {console.log("we uagliù è successo un guaio, sta" + err)}
+
     files.forEach((file, i) => {
       var obj = {};
       var material;

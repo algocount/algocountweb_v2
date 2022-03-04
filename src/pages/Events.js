@@ -9,7 +9,7 @@ import { Body, Header, Intro } from "../components/typeComponents";
 const Events = () => {
   return (
     <Layout>
-      <Header>RECENT ACTIVITIES</Header>
+      <Header>EVENTS</Header>
       <Intro>
         The research team disseminates their findings through a variety of
         outputs directed to the general public.

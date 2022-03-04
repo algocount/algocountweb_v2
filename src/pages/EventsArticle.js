@@ -10,33 +10,50 @@ const StyledButton = styled.button`
   font-size: 0.75em;
   font-weight: 400;
   letter-spacing: 1px;
-  text-decoration: none; 
-  background-color: black; 
-  color: white; 
-  padding: .5em .75em; 
-  border: none; 
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 0.5em 0.75em;
+  border: none;
 
   &:hover {
-      color: white; 
+    color: white;
   }
 
   @media only screen and (max-width: 750px) {
-    font-size: .85em;
+    font-size: 0.85em;
   }
+`;
+
+const Img = styled.div`
+  width: 100%;
+  height: auto;
+  padding: 0;
+  aspect-ratio: 21/9;
+  background-image: url(${(props) => props.src});
+  background-size: cover;
+  background-position: center;
 `;
 
 const StyledMarkdown = styled(Markdown)`
-  p{
-    font-family: "EB Garamond", serif; 
-    font-size: 1.25em; 
-    font-weight: 400; 
-    letter-spacing: .5px;
+  h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.875em;
+    letter-spacing: -1.8px;
+    font-weight: 600;
+    line-height: 0.9;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
   }
-}
+  p {
+    font-family: "EB Garamond", serif;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
 `;
 
 const Article = (props) => {
-
   return (
     <Layout>
       <h2 className="intro header">
@@ -48,12 +65,22 @@ const Article = (props) => {
         </Link>
         <span style={{ fontWeight: "600" }}>{` / ${props.title}`}</span>
       </h2>
-      {props.imgUrl !== "\r" ? ( <img src={"."+props.imgUrl} alt={props.title}/> ) : null}
-      <div style={{ display: "flex", width: "100%", flexDirection:"row", justifyContent: "flex-end", marginTop:"4em" }}>
+      {props.imgUrl !== "\r" ? (
+        <Img src={"." + props.imgUrl} alt={props.title} />
+      ) : null}
       <StyledMarkdown children={props.content} />
-      <a href={props.resUrl} target={"_blank"} rel="noreferrer">
-        <StyledButton>Go to the risorsa!</StyledButton>
-      </a>
+      <div
+        style={{
+          display: "flex",
+          width: "100%",
+          flexDirection: "row",
+          justifyContent: "flex-end",
+          marginTop: "4em",
+        }}
+      >
+        <a href={props.resUrl} target={"_blank"} rel="noreferrer">
+          <StyledButton>Go to the risorsa!</StyledButton>
+        </a>
       </div>
     </Layout>
   );
