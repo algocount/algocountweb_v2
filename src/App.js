@@ -10,9 +10,13 @@ import MaterialsArticle from "./pages/MaterialsArticle";
 import People from "./pages/People";
 import Research from "./pages/Research";
 
+import ScrollToTop from "./components/ScrollToTop"
+
 function App() {
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
+      <ScrollToTop/>
       <Routes>
         <Route index path="/" exact element={<Home />} />
         <Route path="/people" element={<People />} />
