@@ -39,5 +39,6 @@ export const ListItem = styled.li`
     font-size: 1.3em; 
     font-weight: 500;
     letter-spacing: .5px;
+    list-style-type: square;
 `
 
