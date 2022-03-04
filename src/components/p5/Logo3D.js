@@ -14,12 +14,10 @@ export default function Logo3D(p5) {
 
   p5.preload = () => {
     myLogo = p5.loadModel(basePath + "/logo.obj")
-    console.log(basePath + "/logo.obj")
   }
 
   p5.setup = function () {
     p5.createCanvas(p5.windowWidth, (p5.windowHeight-vOffset)*.85, p5.WEBGL)
-    console.log(vOffset)
   }
 
   p5.draw = () => {

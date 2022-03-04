@@ -60,8 +60,6 @@ const getPost = async () => {
         }
 
         postList.push(post)
-
-        console.log(postList)
       });
     });
   });

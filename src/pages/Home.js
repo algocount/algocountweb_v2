@@ -11,6 +11,7 @@ import {
 import materialsList from "../materials.json";
 import eventsList from "../events.json";
 
+
 const filterEventsCards = eventsList.filter(item => 
   item.type === "read more"
 )
@@ -20,8 +21,10 @@ const filterMaterialCards = materialsList.filter(item =>
 )
 
 const cardsToShow = filterMaterialCards.concat(filterEventsCards)
-console.log(cardsToShow)
 
+cardsToShow = cardsToShow.length > 3 ? cardsToShow.slice(0, 3) : cardsToShow
+
+cardsToShow.forEach((item, i)=>(item.key = i))
 
 const Home = () => {
   return (
@@ -64,12 +67,10 @@ const Home = () => {
 
             <CardsContainer>
               
-              {filterEventsCards.map((item) => (
+              {cardsToShow.map((item) => (
                 <MaterialCard pageName="events" {...item} />
               ))}
-              {filterMaterialCards.map((item) => (
-                <MaterialCard pageName="events" {...item} />
-              ))}
+      
             </CardsContainer>
 
             <div style={{ marginTop: "4em" }}>

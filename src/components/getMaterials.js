@@ -2,15 +2,10 @@ const path = require("path");
 const fs = require("fs");
 
 const dirPath = path.join(__dirname, "../materials_md");
-console.log(dirPath);
 var materialList = [];
 
 const getMaterials = () => {
   fs.readdir(dirPath, (err, files) => {
-
-    if (err) {
-      return console.log("we uagliù è successo un guaio:\n" + err);
-    }
 
     files.forEach((file, i) => {
       var obj = {};
@@ -66,7 +61,6 @@ const getMaterials = () => {
                 };
 
         materialList.push(material);
-        //console.log(i)
 
         if (i === files.length - 1) {
           var data = JSON.stringify(materialList)
@@ -76,7 +70,6 @@ const getMaterials = () => {
       });
     });
   });
-  //setTimeout(() => console.log(materialList), 500);
 };
 
 getMaterials();
