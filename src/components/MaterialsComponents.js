@@ -11,33 +11,32 @@ export const CardsContainer = styled.div`
   @media only screen and (max-width: 750px) {
     grid-template-columns: 1fr;
   }
-
 `;
 
 const Card = styled.div`
-  display: flex; 
-  flex-direction: column; 
-  border: .75px solid black;
+  display: flex;
+  flex-direction: column;
+  border: 0.75px solid black;
   box-shadow: 0 1px 6px 0 rgb(0 0 0 / 24%);
   transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
-  filter:  blur(${props => props.type == "read more" ? "0px" : "1px"});
-  opacity: ${props => props.type == "read more" ? "1" : "0.45"}; 
+  filter: blur(${(props) => (props.type == "read more" ? "0px" : "1px")});
+  opacity: ${(props) => (props.type == "read more" ? "1" : "0.45")};
 
   &:hover {
-    transform: scale(${props => props.type == "read more" ? "1.025" : "1"});
-    box-shadow: 0 1px ${props => props.type == "read more" ? "12" : "6"}px 0 rgb(0 0 0 / 24%);
+    transform: scale(${(props) => (props.type == "read more" ? "1.025" : "1")});
+    box-shadow: 0 1px ${(props) => (props.type == "read more" ? "12" : "6")}px 0
+      rgb(0 0 0 / 24%);
   }
-  
 `;
 
 const Img = styled.div`
   width: 100%;
   height: auto;
-  padding: 0; 
-  aspect-ratio: 4/3; 
-  background-image: url(${props => props.src});
-  background-size: cover; 
-  background-position: center;  
+  padding: 0;
+  aspect-ratio: 4/3;
+  background-image: url(${(props) => props.src});
+  background-size: cover;
+  background-position: center;
 `;
 
 const Name = styled.h2`
@@ -46,14 +45,14 @@ const Name = styled.h2`
   font-size: 0.875em;
   font-weight: 400;
   letter-spacing: 1.25px;
-  margin: .75em 0.75em .5em .75em;
+  margin: 0.75em 0.75em 0.5em 0.75em;
 `;
 
 const Description = styled.p`
   font-family: "EB Garamond", serif;
-  font-size: 0.975em;
+  font-size: 1em;
   font-weight: 400;
-  line-height: 1.25em; 
+  line-height: 1.25em;
   letter-spacing: 0.25px;
   margin: 0 0.75em 0.75em 0.75em;
 `;
@@ -68,9 +67,20 @@ const BtnContainer = styled.div`
 const Button = styled.button`
   border: none;
   background-color: black;
-  display: flex; 
-  padding: .25em .5em .25em .5em;
-  margin-top: auto; 
+  display: flex;
+  padding: 0.25em 0.5em 0.25em 0.5em;
+  margin-top: auto;
+`;
+
+const JustText = styled.p`
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0; 
+  padding: 0;
+  text-decoration: none;
+  color: white;
 `;
 
 const StyledLink = styled(Link)`
@@ -78,18 +88,17 @@ const StyledLink = styled(Link)`
   font-size: 0.75em;
   font-weight: 400;
   letter-spacing: 1px;
-  text-decoration: none; 
-  color: white; 
+  text-decoration: none;
+  color: white;
 
   &:hover {
-      color: white; 
+    color: white;
   }
 
   @media only screen and (max-width: 750px) {
-    font-size: .85em;
+    font-size: 0.85em;
   }
 `;
-
 
 export const MaterialCard = (props) => {
   return (
@@ -99,11 +108,16 @@ export const MaterialCard = (props) => {
       <Description>{props.description}</Description>
       <BtnContainer>
         <Button>
-          <StyledLink
-            to={`/${props.pageName}/${slugify(props.title)}`} target={"_blank"}
-          >
-            {props.type}
-          </StyledLink>
+          {props.type == "read more" ? (
+            <StyledLink
+              to={`/${props.pageName}/${slugify(props.title)}`}
+              target={"_blank"}
+            >
+              {props.type}
+            </StyledLink>
+          ) : (
+            <JustText>{props.type}</JustText>
+          )}
         </Button>
       </BtnContainer>
     </Card>
