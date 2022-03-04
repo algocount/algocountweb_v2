@@ -4,6 +4,7 @@ title: Algocount Final Event
 description: Call for Contributions
 imgUrl: ./eventac.png
 resUrl: https://www.eventbrite.com/
+type: read more
 ---
 
 # Algocount Final Event

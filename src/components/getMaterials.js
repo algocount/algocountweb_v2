@@ -62,7 +62,8 @@ const getMaterials = () => {
           imgUrl: metadata.imgUrl ? metadata.imgUrl : "No image url given",
           resUrl: metadata.resUrl ? metadata.resUrl : "No resource url given",
           content: content ? content : "No content given",
-        };
+          type:  metadata.type ? metadata.type : "No content given",
+                };
 
         materialList.push(material);
         //console.log(i)

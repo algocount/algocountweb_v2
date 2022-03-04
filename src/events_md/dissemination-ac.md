@@ -3,7 +3,8 @@ date: 8 July 2022
 title: Dissemination Event
 description: Algocount meets the Public
 imgUrl: ./colonne.png
-resUrl: 
+resUrl: https://www.eventbrite.com/
+type: forthcoming
 ---
 
-# Dissemiiantion Event 
+# Dissemination Event 

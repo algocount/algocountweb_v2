@@ -3,7 +3,8 @@ date: January 2022
 title: Smart Data Sprint Lisboa
 description: Presentation of the PlacPlac tool at Inova Media Lab
 imgUrl: ./lisboa.jpg
-resUrl: 
+resUrl: https://www.eventbrite.com/
+type: forthcoming
 ---
 
 # Smart Data Sprint — Plac Plac presentation

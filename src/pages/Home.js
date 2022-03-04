@@ -12,7 +12,7 @@ import materialsList from "../materials.json";
 import eventsList from "../events.json";
 
 const filterEventsCards = eventsList.filter(item => 
-  item.key > 2
+  item.key > 1
 )
 
 const filterMaterialCards = materialsList.filter(item => 
