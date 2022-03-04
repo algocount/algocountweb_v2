@@ -18,6 +18,7 @@ const LogoLink = styled.a`
   padding-right: 1em;
   transition: all 0.4s ease-in-out;
   
+  
   @media only screen and (max-width: 750px) {
     padding-right: none;
   }
@@ -70,6 +71,10 @@ export const ContactLink = styled.a`
 export const Mail = styled.p`
   margin: 0;
   padding-left: 0.5em;
+  
+  font-family: Inter, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
 
   @media only screen and (max-width: 750px) {
     display: none; 

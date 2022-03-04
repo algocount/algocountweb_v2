@@ -24,7 +24,7 @@ const Footer = () => {
   return (
     <Container as="footer" style={{paddingBottom:"1em"}}>
       <Row style={{justifyContent:"center"}}>
-        <LogoBox xs={5} sm={3} md={2} title="Funded&nbsp;by:">
+        <LogoBox xs={5} sm={3} md={2} title="Funded&nbsp;by">
           <IconBox
             src={cariplo}
             alt="Fondazione Cariplo"
@@ -52,7 +52,7 @@ const Footer = () => {
           />
         </LogoBox>
 
-        <LogoBox xs={5} sm={3} md={2} title="Collaborator:">
+        <LogoBox xs={5} sm={3} md={2} title="Collaborator">
           <IconBox
             src={leonardo}
             alt="Museo Nazionale Scienza e Tecnologia Leonardo Da Vinci"
@@ -63,7 +63,7 @@ const Footer = () => {
         <ContactBox xs={12} md={4} title="Contacts">
           <ContactLink href="mailto:algocountproject@gmail.com">
             <FaEnvelope/>
-            <Mail>algocount@gmail.com</Mail>
+            <Mail>algocountproject@gmail.com</Mail>
           </ContactLink>
           <SocialBox>
             <ContactLink href="https://twitter.com/algocount">
