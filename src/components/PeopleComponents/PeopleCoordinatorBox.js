@@ -15,14 +15,14 @@ const Img = styled.div`
     content: "";
     position: absolute;  
     inset: 0;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(0px);
     transform: translate(-20%, 20%);
     border: 1px solid black;
     transition: all 0.4s ease-in-out; 
   }
 
   &:hover:before {
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(3px);
   }
 
   @media only screen and (max-width: 750px) {

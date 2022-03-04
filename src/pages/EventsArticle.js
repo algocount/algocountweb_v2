@@ -25,6 +25,16 @@ const StyledButton = styled.button`
   }
 `;
 
+const StyledMarkdown = styled(Markdown)`
+  p{
+    font-family: "EB Garamond", serif; 
+    font-size: 1.25em; 
+    font-weight: 400; 
+    letter-spacing: .5px;
+  }
+}
+`;
+
 const Article = (props) => {
 
   return (
@@ -38,9 +48,9 @@ const Article = (props) => {
         </Link>
         <span style={{ fontWeight: "600" }}>{` / ${props.title}`}</span>
       </h2>
-      {props.imgUrl !== "\r" ? ( <img src={props.imgUrl} alt={props.title}/> ) : null}
+      {props.imgUrl !== "\r" ? ( <img src={"."+props.imgUrl} alt={props.title}/> ) : null}
       <div style={{ display: "flex", width: "100%", flexDirection:"row", justifyContent: "flex-end", marginTop:"4em" }}>
-      <Markdown children={props.content} />
+      <StyledMarkdown children={props.content} />
       <a href={props.resUrl} target={"_blank"} rel="noreferrer">
         <StyledButton>Go to the risorsa!</StyledButton>
       </a>
