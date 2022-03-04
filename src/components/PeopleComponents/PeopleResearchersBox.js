@@ -91,7 +91,7 @@ const PeopleResearchersBox = (props) => {
       <Header>Research Team</Header>
       <PeopleContainer col={props.col}>
         {props.researchers.map((item) => (
-          <ResearcherCard {...item} />
+          <ResearcherCard {...item}/>
         ))}
       </PeopleContainer>
     </>

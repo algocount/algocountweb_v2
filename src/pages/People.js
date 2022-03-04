@@ -7,9 +7,9 @@ import {PeopleContainer, JustText} from "../components/PeopleComponents/PeopleRe
 const ResUniMi_Pic = [
   { key: 1,  name: "Alessandro Gerosa",                 role: "Postdoctoral Research Fellow",         src: "./place.jpg" },
   { key: 2,  name: "Luca Giuffrè",                      role: "Research Assistant",                   src: "./giuffre.jpg" },
-  { key: 3,  name: "Diletta Huyskes",                   role: "Communications Manager, PhD Candidate",src: "./place.jpg" },
+  { key: 3,  name: "Diletta Huyskes",                   role: "Communications Manager, PhD Candidate",src: "./huyskes.jpg" },
   { key: 4,  name: "Silvia Keeling",                    role: "Postdoctoral Research Fellow",         src: "./place2.jpg" },
-  { key: 5,  name: "Urbano Reviglio",                   role: "Postdoctoral Research Fellow",         src: "./place.jpg" },
+  { key: 5,  name: "Urbano Reviglio",                   role: "Postdoctoral Research Fellow",         src: "./reviglio.jpg" },
 ];
 
 const ResUniMi_NoPic = [
@@ -22,10 +22,17 @@ const ResUniMi_NoPic = [
 
 const ResPoliMi = [
   { key: 1, name: "Elena Aversa",                       role: "PhD Student",           src: "./aversa.jpg" },
-  { key: 2, name: "Maria De Los Àngeles Briones Rojas", role: "Postdoc",               src: "./briones.jpg" },
+  { key: 2, name: "Maria De Los Ángeles Briones Rojas", role: "Postdoc",               src: "./briones1.jpg" },
   { key: 3, name: "Tommaso Elli",                       role: "Postdoc",               src: "./elli.jpg" },
   { key: 4, name: "Beatrice Gobbo",                     role: "PhD Candidate",         src: "./gobbo.jpg" }
 ];
+
+/*
+const ResPoliMi_NoPic = [
+  { key: 1,  name: "Luca Draisci",                      role: "MSc Student",           src: "./place2.jpg" },
+  { key: 2,  name: "Emanuele Ghebaur",                  role: "MSc Student",           src: "./place2.jpg" }
+]
+*/
 
 const People = () => {
   return (
@@ -83,6 +90,10 @@ const People = () => {
       />
 
       <PeopleResearchersBox col={4} researchers={ResPoliMi} />
+
+      {/* <PeopleContainer col={4}>
+        {ResPoliMi_NoPic.map((d)=>(<JustText name={d.name} role={d.role}></JustText>))}
+      </PeopleContainer> */}
 
       <PeopleHeader
         role="Collaborator"
