@@ -21,10 +21,10 @@ const ResUniMi_NoPic = [
 ]
 
 const ResPoliMi = [
-  { key: 1, name: "Elena Aversa",                       role: "PhD Student",           src: "./place2.jpg" },
-  { key: 2, name: "Maria De Los Àngeles Briones Rojas", role: "Postdoc",               src: "./place.jpg" },
-  { key: 3, name: "Tommaso Elli",                       role: "Postdoc",               src: "./place2.jpg" },
-  { key: 4, name: "Beatrice Gobbo",                     role: "PhD Candidate",         src: "./place2.jpg" }
+  { key: 1, name: "Elena Aversa",                       role: "PhD Student",           src: "./aversa.jpg" },
+  { key: 2, name: "Maria De Los Àngeles Briones Rojas", role: "Postdoc",               src: "./briones.jpg" },
+  { key: 3, name: "Tommaso Elli",                       role: "Postdoc",               src: "./elli.jpg" },
+  { key: 4, name: "Beatrice Gobbo",                     role: "PhD Candidate",         src: "./gobbo.jpg" }
 ];
 
 const People = () => {
@@ -64,13 +64,11 @@ const People = () => {
         name="Michele Mauri"
         role="Coordinator"
         bio="
-        Researcher at Politecnico di Milano – Design Department, he’s the scientific director of DensityDesign Lab. 
-        Within the laboratory he coordinates the research, the design and development of projects related to the visual 
-        communication of data and information, in particular for projects related to born-digital data and Digital Methods. 
-        In 2015, he obtained a PhD degree in Design with the dissertation “Design of the un-finished”. He is one of the authors 
-        of RAWGraphs, an open-source platform for the creation of data visualisations. From 2017 he’s part of the Public Data Lab, 
-        an international group of researchers working on the development of innovative formats for the creation and use of public data. 
-        He’s interested in data visualization, statistics, born-digital data sources and, of course, graphic design.
+        Michele Mauri is a researcher at Politecnico di Milano – Design Department, and the scientific director of DensityDesign Lab. 
+        Within the laboratory, he coordinates research related to the visual communication of data and information, with a focus on born-digital 
+        data and Digital Methods. He is one of the authors of RAWGraphs, an open-source platform for the creation of data visualisations. 
+        From 2017 he’s part of the Public Data Lab, an international group of researchers working on the development 
+        of innovative formats for the creation and use of public data.
         "
         // bio="
         // Michele Mauri is an Italian data visualisation designer, known 
@@ -85,6 +83,12 @@ const People = () => {
       />
 
       <PeopleResearchersBox col={4} researchers={ResPoliMi} />
+
+      <PeopleHeader
+        role="Collaborator"
+        uni="Museo Nazionale della Scienza e&nbsp;della&nbsp;Tecnologia Leonardo da&nbsp;Vinci"
+        dep="Simona Casonato, Digital Collections Manager"
+      />
 
     </Layout>
   );
