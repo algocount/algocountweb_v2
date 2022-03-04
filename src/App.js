@@ -10,13 +10,12 @@ import MaterialsArticle from "./pages/MaterialsArticle";
 import People from "./pages/People";
 import Research from "./pages/Research";
 
-import ScrollToTop from "./components/ScrollToTop"
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
-
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <ScrollToTop/>
+      <ScrollToTop />
       <Routes>
         <Route index path="/" exact element={<Home />} />
         <Route path="/people" element={<People />} />
@@ -24,7 +23,8 @@ function App() {
         <Route path="/materials" exact element={<Materials />} />
         {materialsList.map((item) => (
           <Route
-            path={`/materials/${slugify(item.title)}`} element={<MaterialsArticle {...item} />}
+            path={`/materials/${slugify(item.title)}`}
+            element={<MaterialsArticle {...item} />}
             key={item.key}
           />
         ))}
