@@ -8,6 +8,12 @@ const Img = styled.div`
   background-image: url(${(props) => props.src});
   background-size: cover;
   background-position: center;
+  filter: blur(0px);
+  transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99); 
+
+  &:hover{
+    filter: blur(3px);
+  }
 `;
 
 const Name = styled.h2`
