@@ -1,0 +1,14 @@
+---
+date: 7 July 2022
+title: Algocount Final Event
+description: Call for Contributions
+imgUrl: ./eventac.jpg
+resUrl: https://www.eventbrite.com/
+type: read more
+---
+
+# Algocount Final Event
+
+This international conference aims at exploring the role algorithms play in the formation of public opinion from a multi-disciplinary perspective. Set in the context of the Algocount project, which seeks to expand the current understanding of how recommendation and personalization algorithms are perceived as key mediators in the access to news and informational content by ordinary users, the conference welcomes contributions that critically reflect on the unfolding of what we define as the ‘algorithmic public opinion’. 
+
+With this term we intend to grasp the algorithmically-driven processes by which a certain issue becomes a salient matter of public opinion, and the central role recommendation and personalization algorithms play as gatekeeping infrastructures through which individuals access information, produce their opinions and consolidate their social and political views. From the the moment it comes into being, to when it reaches the wider public, information is prioritised, filtered and hidden across a thick mixture of elements that come together in the algorithmic infrastructure of social media and digital platforms (Moeller and Helberger, 2018; Bozdag and van der Hoven, 2015; Bozdag, 2013). This combines with the role played by third mediating parties - also known as data brokers. From the interaction among all of these elements, we contend, an algorithmic public opinion emerges – one that is unavoidably affected by the biased nature of technology (Friedman Kahn, Borning & Huldtgren, 2006) and its affordances; that concurs to the personalisation of online activity and the salience of issues of disinformation and misinformation; and may lead to the proliferation of partial or partisan information environments and situations of psychological and political polarisation (Settle, 2018; Dylko, Dolgov, Hoffman, Eckhart, Molina & Aaziz,, 2018). Personalization, eventually, is personalised too: as such, while most seem to benefit from more or less varied and personalised content recommendations, others may end up in self-reinforcing echo chambers where information becomes redundant. Similarly, some personalization algorithms threaten to exploit individuals' vulnerabilities and facilitate politically dangerous content discovery pathways, often merely for purposes of engagement maximisation, and even contribute to creating addictive behaviours (Tufekci, 2018).

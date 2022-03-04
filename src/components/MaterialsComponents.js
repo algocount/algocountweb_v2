@@ -87,9 +87,6 @@ const StyledLink = styled(Link)`
   }
 `;
 
-const Showcase = styled.p`
-  display:none
-`;
 
 export const MaterialCard = (props) => {
   return (

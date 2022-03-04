@@ -56,12 +56,21 @@ const Description = styled.p`
 
 export const EventCard = (props) => {
   return (
-    <Link style={{textDecoration:"none"}}to={`/events/${slugify(props.title)}`} target={"_blank"}>
+    // <Link style={{textDecoration:"none"}}to={`/events/${slugify(props.title)}`} target={"_blank"}>
+
       <Card>
         <Date>{props.date}</Date>
         <Title>{props.title}</Title>
         <Description>{props.description}</Description>
+        <BtnContainer>
+        <Button>
+          <StyledLink
+            to={`/${props.pageName}/${slugify(props.title)}`} target={"_blank"}
+          >
+            {props.type}
+          </StyledLink>
+        </Button>
+      </BtnContainer>
       </Card>
-    </Link>
   );
 };
