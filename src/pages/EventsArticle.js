@@ -78,6 +78,7 @@ const Article = (props) => {
           marginTop: "4em",
         }}
       >
+      
         <a href={props.resUrl} target={"_blank"} rel="noreferrer">
           <StyledButton>Go to the risorsa!</StyledButton>
         </a>
