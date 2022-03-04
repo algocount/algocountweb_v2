@@ -2,7 +2,6 @@ const path = require("path");
 const fs = require("fs");
 
 const dirPath = path.join(__dirname, "../events_md");
-console.log(dirPath);
 var eventList = [];
 
 const getEvents = () => {
