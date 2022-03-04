@@ -1,7 +1,7 @@
 import Markdown from "react-markdown";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout/Layout";
-import styles from "./markdown.module.css";
+// import styles from "./markdown.module.css";
 import styled from "styled-components";
 
 const StyledButton = styled.button`
@@ -25,6 +25,25 @@ const StyledButton = styled.button`
   }
 `;
 
+const StyledMarkdown = styled(Markdown)`
+  h1 {
+    font-family: "Inter", sans-serif; 
+    font-size: 2.875em;
+    letter-spacing: -1.8px;
+    font-weight: 600;
+    line-height:0.9; 
+    margin-bottom: 1.5em; 
+    margin-top: 1.5em; 
+  }  
+  p{
+    font-family: "EB Garamond", serif; 
+    font-size: 1.25em; 
+    font-weight: 400; 
+    letter-spacing: .5px;
+  }
+}
+`;
+
 const MaterialsArticle = (props) => {
   return (
     <Layout>
@@ -43,8 +62,8 @@ const MaterialsArticle = (props) => {
         style={{ width: "100%" }}
       />
       <div style={{ marginTop: "2.5em" }}>
-        <Markdown children={props.content} style={{ marginTop: "1.5em" }} />
-        <div style={{ display: "flex", width: "100%", flexDirection:"row", justifyContent: "flex-end", marginTop:"4em" }}>
+        <StyledMarkdown children={props.content} style={{ marginTop: "1.5em" }} />
+        <div style={{ display: "flex", width: "100%", flexDirection: "row", justifyContent: "flex-end", marginTop: "4em" }}>
           <a href={props.resUrl} target={"_blank"} rel="noreferrer">
             <StyledButton>Go to the risorsa!</StyledButton>
           </a>

@@ -29,6 +29,7 @@ export const Body = styled.p`
     color: #444; 
     font-size: 1.3em; 
     font-weight: 500;
+    letter-spacing: .5px;
 `
 
 export const ListItem = styled.li`
@@ -37,5 +38,6 @@ export const ListItem = styled.li`
     color: #444; 
     font-size: 1.3em; 
     font-weight: 500;
+    letter-spacing: .5px;
 `
 
