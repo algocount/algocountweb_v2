@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Layout from "../components/layout/Layout";
+import Layout from "../components/Layout/Layout";
 import { Body, Header, Intro, ListItem, SubHead } from "../components/typeComponents";
 
 const BtnContainer = styled.div`

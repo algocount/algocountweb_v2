@@ -1,4 +1,4 @@
-import Layout from "../components/layout/Layout";
+import Layout from "../components/Layout/Layout";
 import PeopleCoordinatorBox from "../components/PeopleComponents/PeopleCoordinatorBox";
 import PeopleHeader from "../components/PeopleComponents/PeopleHeader";
 import PeopleResearchersBox from "../components/PeopleComponents/PeopleResearchersBox";

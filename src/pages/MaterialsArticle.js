@@ -1,6 +1,6 @@
 import Markdown from "react-markdown";
 import { Link } from "react-router-dom";
-import Layout from "../components/layout/Layout";
+import Layout from "../components/Layout/Layout";
 import styles from "./markdown.module.css";
 import styled from "styled-components";
 
