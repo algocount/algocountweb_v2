@@ -68,7 +68,7 @@ const Home = () => {
             <CardsContainer>
               
               {cardsToShow.map((item) => (
-                <MaterialCard pageName="events" {...item} />
+                <MaterialCard pageName="materials" {...item} />
               ))}
       
             </CardsContainer>
