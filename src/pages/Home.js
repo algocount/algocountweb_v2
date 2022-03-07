@@ -13,11 +13,11 @@ import eventsList from "../events.json";
 
 
 const filterEventsCards = eventsList.filter(item => 
-  item.type === "read more"
+  item.type === "read more\r"
 )
 
 const filterMaterialCards = materialsList.filter(item => 
-  item.type === "read more"
+  item.type === "read more\r"
 )
 
 let cardsToShow = filterMaterialCards.concat(filterEventsCards)

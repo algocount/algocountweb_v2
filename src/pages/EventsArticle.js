@@ -78,9 +78,10 @@ const Article = (props) => {
         }}
       >
       
-        <a href={props.resUrl} target={"_blank"} rel="noreferrer">
-          <StyledButton>Go to the risorsa!</StyledButton>
-        </a>
+      {props.resUrl !== "/r" ? (<a href={props.resUrl} target={"_blank"} rel="noreferrer">
+          <StyledButton>Read More</StyledButton>
+        </a>) : null}
+        
       </div>
     </Layout>
   );

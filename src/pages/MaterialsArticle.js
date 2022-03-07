@@ -45,13 +45,14 @@ const StyledMarkdown = styled(Markdown)`
     margin-bottom: .5em; 
     margin-top: 1.5em; 
   }
+
   p{
     font-family: "EB Garamond", serif; 
     font-size: 1.25em; 
     font-weight: 400; 
     letter-spacing: .5px;
   }
-}
+
 `;
 
 const MaterialsArticle = (props) => {
@@ -74,9 +75,9 @@ const MaterialsArticle = (props) => {
       <div style={{ marginTop: "2.5em" }}>
         <StyledMarkdown children={props.content} style={{ marginTop: "1.5em" }} />
         <div style={{ display: "flex", width: "100%", flexDirection: "row", justifyContent: "flex-end", marginTop: "4em" }}>
-          <a href={props.resUrl} target={"_blank"} rel="noreferrer">
-            <StyledButton>Go to the risorsa!</StyledButton>
-          </a>
+        {props.resUrl !== "/r" ? (<a href={props.resUrl} target={"_blank"} rel="noreferrer">
+          <StyledButton>Read More</StyledButton>
+        </a>) : null}
         </div>
       </div>
     </Layout>

@@ -70,6 +70,8 @@ const Button = styled.button`
   display: flex;
   padding: 0.25em 0.5em 0.25em 0.5em;
   margin-top: auto;
+  cursor: ${(props) => (props.type === "read more\r" ? "auto" : "default !important")};
+
 `;
 
 const JustText = styled.p`
