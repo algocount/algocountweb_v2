@@ -9,5 +9,3 @@ type: read more
 
 # Algocount Final Event
 
-
-
