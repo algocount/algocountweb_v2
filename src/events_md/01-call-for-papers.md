@@ -2,7 +2,7 @@
 date: 7 July 2022
 title: Algocount Final Event
 description: Call for Contributions
-imgUrl: ./eventac.jpg
+imgUrl: /./eventac.jpg
 resUrl: https://www.eventbrite.com/
 type: read more
 ---
@@ -16,6 +16,8 @@ With this term we intend to grasp the algorithmically-driven processes by which 
 
 The emergence of an ‘algorithmic public opinion’, we maintain, bears huge social and cultural implications that require researchers to ramp up their efforts in expanding the existing understanding of algorithmic processes and the cultural conceptions surrounding them, without stopping at the ‘unknowability’ of black-boxed codes. Beyond the little public knowledge about the functioning of algorithms such as Facebook's News Feed, or YouTube's Related Videos, or the Google Search algorithm itself, in order to understand their relevance in the processes of public opinion creation there is a necessity to acknowledge these as social and cultural objects first. The fallout resulting from the already-mentioned Cambridge Analytica scandal, and the publication of a variety of documentaries that presented an exposè of the internal workings of social media platforms in relation to data management, content moderation and ethics, has given new space to discuss about reducing the opacity of algorithmic recommendation systems and enhancing their transparency. Within this debate the perceptions, opinions and understandings of algorithmic interventions in day-to-day information consumption and content filtering from the side of users matter as much as knowing about the code and mathematical formulations of these algorithms (Bucher, 2017). 
 
+## Researchh questions
+
 The conference invites participants from various intellectual traditions and streams of research, including media studies, sociology, psychology, information design, information science, computing and anthropology, human-computer interaction and political philosophy, to participate in an open debate around these issues. In particular, it sets to explore a number of key questions, such as (albeit not limited to) the following:
 
 - How does an ‘algorithmic public opinion’ come into being? What imaginaries do users share or produce about algorithms and their functioning? Should users be able to weight the values embedded into the algorithmic content prioritisation? If so, how? Which are the most interesting and valuable experiments that support users’ autonomy of choice and control over personalization systems? Can the unfolding of an ‘algorithmic public opinion’ lead to an inversion of the “spiral of silence”, thus giving to certain social groups an excessively louder voice? Can alternative personalization systems exist? If so, how? 
@@ -28,15 +30,17 @@ The conference invites participants from various intellectual traditions and str
 
 - What role should journalists play in this context, and how is their work affected by it? How do public service media (e.g. RAI, BBC etc.) employ personalization systems? How can we preserve editorial principles such as universality, social relevance and serendipity in the personalization era? 
 
+## Conference venue
 The conference will take place at the Science and Technology Museum “Leonardo da Vinci” of Milan on 7 July 2022. Contributors are required to send in a 300-word abstract to the following email address: algocountproject@gmail.com. 
 
 The conference will comprise 4 panel presentations and 2 keynote sessions hosting internationally acclaimed scholars as speakers. A maximum of 10 papers will be selected for presentation. Preference will be given to speakers who plan to attend the conference in person, but a small number of remote presentations (no more than 1 per panel) may be included in the programme. Participation to the conference as an attendee (without presenting a paper) will be possible both in person and remotely, via Zoom. 
 
-[scholarship]
 
+## Important dates
 Abstracts are due by 8 April 2022. These should include the author(s) name and position, a short title, and a clear indication of whether they plan to attend the conference in person or remotely. Acceptance notices will be given by 30 April 2022. 
 
-Conference organizing committee: Alessandro Gandini, Silvia Keeling, Urbano Reviglio, Diletta Huyskes, Luca Giuffrè (University of Milan); Michele Mauri, Beatrice Gobbo, Ángeles Briones (Politecnico di Milano, Density Design); Simona Casonato (Science and Technology Museum “Leonardo da Vinci”, Milan). 
+## Conference organizing committee
+Alessandro Gandini, Silvia Keeling, Urbano Reviglio, Diletta Huyskes, Luca Giuffrè (University of Milan); Michele Mauri, Beatrice Gobbo, Ángeles Briones (Politecnico di Milano, Density Design); Simona Casonato (Science and Technology Museum “Leonardo da Vinci”, Milan). 
 
 
 

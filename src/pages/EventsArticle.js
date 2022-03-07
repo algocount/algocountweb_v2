@@ -64,7 +64,7 @@ const Article = (props) => {
         </Link>
         <span style={{ fontWeight: "600" }}>{` / ${props.title}`}</span>
       </h2>
-      {props.imgUrl !== "\r" ? (
+      {props.imgUrl !== "" ? (
         <Img src={"." + props.imgUrl} alt={props.title} />
       ) : null}
       <StyledMarkdown children={props.content} />
