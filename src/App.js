@@ -9,7 +9,6 @@ import Materials from "./pages/Materials";
 import MaterialsArticle from "./pages/MaterialsArticle";
 import People from "./pages/People";
 import Research from "./pages/Research";
-import Metatag from "./components/metatag";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
