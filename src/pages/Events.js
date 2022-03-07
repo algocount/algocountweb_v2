@@ -15,8 +15,7 @@ const Events = () => {
         outputs directed to the general public.
       </Intro>
       <Body>
-        These are the most recent workshops, meetings, and events organized by
-        the team.
+        These are the most recent workshops, meetings, and events organized by the team.
       </Body>
       <CardsContainer>
         {eventsList.map((item) => (
