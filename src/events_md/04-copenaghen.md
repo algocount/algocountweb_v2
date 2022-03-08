@@ -5,7 +5,7 @@ description: Paper Presentation
 imgUrl: ./copenaghen.jpg
 resUrl: https://www.eventbrite.com/
 type: forthcoming
-pageName: events 
+pageName: events
 ---
 
 # Conference @ Copenaghen

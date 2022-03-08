@@ -80,13 +80,20 @@ li{
   letter-spacing: .5px;
   list-style-type: square;
   list-style-position: outside;
-}
-`;
+}`;
+
+const Header = styled.h1`
+    font-family: "Inter", sans-serif;
+    font-size: 1em; 
+    font-weight: 400; 
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+`
 
 const MaterialsArticle = (props) => {
   return (
     <Layout>
-      <h2 className="intro header">
+      <Header>
         <Link
           to="/materials"
           style={{ opacity: "0.7", color: "black", textDecoration: "none" }}
@@ -94,7 +101,7 @@ const MaterialsArticle = (props) => {
           Materials
         </Link>
         <span style={{ fontWeight: "600" }}>{` / ${props.title}`}</span>
-      </h2>
+      </Header>
       <Img
         src={"." + props.imgUrl}
         alt={props.title}
@@ -103,9 +110,9 @@ const MaterialsArticle = (props) => {
       <div style={{ marginTop: "2.5em" }}>
         <StyledMarkdown children={props.content} style={{ marginTop: "1.5em" }} />
         <div style={{ display: "flex", width: "100%", flexDirection: "row", justifyContent: "flex-end", marginTop: "4em" }}>
-        {props.resUrl !== "/r" ? (<a href={props.resUrl} target={"_blank"} rel="noreferrer">
-          <StyledButton>Read More</StyledButton>
-        </a>) : null}
+          {props.resUrl !== "/r" ? (<a href={props.resUrl} target={"_blank"} rel="noreferrer">
+            <StyledButton>Read More</StyledButton>
+          </a>) : null}
         </div>
       </div>
     </Layout>

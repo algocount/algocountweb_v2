@@ -5,7 +5,7 @@ description: Algocount meets the Public
 imgUrl: ./colonne.jpg
 resUrl: https://www.eventbrite.com/
 type: forthcoming
-pageName: events 
+pageName: events
 ---
 
 # Dissemination Event 
