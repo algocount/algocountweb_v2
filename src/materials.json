@@ -12,7 +12,7 @@
     "key": 3,
     "title": "Reporting Focus Groups",
     "description": "Results from five focus groups carried on during Summer 2021",
-    "imgUrl": "/focusgroups.jpg",
+    "imgUrl": "algocount.org/focusgroups.jpg",
     "resUrl": "",
     "content": "# Focus Groups Report",
     "type": "forthcoming"
@@ -21,7 +21,7 @@
     "key": 5,
     "title": "Glitch Cards",
     "description": "A collection of cards from algorithmic situations",
-    "imgUrl": "/cards.jpg",
+    "imgUrl": "algocount.org/cards.jpg",
     "resUrl": "No resource url given",
     "content": "\n# GlitchCards\nDummy text hola hola ",
     "type": "forthcoming"
@@ -30,7 +30,7 @@
     "key": 2,
     "title": "Literature Review",
     "description": "A literature review on the public perception of algorithms ",
-    "imgUrl": "/litreview.jpg",
+    "imgUrl": "algocount.org/litreview.jpg",
     "resUrl": "",
     "content": "\n# Literature Review\n\n",
     "type": "forthcoming"
@@ -39,7 +39,7 @@
     "key": 6,
     "title": "Data Sprint Reports",
     "description": "A website collecting results of the \"Algocount Data Sprint\"",
-    "imgUrl": "/datasprints.jpg",
+    "imgUrl": "algocount.org/datasprints.jpg",
     "resUrl": "",
     "content": "\n# DataSprint Activities Report\n",
     "type": "forthcoming"
@@ -48,7 +48,7 @@
     "key": 7,
     "title": "Ideas for the algorithmic public opinion",
     "description": "No description given",
-    "imgUrl": "/ideas.jpg",
+    "imgUrl": "algocount.org/ideas.jpg",
     "resUrl": "",
     "content": "\n# Ideas for the algorithmic public opinion\n",
     "type": "forthcoming"
@@ -57,7 +57,7 @@
     "key": 8,
     "title": "Policy Report",
     "description": "A report on Policy",
-    "imgUrl": "/policyreport.jpg",
+    "imgUrl": "algocount.org/policyreport.jpg",
     "resUrl": "",
     "content": "\n# Policy Report\n\n",
     "type": "forthcoming"
@@ -66,7 +66,7 @@
     "key": 4,
     "title": "Interviews with experts",
     "description": "A selection of interviews with researchers and experts",
-    "imgUrl": "/interviews.jpg",
+    "imgUrl": "algocount.org/interviews.jpg",
     "resUrl": "",
     "content": "\n# Interviews",
     "type": "forthcoming"
@@ -75,7 +75,7 @@
     "key": 9,
     "title": "Ranking Score",
     "description": "Social Media Platforms ranked according to their policies",
-    "imgUrl": "/ranking.jpg",
+    "imgUrl": "algocount.org/ranking.jpg",
     "resUrl": "http://placplac.densitydesign.org/login",
     "content": "\n# Ranking Score\n\n",
     "type": "forthcoming"
