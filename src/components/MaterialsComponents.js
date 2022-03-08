@@ -105,7 +105,7 @@ const StyledLink = styled(Link)`
 export const MaterialCard = (props) => {
   return (
     <Card {...props}>
-      <Img src={require(props.imgUrl)}/>
+      {/* <Img src={require(props.imgUrl)}/> */}
       <Img src={props.imgUrl} />
       <Name>{props.title}</Name>
       <Description>{props.description}</Description>

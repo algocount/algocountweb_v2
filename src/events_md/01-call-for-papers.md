@@ -42,11 +42,3 @@ Abstracts are due by 8 April 2022. These should include the author(s) name and p
 
 ## Conference organizing committee
 Alessandro Gandini, Silvia Keeling, Urbano Reviglio, Diletta Huyskes, Luca Giuffrè (University of Milan); Michele Mauri, Beatrice Gobbo, Ángeles Briones (Politecnico di Milano, Density Design); Simona Casonato (Museo Nazionale Scienza e Tecnologia Leonardo da Vinci, Milan). 
-
-
-
-
-
-
-
-
