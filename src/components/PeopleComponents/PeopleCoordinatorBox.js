@@ -8,7 +8,9 @@ const Img = styled.div`
   box-shadow: 0px 0px 16px rgba(0,0,0,0.2);
   aspect-ratio: 3/4; 
   background-image: url(${props => props.src});
-  background-size: cover; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover; 
   background-position: center;  
 
   &:before {
@@ -68,6 +70,8 @@ const Role = styled.h1`
 
 ;
 const ImgCol = styled.div`
+    width: 100%;
+    height: 100%;
     margin-bottom: 2.5em;
   
     @media only screen and (max-width: 750px) {
@@ -90,7 +94,7 @@ const TxtCol = styled.div`
 const ImgContainer = styled.div`
   width: 60%; 
   position: relative; 
-  height: auto; 
+  height: 80%; 
   margin: auto;
   grid-column: 2;
 
