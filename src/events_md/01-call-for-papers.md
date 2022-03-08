@@ -41,4 +41,4 @@ The conference will comprise 4 panel presentations and 2 keynote sessions hostin
 Abstracts are due by 8 April 2022. These should include the author(s) name and position, a short title, and a clear indication of whether they plan to attend the conference in person or remotely. Acceptance notices will be given by 30 April 2022. 
 
 ## Conference organizing committee
-Alessandro Gandini, Silvia Keeling, Urbano Reviglio, Diletta Huyskes, Luca Giuffrè (University of Milan); Michele Mauri, Beatrice Gobbo, Ángeles Briones (Politecnico di Milano, Density Design); Simona Casonato (Museo Nazionale Scienza e Tecnologia Leonardo da Vinci, Milan). 
+Alessandro Gandini, Silvia Keeling, Urbano Reviglio, Diletta Huyskes, Luca Giuffrè (University of Milan); Michele Mauri, Beatrice Gobbo, Ángeles Briones (Politecnico di Milano, Density Design); Simona Casonato (Museo Nazionale Scienza e Tecnologia Leonardo da Vinci, Milan).
