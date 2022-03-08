@@ -5,6 +5,7 @@ imgUrl: ./litreview.jpg
 resUrl: http://placplac.densitydesign.org/login
 resUrl: https://www.eventbrite.com/
 type: forthcoming
+pageName: materials
 ---
 
 # Literature Review

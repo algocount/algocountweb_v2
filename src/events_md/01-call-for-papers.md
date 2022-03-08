@@ -5,6 +5,7 @@ description: Call for Contributions
 imgUrl: ./eventac.jpg
 resUrl: https://www.eventbrite.com/
 type: read more
+pageName: events 
 ---
 
 ### Call for contributions

@@ -5,6 +5,7 @@ imgUrl: ./placplac.jpg
 resUrl: http://placplac.densitydesign.org/login
 resUrl: https://www.eventbrite.com/
 type: read more
+pageName: materials
 ---
 
 # PlacPlac
