@@ -105,11 +105,10 @@ const StyledLink = styled(Link)`
 export const MaterialCard = (props) => {
   return (
     <Card {...props}>
-<<<<<<< HEAD
+
       <Img src={require(props.imgUrl)}/>
-=======
+
       <Img src={props.imgUrl} />
->>>>>>> 0c41eb382a59a1b82186f84df7ded74d731d97ac
       <Name>{props.title}</Name>
       <Description>{props.description}</Description>
       <BtnContainer>
