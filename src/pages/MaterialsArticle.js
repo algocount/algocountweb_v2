@@ -36,23 +36,51 @@ const Img = styled.div`
 `;
 
 const StyledMarkdown = styled(Markdown)`
-  h1 {
-    font-family: "Inter", sans-serif; 
-    font-size: 2.875em;
-    letter-spacing: -1.8px;
-    font-weight: 600;
-    line-height:0.9; 
-    margin-bottom: .5em; 
-    margin-top: 1.5em; 
-  }
-
-  p{
-    font-family: "EB Garamond", serif; 
-    font-size: 1.25em; 
-    font-weight: 400; 
-    letter-spacing: .5px;
-  }
-
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 3em; 
+  font-weight: 600;
+  line-height: 1.25;  
+  letter-spacing: -1.3px; 
+}
+h2{
+  font-family: "Inter", sans-serif;
+  font-size: 1.8em; 
+  font-weight: 600;
+  letter-spacing: -.8px;
+  padding-top: 2em;
+}
+h3{
+  font-family: "Inter", sans-serif;
+  font-size: 1em; 
+  font-weight: 400; 
+  padding-top: 2.5em; 
+  text-transform: uppercase;
+  letter-spacing: 2px; 
+}
+p {
+  font-family: "EB Garamond", serif;
+  color: #444; 
+  font-size: 1.3em; 
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+a{
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+li{
+  margin-bottom: 1em;
+  margin-left: 1em;
+  font-family: "EB Garamond", serif;
+  color: #444;
+  font-weight: 500;
+  letter-spacing: .5px;
+  list-style-type: square;
+  list-style-position: outside;
+}
 `;
 
 const MaterialsArticle = (props) => {
