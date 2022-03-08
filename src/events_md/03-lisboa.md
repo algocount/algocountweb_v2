@@ -5,7 +5,7 @@ description: Presentation of the PlacPlac tool at Inova Media Lab
 imgUrl: ./lisboa.jpg
 resUrl: https://www.eventbrite.com/
 type: forthcoming
-pageName: events 
+pageName: events
 ---
 
 # Smart Data Sprint — Plac Plac presentation

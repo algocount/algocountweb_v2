@@ -57,7 +57,7 @@ const getEvents = () => {
           resUrl: metadata.resUrl ? metadata.resUrl : "No resource url given",
           content: content ? content : "No content given",
           type:  metadata.type ? metadata.type : "No type given",
-          
+          pageName:  metadata.pageName ? metadata.pageName : "No content given",
         };
 
         eventList.push(eventItem);
