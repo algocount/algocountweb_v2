@@ -68,13 +68,13 @@ const Research = () => {
       </Intro>
 
       <BtnContainer>
-        <BtnWrapper href="#digital-methods">
+        <BtnWrapper href="research#digital-methods">
           <StyledButton>Digital&nbsp;Methods</StyledButton>
         </BtnWrapper>
-        <BtnWrapper href="#focus-groups">
+        <BtnWrapper href="research#focus-groups">
           <StyledButton>Focus&nbsp;Groups</StyledButton>
         </BtnWrapper>
-        <BtnWrapper href="#interviews">
+        <BtnWrapper href="research#interviews">
           <StyledButton>Interviews</StyledButton>
         </BtnWrapper>
       </BtnContainer>
