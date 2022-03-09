@@ -17,7 +17,10 @@ export default function Logo3D(p5) {
   }
 
   p5.setup = function () {
+    p5.disableFriendlyErrors = true; 
     p5.createCanvas(p5.windowWidth, (p5.windowHeight-vOffset)*.85, p5.WEBGL)
+    p5.pixeldensity(1);
+    p5.frameRate(30); 
   }
 
   p5.draw = () => {

@@ -29,6 +29,7 @@ const Footer = () => {
             src={cariplo}
             alt="Fondazione Cariplo"
             href="https://www.fondazionecariplo.it"
+            target="_blank"
           />
         </LogoBox>
 
@@ -39,16 +40,19 @@ const Footer = () => {
             src={unimi}
             alt="Università degli Studi di Milano Statale"
             href="https://www.unimi.it"
+            target="_blank"
           />
           <IconBox
             src={polimi}
             alt="Politecnico di Milano"
             href="https://www.polimi.it"
+            target="_blank"
           />
           <IconBox
             src={density}
             alt="Laboratorio di Ricerca Density Design"
             href="https://www.densitydesign.org"
+            target="_blank"
           />
         </LogoBox>
 
@@ -57,6 +61,7 @@ const Footer = () => {
             src={leonardo}
             alt="Museo Nazionale Scienza e Tecnologia Leonardo Da Vinci"
             href="https://www.museoscienza.org"
+            target="_blank"
           />
         </LogoBox>
 
@@ -66,16 +71,16 @@ const Footer = () => {
             <Mail>algocountproject@gmail.com</Mail>
           </ContactLink>
           <SocialBox>
-            <ContactLink href="https://twitter.com/algocount">
+            <ContactLink href="https://twitter.com/algocount" target="_blank">
               <FaTwitter />
             </ContactLink>
-            <ContactLink href="https://www.facebook.com/algocount/">
+            <ContactLink href="https://www.facebook.com/algocount/" target="_blank">
               <FaFacebook />
             </ContactLink>
-            <ContactLink href="https://www.instagram.com/algocount/">
+            <ContactLink href="https://www.instagram.com/algocount/" target="_blank">
               <FaInstagram />
             </ContactLink>
-            <ContactLink href="https://www.youtube.com/channel/UCl3KEIPFFlY8rtKxI0m0xlA">
+            <ContactLink href="https://www.youtube.com/channel/UCl3KEIPFFlY8rtKxI0m0xlA" target="_blank">
               <FaYoutube />
             </ContactLink>
           </SocialBox>
