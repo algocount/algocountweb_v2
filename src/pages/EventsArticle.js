@@ -82,10 +82,18 @@ const StyledMarkdown = styled(Markdown)`
   }
 `;
 
+const Header = styled.h1`
+    font-family: "Inter", sans-serif;
+    font-size: 1em; 
+    font-weight: 400; 
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+`
+
 const Article = (props) => {
   return (
     <Layout>
-      <h2 className="intro header">
+      <Header className="intro header">
         <Link
           to="/events"
           style={{ opacity: "0.7", color: "black", textDecoration: "none" }}
@@ -93,7 +101,7 @@ const Article = (props) => {
           Events
         </Link>
         <span style={{ fontWeight: "600" }}>{` / ${props.title}`}</span>
-      </h2>
+      </Header>
         <Img src={"." + props.imgUrl} alt={props.title} />
       <StyledMarkdown children={props.content} />
       <div
@@ -106,7 +114,7 @@ const Article = (props) => {
         }}
       >
       
-      {props.resUrl !== "/r" ? (<a href={props.resUrl} target={"_blank"} rel="noreferrer">
+      {props.resUrl !== "" ? (<a href={props.resUrl} target={"_blank"} rel="noreferrer">
           <StyledButton>Read More</StyledButton>
         </a>) : null}
         

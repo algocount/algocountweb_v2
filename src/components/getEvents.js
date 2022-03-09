@@ -54,10 +54,10 @@ const getEvents = () => {
           title: metadata.title ? metadata.title : "No title given",
           description: metadata.description ? metadata.description : "No description given",
           imgUrl: metadata.imgUrl ? metadata.imgUrl : "No image url given",
-          resUrl: metadata.resUrl ? metadata.resUrl : "No resource url given",
+          resUrl: metadata.resUrl ? metadata.resUrl : "",
           content: content ? content : "No content given",
           type:  metadata.type ? metadata.type : "No type given",
-          
+          pageName:  metadata.pageName ? metadata.pageName : "No content given",
         };
 
         eventList.push(eventItem);

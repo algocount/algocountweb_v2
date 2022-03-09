@@ -4,6 +4,7 @@ description: A new dissemination format for Digital Methods research
 imgUrl: ./placplac.jpg
 resUrl: http://placplac.densitydesign.org/login
 type: read more
+pageName: materials
 ---
 
 # PlacPlac

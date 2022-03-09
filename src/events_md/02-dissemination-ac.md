@@ -5,6 +5,7 @@ description: Algocount meets the Public
 imgUrl: ./colonne.jpg
 resUrl: 
 type: forthcoming
+pageName: events
 ---
 
 # Dissemination Event 
