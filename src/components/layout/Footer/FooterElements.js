@@ -100,7 +100,7 @@ export const SocialBox = styled.div`
 
 const FooterBox = styled.div`
   @media only screen and (max-width: 750px) {
-    width: 100%; 
+    width: 100%;
     grid-row: ${(props) => props.row};
     grid-column: ${(props) => props.col};
   }

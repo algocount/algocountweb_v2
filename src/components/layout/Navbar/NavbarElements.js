@@ -20,11 +20,17 @@ export const Nav = styled.nav`
   justify-content: space-evenly;
   flex-direction: row;
   z-index: 10;
+  -webkit-backdrop-filter: blur(4px);
+  -moz-backdrop-filter: blur(4px);
+  -ms-backdrop-filter: blur(4px);
+  -o-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
+
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
 
   -webkit-transition: max-height 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
   -moz-transition: max-height 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+  -ms-transition: max-height 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
   -o-transition: max-height 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
   transition: max-height 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
   background: rgba(255, 255, 255, 0.4);
@@ -60,13 +66,21 @@ export const NavContainer = styled.ul`
     display: none;
     flex-direction: column;
     text-align: center;
+    -webkit-animation: fadeOutToNone 2s linear;
+    -moz-animation: fadeOutToNone 2s linear;
+    -ms-animation: fadeOutToNone 2s linear;
+    -o-animation: fadeOutToNone 2s linear;
     animation: fadeOutToNone 2s linear;
-
+  
     &.open {
       display: flex;
       flex-direction: column;
       align-items:center; 
       height: 80%;
+      -webkit-animation: fadeInFromNone 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+      -moz-animation: fadeInFromNone 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+      -ms-animation: fadeInFromNone 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+      -o-animation: fadeInFromNone 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
       animation: fadeInFromNone 0.7s cubic-bezier(0.5, 0.06, 0.01, 0.99);
       animation-fill-mode: forwards;
     }
@@ -127,6 +141,10 @@ export const SNavLink = styled(NavLink)`
     width: 100%;
     height: 0.1em;
     background-color: black;
+    -webkit-transition: all 0.2s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+    -moz-transition: all 0.2s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+    -ms-transition: all 0.2s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+    -o-transition: all 0.2s cubic-bezier(0.5, 0.06, 0.01, 0.99);
     transition: all 0.2s cubic-bezier(0.5, 0.06, 0.01, 0.99);
     opacity: 1;
     transform: scale(0);
@@ -151,6 +169,10 @@ export const SNavLink = styled(NavLink)`
     height: 0.1em;
     background-color: black;
     transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+    -moz-transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+    -ms-transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
+    -o-transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
     opacity: 1;
     transform: scale(1);
     transform-origin: center;
