@@ -48,8 +48,7 @@
   },
   "browserslist": {
     "production": [
-      ">0.01%",
-      "not dead"
+      "last 10 versions"
     ],
     "development": [
       "last 10 versions"

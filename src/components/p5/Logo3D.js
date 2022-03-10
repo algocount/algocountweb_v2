@@ -17,14 +17,7 @@ export default function Logo3D(p5) {
   };
 
   p5.setup = function () {
-<<<<<<< HEAD
-    p5.disableFriendlyErrors = true; 
-    p5.createCanvas(p5.windowWidth, (p5.windowHeight-vOffset)*.85, p5.WEBGL)
-    p5.pixelDensity(1);
-    p5.frameRate(30); 
-  }
-=======
-    p5.disableFriendlyErrors = true;
+       p5.disableFriendlyErrors = true;
     p5.createCanvas(
       p5.windowWidth,
       (p5.windowHeight - vOffset) * 0.85,
@@ -37,7 +30,6 @@ export default function Logo3D(p5) {
     p5.pixelDensity(pxDensity);
     p5.frameRate(30);
   };
->>>>>>> 4a66171c0f13bfbaee898611213aa24479377c99
 
   p5.draw = () => {
     p5.background(255, 0);

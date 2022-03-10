@@ -140,9 +140,3 @@ footer {
     margin: auto;
   }
 }
-
-.button-container {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1em;
-}
