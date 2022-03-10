@@ -42,7 +42,11 @@ export const Nav = styled.nav`
     font-size: 36px;
 
     &.open {
-      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+  -moz-backdrop-filter: blur(8px);
+  -ms-backdrop-filter: blur(8px);
+  -o-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);;
       flex-direction: column;
       flex-wrap: nowrap;
       top: 0%;

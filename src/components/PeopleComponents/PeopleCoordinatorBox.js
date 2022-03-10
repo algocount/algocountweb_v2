@@ -17,14 +17,22 @@ const Img = styled.div`
     content: "";
     position: absolute;  
     inset: 0;
-    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  -moz-backdrop-filter: blur(0px);
+  -ms-backdrop-filter: blur(0px);
+  -o-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
     transform: translate(-20%, 20%);
     border: 1px solid black;
     transition: all 0.4s ease-in-out; 
   }
 
   &:hover:before {
-    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(4px);
+  -moz-backdrop-filter: blur(4px);
+  -ms-backdrop-filter: blur(4px);
+  -o-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   }
 
   @media only screen and (max-width: 750px) {
