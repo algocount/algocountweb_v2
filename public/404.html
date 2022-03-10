@@ -2,9 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <script>
-      document.querySelector('meta[property="og:title"]').setAttribute("content", window.location.href.split("/")[3])
-    </script>
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@algocount" />
     <meta name="twitter:image" content="https://algocount.org/social-cover.jpg" />
@@ -33,7 +30,9 @@
     content="Public Perception of Algorithms in Society: Accounting for the Algorithmic Public Opinion"
     />
     <title>Single Page Apps for GitHub Pages</title>
-    <script></script>
+    <script>
+      document.querySelector('meta[property="og:title"]').setAttribute("content", window.location.href.split("/")[3])
+    </script>
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
       // MIT License
@@ -45,7 +44,7 @@
       // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
       // Note: this 404.html file must be at least 512 bytes for it to work
       // with Internet Explorer (it is currently > 512 bytes)
-
+      
       // If you're creating a Project Pages site and NOT using a custom domain,
       // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
       // This way the code will only replace the route part of the path, and not
@@ -53,20 +52,20 @@
       // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
       // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
       // Otherwise, leave pathSegmentsToKeep as 0.
-
+      
       var pathSegmentsToKeep = 0;
-
+      
       var l = window.location;
-
+      
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
         l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
         (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
         l.hash
-      );
-
-    </script>
+        );
+        
+        </script>
   </head>
   <body>
   </body>
