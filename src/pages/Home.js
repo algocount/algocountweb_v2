@@ -54,7 +54,6 @@ const Home = () => {
               </Container>
             </div>
             <div style={{ position: "relative" }}>
-              <Parallax />
               <Intro>
                 The Algocount project seeks to expand our current understanding
                 of, and raise awareness about, the role of algorithms in
