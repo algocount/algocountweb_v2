@@ -30,7 +30,7 @@ const ResUniMi_Pic = [
     key: 4,
     name: "Silvia Keeling",
     role: "Postdoctoral Research Fellow",
-    src: "./place2.jpg",
+    src: "./keeling.jpg",
   },
   {
     key: 5,
