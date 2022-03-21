@@ -58,6 +58,7 @@ const getEvents = () => {
           content: content ? content : "No content given",
           type:  metadata.type ? metadata.type : "No type given",
           pageName:  metadata.pageName ? metadata.pageName : "No content given",
+          customUrl:  metadata.customUrl ? metadata.customUrl : undefined
         };
 
         eventList.push(eventItem);

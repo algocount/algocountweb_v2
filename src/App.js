@@ -29,7 +29,7 @@ function App() {
         ))}
         {eventsList.map((item) => (
           <Route
-            path={`/events/${slugify(item.title)}`}
+            path={ `/events/${item.customUrl != undefined ? item.customUrl : slugify(item.title)}`}
             element={<EventsArticle {...item} />}
             key={item.key}
           />
