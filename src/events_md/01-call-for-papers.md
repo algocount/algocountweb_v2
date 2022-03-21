@@ -2,12 +2,8 @@
 date: 7 July 2022
 title: Algocount Final Event
 description: Call for Contributions
-imgUrl: ./eventac.jpg
-<<<<<<< HEAD
+imgUrl: ./new-cfp.jpg
 resUrl: 
-=======
-resUrl:
->>>>>>> b9837cba4e844308bac3e4748ff22be63aa0f8d4
 type: read more
 pageName: events
 ---
