@@ -114,7 +114,7 @@ const ImgContainer = styled.div`
   margin: auto;
   grid-column: 2;
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 995px) {
     grid-row: 1; 
   }    
 `
