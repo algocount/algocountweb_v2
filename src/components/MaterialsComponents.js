@@ -113,7 +113,7 @@ export const MaterialCard = (props) => {
         <Button>
           {props.type === "read more" ? (
             <StyledLink
-              to={`/${props.pageName}/${slugify(props.title)}`}
+              to={`/${props.pageName}/${props.customUrl ? props.customUrl : slugify(props.title)}`}
               target={"_blank"}
             >
               {props.type}
