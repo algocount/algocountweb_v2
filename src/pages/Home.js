@@ -43,7 +43,7 @@ const Home = () => {
             }}
           >
             <div className="p5-container">
-              <Logop5 className="p5-animation" />
+              {/* <Logop5 className="p5-animation" /> */}
               <Container className="hero">
                 <h1 className="title">Algocount</h1>
                 <h2 className="sub-head">
