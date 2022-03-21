@@ -11,8 +11,7 @@ const Events = () => {
     <Layout>
       <Header>EVENTS</Header>
       <Intro>
-        The research team disseminates their findings through a variety of
-        outputs directed to the general public.
+        The research team disseminates their findings through a variety of outputs directed to the general public.
       </Intro>
       <Body>
         These are the most recent workshops, meetings, and events organized by the team.
