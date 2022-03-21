@@ -54,20 +54,21 @@ footer {
   left: 50%; 
   transform: translate(-50%, -50%); */
   text-align: center;
+  clear: both;
 }
 
 .title {
   font-family: "Inter", sans-serif;
-  font-size: 96px;
+  font-size: calc(60px + (200 - 60) * ((100vw - 576px) / (2560 - 576)));
   font-weight: 700;
   letter-spacing: -1px;
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
   .title {
-    font-size: 4em;
+    font-size: calc(50px + (60 - 40) * ((100vw - 576px) / (2560 - 576)));
   }
-}
+} */
 
 .sub-head {
   font-family: "EB Garamond", serif;
