@@ -9,9 +9,9 @@ type: read more
 pageName: events
 ---
 
-### Call for contributions
-# Everyday algorithms
-## Algocount Final Event — 7 July 2022
+### Algocount Final Event — 7 July 2022
+# Call for contributions
+## Everyday algorithms
 
 This international conference aims at exploring the role algorithms play in the formation of public opinion from a multi-disciplinary perspective. Set in the context of the *Algocount*, which seeks to expand the current understanding of how recommendation and personalization algorithms are perceived as key mediators in the access to news and informational content by ordinary users, the conference welcomes contributions that critically reflect on the unfolding of what we define as the ‘algorithmic public opinion’. 
 

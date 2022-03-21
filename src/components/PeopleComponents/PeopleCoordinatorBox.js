@@ -40,6 +40,7 @@ const Img = styled.div`
     -ms-backdrop-filter: blur(4px);
     -o-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
+    transform: translate(-22%, 22%) scale(1.07);
   }
 
   @media only screen and (max-width: 750px) {
