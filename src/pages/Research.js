@@ -43,13 +43,14 @@ const StyledButton = styled.button`
   padding: 0.75em 1em;
   border: none;
   border: 0.75px solid black;
-  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 24%);
+  //box-shadow: 0 1px 6px 0 rgb(0 0 0 / 24%);
   transition: all 0.3s cubic-bezier(0.5, 0.06, 0.01, 0.99);
 
   &:hover {
     transform: scale(1.025);
-    box-shadow: 0 1px 12px 0 rgb(0 0 0 / 24%);
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 24%);
     color: black;
+    font-weight: 600;
   }
 
   @media only screen and (max-width: 750px) {

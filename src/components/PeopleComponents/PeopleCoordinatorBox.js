@@ -5,7 +5,7 @@ const Img = styled.div`
   flex-grow: 1;
   width: 100%; 
   height: 100%;
-  box-shadow: 0px 0px 16px rgba(0,0,0,0.2);
+  //box-shadow: 0px 0px 16px rgba(0,0,0,0.2);
   aspect-ratio: 3/4; 
   background-image: url(${props => props.src});
   background-size: cover;
@@ -17,28 +17,35 @@ const Img = styled.div`
     content: "";
     position: absolute;  
     inset: 0;
-    -webkit-backdrop-filter: blur(0px);
-  -moz-backdrop-filter: blur(0px);
-  -ms-backdrop-filter: blur(0px);
-  -o-backdrop-filter: blur(0px);
-  backdrop-filter: blur(0px);
+    background-color: rgba(225,225,225,0.15);
+    border: 0.3px solid white;
+    // -webkit-border-radius: 7px;
+    // -moz-border-radius: 7px;
+    // -ms-border-radius: 7px;
+    // -o-border-radius: 7px;
+    // border-radius: 7px;
+    -webkit-backdrop-filter: blur(0.1px);
+    -moz-backdrop-filter: blur(0.1px);
+    -ms-backdrop-filter: blur(0.1px);
+    -o-backdrop-filter: blur(0.1px);
+    backdrop-filter: blur(0.1px);
+    box-shadow: 0px 0px 16px rgb(0 0 0 / 20%);
     transform: translate(-20%, 20%);
-    border: 1px solid black;
-    transition: all 0.4s ease-in-out; 
+    transition: all 0.4s ease-in-out;
   }
 
   &:hover:before {
     -webkit-backdrop-filter: blur(4px);
-  -moz-backdrop-filter: blur(4px);
-  -ms-backdrop-filter: blur(4px);
-  -o-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
+    -moz-backdrop-filter: blur(4px);
+    -ms-backdrop-filter: blur(4px);
+    -o-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
   }
 
   @media only screen and (max-width: 750px) {
-      max-height: 20em;
-      width: auto;  
-    }    
+    max-height: 20em;
+    width: auto;  
+  }    
 `
 
 const Name = styled.h2`
@@ -51,7 +58,7 @@ const Name = styled.h2`
 
 const Bio = styled.p`
   font-family: "EB Garamond", serif; 
-  font-size: 1em; 
+  font-size: 1.2em; 
   font-weight: 400; 
   letter-spacing: .5px; 
   bottom: 0%; 
@@ -133,7 +140,7 @@ const PeopleCoordinatorBox = (props) => {
       </TxtCol>
       <ImgCol>
         <ImgContainer>
-          <Img id={props.name} src={props.src}/>
+          <Img id={props.name} src={props.src} />
         </ImgContainer>
       </ImgCol>
     </CoordinatorContainer>

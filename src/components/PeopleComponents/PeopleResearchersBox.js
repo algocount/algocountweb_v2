@@ -64,12 +64,18 @@ const TxtBox = styled.div`
   padding: 0.5em;
 `;
 
+const CardNoPic = styled.div`
+  padding: 0.5em;
+  border: 1px solid #000;
+`;
+
+
 export const JustText = (props) => {
   return (
-    <div>
+    <CardNoPic>
       <Name>{props.name}</Name>
       <Role>{props.role}</Role>
-    </div>
+    </CardNoPic>
   );
 };
 
