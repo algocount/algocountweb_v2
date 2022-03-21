@@ -3,7 +3,7 @@ date: 7 July 2022
 title: Call for Contributions
 description: Algocount Final Event
 imgUrl: ./cfp.jpg
-resUrl: https://github.com/densitydesign/placplac
+resUrl: 
 customUrl: algocount-final-event
 type: read more
 pageName: events
