@@ -78,7 +78,7 @@ const Role = styled.h1`
   line-height:0.9; 
   margin-bottom: .3em; 
   
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 995px) {
     font-size: 2em;
     letter-spacing: -1px;
   }
@@ -126,7 +126,7 @@ const CoordinatorContainer = styled.div`
   grid-gap: 1em;
   width: 100%; 
   
-  @media only screen and (max-width: 750px){
+  @media only screen and (max-width: 995px){
     grid-template-columns: 1fr; 
   }
 `
