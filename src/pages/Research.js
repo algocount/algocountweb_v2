@@ -17,7 +17,7 @@ const BtnContainer = styled.div`
   justify-items: center;
   grid-gap: 1em;
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 980px) {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr;
     flex-direction: column;
@@ -26,7 +26,7 @@ const BtnContainer = styled.div`
 `;
 
 const BtnWrapper = styled.a`
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 980px) {
     width: 100%;
   }
 `;
@@ -53,7 +53,7 @@ const StyledButton = styled.button`
     font-weight: 600;
   }
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 980px) {
     padding: 0.5em 0.75em;
     font-size: 0.85em;
     width: 100%;
