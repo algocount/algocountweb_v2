@@ -55,7 +55,7 @@ const Home = () => {
             </div>
             <div style={{ position: "relative" }}>
               <Intro>
-                The Algocount project seeks to expand our current understanding
+                Algocount seeks to expand our current understanding
                 of, and raise awareness about, the role of algorithms in
                 society, with a specific focus on the formation of public
                 opinion in the Italian context.

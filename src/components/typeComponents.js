@@ -10,7 +10,7 @@ export const Header = styled.h1`
 
 export const Intro = styled.p`
     font-family: "Inter", sans-serif;
-    font-size: 3em; 
+    font-size: calc(36px + (70 - 36) * ((100vw - 576px) / (2560 - 576))); 
     font-weight: 600;
     line-height: 1.25;  
     letter-spacing: -1.3px; 
