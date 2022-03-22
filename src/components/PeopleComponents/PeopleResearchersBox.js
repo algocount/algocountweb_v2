@@ -41,7 +41,7 @@ export const PeopleContainer = styled.div`
   display: grid;
   grid-gap: 1em;
   grid-template-columns: repeat(${(props) => props.col}, 1fr);
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 
   @media only screen and (max-width: 995px) {
     grid-template-columns: 1fr 1fr;

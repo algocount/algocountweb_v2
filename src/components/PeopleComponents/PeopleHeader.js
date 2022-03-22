@@ -30,6 +30,7 @@ const SRow = styled.div`
   font-family: "Inter", sans-serif;
   text-align: center;
   padding-bottom: 1em;
+  margin-top: 6em;
 `;
 
 export const PeopleHeader = (props) => {

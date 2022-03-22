@@ -80,12 +80,15 @@ const ResPoliMi = [
   { key: 4, name: "Beatrice Gobbo", role: "PhD Candidate", src: "./gobbo.jpg" },
 ];
 
-/*
 const ResPoliMi_NoPic = [
-  { key: 1,  name: "Luca Draisci",                      role: "MSc Student",           src: "./place2.jpg" },
-  { key: 2,  name: "Emanuele Ghebaur",                  role: "MSc Student",           src: "./place2.jpg" }
-]
-*/
+  { key: 1, name: "Luca Draisci", role: "MSc Student", src: "./place2.jpg" },
+  {
+    key: 2,
+    name: "Emanuele Ghebaur",
+    role: "MSc Student",
+    src: "./place2.jpg",
+  },
+];
 
 const People = () => {
   return (
@@ -146,8 +149,8 @@ const People = () => {
 
       <PeopleResearchersBox col={4} researchers={ResPoliMi} />
 
-      {/* <PeopleContainer col={4}>
-        {ResPoliMi_NoPic.map((d)=>(<JustText name={d.name} role={d.role}></JustText>))}
+      {/* <PeopleContainer col={2}>
+        {ResPoliMi_NoPic.map((d) => (<JustText name={d.name} role={d.role}></JustText>))}
       </PeopleContainer> */}
 
       <PeopleHeader
@@ -155,6 +158,10 @@ const People = () => {
         uni="Museo Nazionale della Scienza e&nbsp;della&nbsp;Tecnologia Leonardo da&nbsp;Vinci"
         dep="Simona Casonato, Digital Collections Manager"
       />
+
+      <div style={{ margin: "2em 0 0 0", fontSize: "1em" }}>
+        <PeopleHeader role="Sito sviluppato con il contributo di Luca Draisci, Emanuele Ghebaur e Beatrice Gobbo" />
+      </div>
     </Layout>
   );
 };

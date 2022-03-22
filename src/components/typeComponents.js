@@ -37,10 +37,21 @@ export const ListItem = styled.li`
     margin-left: 1em;
     font-family: "EB Garamond", serif;
     color: #444; 
-    font-size: 1.3em; 
+    font-size: 1.3rem; 
     font-weight: 500;
     letter-spacing: .5px;
     list-style-type: square;
+    list-style-position: outside;
+`
+
+export const OListItem = styled.li`
+    margin-bottom: 1em;
+    margin-left: 1em;
+    font-family: "EB Garamond", serif;
+    color: #444; 
+    font-size: 1.3rem; 
+    font-weight: 500;
+    letter-spacing: .5px;
     list-style-position: outside;
 `
 

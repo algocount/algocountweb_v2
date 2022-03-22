@@ -5,12 +5,13 @@ import {
   Header,
   Intro,
   ListItem,
+  OListItem,
   SubHead,
 } from "../components/typeComponents";
 
 const BtnContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, auto);
   width: 100%;
   padding: 1em 0em;
   margin-top: 3em;
@@ -18,7 +19,7 @@ const BtnContainer = styled.div`
   grid-gap: 1em;
 
   @media only screen and (max-width: 980px) {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
     grid-template-columns: 1fr;
     flex-direction: column;
     margin-top: 1em;
@@ -30,6 +31,13 @@ const BtnWrapper = styled.a`
     width: 100%;
   }
 `;
+
+const Linka = styled.a`
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #000;`;
+
 
 const StyledButton = styled.button`
   font-family: "Inter", sans-serif;
@@ -78,6 +86,9 @@ const Research = () => {
         <BtnWrapper href="research#interviews">
           <StyledButton>Interviews</StyledButton>
         </BtnWrapper>
+        <BtnWrapper href="research#dissemination">
+          <StyledButton>Dissemination</StyledButton>
+        </BtnWrapper>
       </BtnContainer>
 
       <SubHead id="digital-methods">Digital Methods</SubHead>
@@ -85,7 +96,7 @@ const Research = () => {
         <Body>
           In a first phase, the research has consisted in the ‘reverse
           engineering’ of algorithmic content circulation on 5 digital
-          platforms:: Facebook, Twitter, YouTube, TikTok and Reddit. This was
+          platforms: Facebook, Twitter, YouTube, TikTok and Reddit. This was
           conducted in accordance with digital methods (Rogers, 2013)
           principles, and focusing on the macro-topic of the circulation of
           information around the Covid-19 pandemic. The research has taken the
@@ -159,6 +170,103 @@ const Research = () => {
             transparency, accountability and governance.
           </ListItem>
         </ul>
+      </section>
+
+      <SubHead id="dissemination">Dissemination</SubHead>
+      <section>
+        <Body>The dissemination work has consisted in:</Body>
+        <ol type="a">
+          <OListItem>
+            A set of non-academic outputs (e.g. newspaper or magazine articles,
+            podcasts, blogposts/opinion pieces, short videos) targeting the
+            general public, written/produced by the members of the ALGOCOUNT
+            research team. These are:
+            <ol>
+              <OListItem>
+                <b>
+                  Meet me tonight – La notte dei ricercatori, 28/11/2020 (public
+                  talk) :{" "}
+                </b>
+                This event consisted in a seminar on algorithms and their role
+                in processes of public opinion formation held in the context of
+                the public event <i>Meet me tonight</i>, which took place online on
+                28 November 2020, with the participation of Alessandro Gandini.
+              </OListItem>
+              <OListItem>
+                <b>Milano Digital Week, 18/2/2021 (public talk): </b>
+                This event consisted in a seminar on algorithms and the ‘black
+                box’, addressed to the general public. This was held in the
+                context of the <i>Milano Digital Week</i>, and took place online on 18
+                February 2021, with the participation of Alessandro Gandini.
+              </OListItem>
+              <OListItem>
+                <b>Podcast interview, Micromega: </b> This consisted in a
+                podcast interview of Alessandro Gandini about algorithms and
+                societal implications, conducted by journalist Valerio Nicolosi
+                for the magazine <i>Micromega</i>. It can be accessed <Linka href="https://micromegaedizioni.net/2021/07/23/lato-oscuro-algoritmi/">here</Linka>.
+              </OListItem>
+              <OListItem>
+                <b>Festival della Scienza, Genova, 18/5/2021 (public talk): </b>{" "}
+                In this talk, held in the context of the Italian Science
+                Festival 2021, Alessandro Gandini discussed algorithms and
+                content creators in the digital reputation economy.
+              </OListItem>
+              <OListItem>
+                <b>
+                  Open night, Museo della Scienza e della Tecnologia Leonardo da
+                  Vinci, Milano, 24/9/2021:{" "}
+                </b>{" "}
+                This consisted in a ‘speed date’ and ‘meet the researchers’
+                event where Alessandro Gandini met with museum attendees and
+                members of the general public in an informal setting, to discuss
+                his research about algorithms
+              </OListItem>
+              <OListItem>
+                <b>Film Festival Diritti Umani, Lugano 15/10/2021: </b>On
+                occasion of the projection of the documentary Coded Bias (2020),
+                Alessandro Gandini discussed with Chiara Fanetti (RSI) the
+                increasingly central role algorithms play in 21st century
+                societies.
+              </OListItem>
+              <OListItem>
+                <b>SISSA Conference, 18/11/2021: </b>In a public roundtable
+                hosted at the Science Communication conference, Trieste,
+                Alessandro Gandini discussed algorithms and content creation in
+                the context of science communication.
+              </OListItem>
+              <OListItem>
+                <b>Dubai EXPO, 13-16/12/2021: </b>Algocount’s Communications
+                Manager Diletta Huyskes participated to the 2020 Expo in Dubai
+                as part of the Italian delegation for the artificial
+                intelligence and inclusion section of the exhibition, holding
+                talks with relevant stakeholders on the topic of algorithmic
+                accountability and transparency.
+              </OListItem>
+              <OListItem>
+                <b>In altre parole, Rete Due - RSI, Lugano (7/2/2022): </b>
+                Alessandro Gandini was hosted on Rete Due, RSI (Swiss national
+                radio station) to discuss algorithms and their role in culture
+                and society.
+              </OListItem>
+            </ol>
+          </OListItem>
+          <OListItem>
+            The realization of a project website to host data visualizations
+            (LINK TO PLAC PLAC)
+          </OListItem>
+          <OListItem>
+            the conduction of a set of workshops on “algorithmic literacy”
+            addressed to high school students aged 14–18, to be carried out in
+            schools in the area of Lombardy. These have involved the following
+            schools: TBA
+          </OListItem>
+          <OListItem>
+            a conference and final public event, to be hosted on 7-July 2022 at
+            the Science Museum of Milan, that will mark the end of the project
+            and involve a set of designated stakeholders and the general public
+            in the discussion of the main results of the research.
+          </OListItem>
+        </ol>
       </section>
     </Layout>
   );
