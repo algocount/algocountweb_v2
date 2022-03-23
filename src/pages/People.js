@@ -73,10 +73,10 @@ const ResPoliMi = [
   {
     key: 2,
     name: "Maria De Los Ángeles Briones Rojas",
-    role: "Postdoc",
+    role: "Postdoctoral Research Fellow",
     src: "./briones1.jpg",
   },
-  { key: 3, name: "Tommaso Elli", role: "Postdoc", src: "./elli.jpg" },
+  { key: 3, name: "Tommaso Elli", role: "Postdoctoral Research Fellow", src: "./elli.jpg" },
   { key: 4, name: "Beatrice Gobbo", role: "PhD Candidate", src: "./gobbo.jpg" },
 ];
 
