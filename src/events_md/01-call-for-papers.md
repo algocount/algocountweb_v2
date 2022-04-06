@@ -39,7 +39,7 @@ The conference will take place at the *Museo Nazionale Scienza e Tecnologia Leon
 The conference will comprise 4 panel presentations and 2 keynote sessions hosting internationally acclaimed scholars as speakers. A maximum of 10 papers will be selected for presentation. Preference will be given to speakers who plan to attend the conference in person, but a small number of remote presentations (no more than 1 per panel) may be included in the programme. Participation to the conference as an attendee (without presenting a paper) will be possible both in person and remotely, via Zoom. Up to 2 scholarships covering travel and accommodation expenses may be awarded to participants at an early-career stage or self-funded. If you belong to one of these categories, please enclose this information in your abstract submission. 
 
 ## Important dates
-Abstracts are due by 8 April 2022 [AOE](https://time.is/Anywhere_on_Earth). These should include the author(s) name and position, a short title, and a clear indication of whether they plan to attend the conference in person or remotely. Acceptance notices will be given by 30 April 2022. 
+Abstracts are due by 26 April 2022 [AOE](https://time.is/Anywhere_on_Earth). These should include the author(s) name and position, a short title, and a clear indication of whether they plan to attend the conference in person or remotely. Acceptance notices will be given by 30 April 2022. 
 
 ## Conference organizing committee
 Alessandro Gandini, Silvia Keeling, Urbano Reviglio, Diletta Huyskes, Luca Giuffrè (University of Milan); Michele Mauri, Beatrice Gobbo, Maria De Los Ángeles Briones Rojas (Politecnico di Milano, Density Design); Simona Casonato (Museo Nazionale Scienza e Tecnologia Leonardo da Vinci, Milan).
