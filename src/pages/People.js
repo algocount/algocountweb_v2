@@ -156,7 +156,8 @@ const People = () => {
       <PeopleHeader
         role="Collaborator"
         uni="Museo Nazionale della Scienza e&nbsp;della&nbsp;Tecnologia Leonardo da&nbsp;Vinci"
-        dep="Simona Casonato, Digital Collections Manager"
+        dep="Simona Casonato, Media, ICT & Digital Culture "
+        italic="Collection Curator"
       />
 
       <div style={{ margin: "2em 0 0 0", fontSize: "1em" }}>

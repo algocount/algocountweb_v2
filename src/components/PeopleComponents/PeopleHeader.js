@@ -38,7 +38,7 @@ export const PeopleHeader = (props) => {
     <SRow>
       <Role>{props.role}</Role>
       <Uni>{props.uni}</Uni>
-      <Department>{props.dep}</Department>
+      <Department>{props.dep}<i>{props.italic}</i></Department>
     </SRow>
   );
 };
