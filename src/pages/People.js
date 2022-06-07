@@ -105,7 +105,7 @@ const People = () => {
         bio="
         Alessandro Gandini is Associate Professor of Cultural Sociology at the University of Milan, 
         Department of Social and Political Sciences. He is the Scientific Coordinator of Algocount. 
-        He is also the Principal Investigator of the CRAFTWORK project (2021–2025), funded by ERC Starting Grant 2020. 
+        He is also the Principal Investigator of the CRAFTWORK project (2021–2025), funded by ERC Starting Grant 2020.
         "
         src="./gandi.jpg"
       />
