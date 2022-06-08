@@ -1,0 +1,392 @@
+tag_fine,tag_medium,tag_broad
+Ad Network,Advertising,Advertising and Marketing
+Ad Server,Advertising,Advertising and Marketing
+Ad Targeting,Advertising,Advertising and Marketing
+Advertising,Advertising,Advertising and Marketing
+Advertising,Advertising,Advertising and Marketing
+Advertising Platforms,Advertising,Advertising and Marketing
+Mobile Advertising,Advertising,Advertising and Marketing
+Brand Marketing,Marketing,Advertising and Marketing
+Digital Marketing,Marketing,Advertising and Marketing
+Direct Marketing,Marketing,Advertising and Marketing
+Lead Generation,Marketing,Advertising and Marketing
+Marketing,Marketing,Advertising and Marketing
+Sales and Marketing,Marketing,Advertising and Marketing
+SEM,Marketing,Advertising and Marketing
+Social Media Marketing,Marketing,Advertising and Marketing
+Industrial Automation,Automation,Automation and Robotics
+Marketing Automation,Automation,Automation and Robotics
+Sales Automation,Automation,Automation and Robotics
+Robotics,Robotics,Automation and Robotics
+Administrative Services,Administrative,Business Services
+Human Resources,Administrative,Business Services
+Office Administration,Administrative,Business Services
+Public Relations,Administrative,Business Services
+Incubators,Business Incubator,Business Services
+Asset Management,Business Services,Business Services
+B2B,Business Services,Business Services
+Business Development,Business Services,Business Services
+Business Information Systems,Business Services,Business Services
+Business Intelligence,Business Services,Business Services
+Consulting,Business Services,Business Services
+Enterprise,Business Services,Business Services
+Enterprise Applications,Business Services,Business Services
+Enterprise Resource Planning (ERP),Business Services,Business Services
+Enterprise Software,Business Services,Business Services
+Innovation Management,Business Services,Business Services
+Knowledge Management,Business Services,Business Services
+Local Business,Business Services,Business Services
+Management Consulting,Business Services,Business Services
+Management Information Systems,Business Services,Business Services
+Market Research,Business Services,Business Services
+Meeting Software,Business Services,Business Services
+Risk Management,Business Services,Business Services
+Small and Medium Businesses,Business Services,Business Services
+Video Conferencing,Business Services,Business Services
+Service Industry,Service Industry,Business Services
+Cloud Computing,Cloud Computing,Cloud and Data Storage
+Cloud Infrastructure,Cloud Computing,Cloud and Data Storage
+Cloud Security,Cloud Computing,Cloud and Data Storage
+IaaS,Cloud Computing,Cloud and Data Storage
+Cloud Data Services,Cloud Services,Cloud and Data Storage
+Cloud Management,Cloud Services,Cloud and Data Storage
+Cloud Storage,Cloud Services,Cloud and Data Storage
+File Sharing,Cloud Services,Cloud and Data Storage
+PaaS,Cloud Services,Cloud and Data Storage
+Data Center,Data Storage,Cloud and Data Storage
+Data Storage,Data Storage,Cloud and Data Storage
+Database,Data Storage,Cloud and Data Storage
+Consumer Goods,Consumer Goods,Consumer Business
+Consumer Goods,Consumer Goods,Consumer Business
+Consumer Software,Consumer Goods,Consumer Business
+SaaS,Consumer Goods,Consumer Business
+Consumer,Consumer Services,Consumer Business
+Consumer Applications,Consumer Services,Consumer Business
+Subscription Service,Consumer Services,Consumer Business
+CRM,Consumer Services,Consumer Business
+Customer Service,Consumer Services,Consumer Business
+Call Center,Consumer Services,Consumer Business
+Real Estate,Real Estate,Consumer Business
+Real Estate,Real Estate,Consumer Business
+Retail,Retail,Consumer Business
+Retail Technology,Retail,Consumer Business
+Analytics,Analytics,Deep Tech
+Data and Analytics,Analytics,Deep Tech
+Data Visualization,Analytics,Deep Tech
+Predictive Analytics,Analytics,Deep Tech
+Price Comparison,Analytics,Deep Tech
+Artificial Intelligence,Artificial Intelligence,Deep Tech
+Artificial Intelligence,Artificial Intelligence,Deep Tech
+Computer Vision,Artificial Intelligence,Deep Tech
+Facial Recognition,Artificial Intelligence,Deep Tech
+Google Glass,Artificial Intelligence,Deep Tech
+Image Recognition,Artificial Intelligence,Deep Tech
+Intelligent Systems,Artificial Intelligence,Deep Tech
+Logistics,Artificial Intelligence,Deep Tech
+Machine Learning,Artificial Intelligence,Deep Tech
+Natural Language Processing,Artificial Intelligence,Deep Tech
+Semantic Web,Artificial Intelligence,Deep Tech
+Speech Recognition,Artificial Intelligence,Deep Tech
+Text Analytics,Artificial Intelligence,Deep Tech
+Visual Search,Artificial Intelligence,Deep Tech
+Big Data,Deep Tech,Deep Tech
+Biometrics,Deep Tech,Deep Tech
+Blockchain,Deep Tech,Deep Tech
+Data Integration,Deep Tech,Deep Tech
+Data Mining,Deep Tech,Deep Tech
+Quantum Computing,Deep Tech,Deep Tech
+Content Creators,Content Creation,Design and Content Creation
+Content Delivery Network,Content Creation,Design and Content Creation
+Content Discovery,Content Creation,Design and Content Creation
+Content Marketing,Content Creation,Design and Content Creation
+Creative Agency,Content Creation,Design and Content Creation
+Design,Design,Design and Content Creation
+Graphic Design,Design,Design and Content Creation
+Photo Editing,Design,Design and Content Creation
+Photography,Design,Design and Content Creation
+Presentations,Design,Design and Content Creation
+Product Design,Design,Design and Content Creation
+Web Design,Design,Design and Content Creation
+Developer APIs,Developer Tools,Developer Tools
+Developer Platform,Developer Tools,Developer Tools
+Developer Tools,Developer Tools,Developer Tools
+Human Computer Interaction,Developer Tools,Developer Tools
+Web Development,Developer Tools,Developer Tools
+Communication Hardware,ICT,Digital Infrastructure
+Communications Infrastructure,ICT,Digital Infrastructure
+Email,ICT,Digital Infrastructure
+Information and Communications Technology (ICT),ICT,Digital Infrastructure
+Information Technology,ICT,Digital Infrastructure
+Information Technology,ICT,Digital Infrastructure
+IT Management,ICT,Digital Infrastructure
+Network Hardware,ICT,Digital Infrastructure
+NFC,ICT,Digital Infrastructure
+Satellite Communication,ICT,Digital Infrastructure
+Technical Support,ICT,Digital Infrastructure
+Telecommunications,ICT,Digital Infrastructure
+VoIP,ICT,Digital Infrastructure
+Information Services,Information Services,Digital Infrastructure
+Online Portals,Information Services,Digital Infrastructure
+Internet of Things,Internet of Things,Digital Infrastructure
+Smart Home,Internet of Things,Digital Infrastructure
+Internet Services,Internet Services,Digital Infrastructure
+ISP,Internet Services,Digital Infrastructure
+Search Engine,Search Engine,Digital Infrastructure
+SEO,Search Engine,Digital Infrastructure
+Cyber Security,Security,Digital Infrastructure
+Network Security,Security,Digital Infrastructure
+Privacy and Security,Security,Digital Infrastructure
+Security,Security,Digital Infrastructure
+Art,Art,Digital Media
+Audio,Audio,Digital Media
+Audiobooks,Audio,Digital Media
+Broadcasting,Audio,Digital Media
+Internet Radio,Audio,Digital Media
+Music,Audio,Digital Media
+Music and Audio,Audio,Digital Media
+Music Streaming,Audio,Digital Media
+Podcast,Audio,Digital Media
+Content,Digital Media,Digital Media
+Digital Entertainment,Digital Media,Digital Media
+Digital Media,Digital Media,Digital Media
+Media and Entertainment,Digital Media,Digital Media
+Media and Entertainment,Digital Media,Digital Media
+Publishing,Digital Media,Digital Media
+Comics,Literature and Writing,Digital Media
+Content and Publishing,Literature and Writing,Digital Media
+Guides,Literature and Writing,Digital Media
+News,Literature and Writing,Digital Media
+Reading Apps,Literature and Writing,Digital Media
+Independent Music,Music,Digital Media
+Film,Photography and Video,Digital Media
+TV,Photography and Video,Digital Media
+Video,Photography and Video,Digital Media
+Video,Photography and Video,Digital Media
+Video Chat,Photography and Video,Digital Media
+Video Editing,Photography and Video,Digital Media
+Video Streaming,Photography and Video,Digital Media
+Lighting,Photography and Video,Digital Media
+Motion Capture,Photography and Video,Digital Media
+Sports,Sports,Digital Media
+Sports,Sports,Digital Media
+Auctions,E-Commerce,E-Commerce
+Clothing and Apparel,E-Commerce,E-Commerce
+Commerce and Shopping,E-Commerce,E-Commerce
+Coupons,E-Commerce,E-Commerce
+E-Commerce,E-Commerce,E-Commerce
+E-Commerce Platforms,E-Commerce,E-Commerce
+Eyewear,E-Commerce,E-Commerce
+Fashion,E-Commerce,E-Commerce
+Furniture,E-Commerce,E-Commerce
+Gift,E-Commerce,E-Commerce
+Gift Card,E-Commerce,E-Commerce
+Marketplace,E-Commerce,E-Commerce
+Online Auctions,E-Commerce,E-Commerce
+Product Search,E-Commerce,E-Commerce
+Sales,E-Commerce,E-Commerce
+Shoes,E-Commerce,E-Commerce
+Shopping,E-Commerce,E-Commerce
+Charter Schools,Education,Education
+E-Learning,Education,Education
+EBooks,Education,Education
+Ediscovery,Education,Education
+EdTech,Education,Education
+Education,Education,Education
+Education,Education,Education
+Higher Education,Education,Education
+Alumni,Educational Network,Education
+Accounting,FinTech,Finance
+Crowdsourcing,FinTech,Finance
+Finance,FinTech,Finance
+Financial Services,FinTech,Finance
+Financial Services,FinTech,Finance
+FinTech,FinTech,Finance
+Fraud Detection,FinTech,Finance
+Group Buying,FinTech,Finance
+Impact Investing,FinTech,Finance
+Insurance,FinTech,Finance
+Lending and Investments,FinTech,Finance
+Loyalty Programs,FinTech,Finance
+Mobile Payments,FinTech,Finance
+Payments,FinTech,Finance
+Payments,FinTech,Finance
+Transaction Processing,FinTech,Finance
+Venture Capital,FinTech,Finance
+Cooking,Food,Food
+Food and Beverage,Food,Food
+Food and Beverage,Food,Food
+Grocery,Food,Food
+Organic,Food,Food
+Organic Food,Food,Food
+Restaurants,Food,Food
+Wine And Spirits,Food,Food
+Casual Games,Gaming,Gaming
+Console Games,Gaming,Gaming
+Gaming,Gaming,Gaming
+Gaming,Gaming,Gaming
+Online Games,Gaming,Gaming
+PC Games,Gaming,Gaming
+Video Games,Gaming,Gaming
+Virtual World,Gaming,Gaming
+Augmented Reality,Virtual Reality,Gaming
+Virtual Desktop,Virtual Reality,Gaming
+Virtual Reality,Virtual Reality,Gaming
+DRM,Copy-write,GovTech and Legal
+Intellectual Property,Copy-write,GovTech and Legal
+Government,GovTech,GovTech and Legal
+Government and Military,GovTech,GovTech and Legal
+GovTech,GovTech,GovTech and Legal
+Legal,Legal,GovTech and Legal
+Legal Tech,Legal,GovTech and Legal
+Biotechnology,Health,Health and Wellness
+Biotechnology,Health,Health and Wellness
+Health Care,Health,Health and Wellness
+Health Care,Health,Health and Wellness
+Health Diagnostics,Health,Health and Wellness
+Hospital,Health,Health and Wellness
+Medical,Health,Health and Wellness
+Medical Device,Health,Health and Wellness
+Neuroscience,Health,Health and Wellness
+Personal Health,Health,Health and Wellness
+Pharmaceutical,Health,Health and Wellness
+Psychology,Health,Health and Wellness
+Beauty,Wellness,Health and Wellness
+Fitness,Wellness,Health and Wellness
+Wellness,Wellness,Health and Wellness
+3D Printing,3D Printing,Industry and Manufacturing
+3D Technology,3D Printing,Industry and Manufacturing
+Construction,Construction,Industry and Manufacturing
+Hardware,Hardware,Industry and Manufacturing
+Consumer Electronics,Hardware,Industry and Manufacturing
+Consumer Electronics,Hardware,Industry and Manufacturing
+DSP,Hardware,Industry and Manufacturing
+Electronics,Hardware,Industry and Manufacturing
+Flash Storage,Hardware,Industry and Manufacturing
+GPU,Hardware,Industry and Manufacturing
+Hardware,Hardware,Industry and Manufacturing
+Manufacturing,Hardware,Industry and Manufacturing
+Manufacturing,Hardware,Industry and Manufacturing
+Mobile Devices,Hardware,Industry and Manufacturing
+Semiconductor,Hardware,Industry and Manufacturing
+Sensor,Hardware,Industry and Manufacturing
+Wearables,Hardware,Industry and Manufacturing
+Industrial,Industrial,Industry and Manufacturing
+Industrial Engineering,Industrial,Industry and Manufacturing
+Natural Resources,Industrial,Industry and Manufacturing
+Supply Chain Management,Industrial,Industry and Manufacturing
+Electrical Distribution,Infrastructure,Industry and Manufacturing
+Infrastructure,Infrastructure,Industry and Manufacturing
+Power Grid,Infrastructure,Industry and Manufacturing
+Freight Service,Shipping,Industry and Manufacturing
+Packaging Services,Shipping,Industry and Manufacturing
+Shipping,Shipping,Industry and Manufacturing
+Auto Insurance,Automotive,Mobility and Mapping
+Automotive,Automotive,Mobility and Mapping
+Autonomous Vehicles,Automotive,Mobility and Mapping
+Geospatial,GIS,Mobility and Mapping
+Location Based Services,GIS,Mobility and Mapping
+Mapping Services,GIS,Mobility and Mapping
+Navigation,GIS,Mobility and Mapping
+Navigation and Mapping,GIS,Mobility and Mapping
+Public Transportation,GIS,Mobility and Mapping
+Aerospace,Transportation,Mobility and Mapping
+Transportation,Transportation,Mobility and Mapping
+Transportation,Transportation,Mobility and Mapping
+Tourism,Travel,Mobility and Mapping
+Travel,Travel,Mobility and Mapping
+Travel and Tourism,Travel,Mobility and Mapping
+Charity,Non Profit,Non Profit
+Non Profit,Non Profit,Non Profit
+Career Planning,Career Services,Personal Services
+Employment,Career Services,Personal Services
+Professional Networking,Career Services,Personal Services
+Professional Services,Career Services,Personal Services
+Professional Services,Career Services,Personal Services
+Recruiting,Career Services,Personal Services
+Events,Events and Planning,Personal Services
+Events,Events and Planning,Personal Services
+Music Venues,Events and Planning,Personal Services
+Rental,Events and Planning,Personal Services
+Reservations,Events and Planning,Personal Services
+Advice,Leisure and Lifestyle,Personal Services
+Communities,Leisure and Lifestyle,Personal Services
+Community and Lifestyle,Leisure and Lifestyle,Personal Services
+Leisure,Leisure and Lifestyle,Personal Services
+Application Performance Management,Organization Tools,Personal Services
+Contact Management,Organization Tools,Personal Services
+Document Management,Organization Tools,Personal Services
+Identity Management,Organization Tools,Personal Services
+Personalization,Organization Tools,Personal Services
+Productivity Tools,Organization Tools,Personal Services
+Project Management,Organization Tools,Personal Services
+Task Management,Organization Tools,Personal Services
+Child Care,Personal Services,Personal Services
+Consumer Reviews,Personal Services,Personal Services
+Dating,Personal Services,Personal Services
+Delivery,Personal Services,Personal Services
+Language Learning,Personal Services,Personal Services
+Lifestyle,Personal Services,Personal Services
+Translation Service,Personal Services,Personal Services
+Agriculture,Agriculture,Resources and Energy
+Agriculture and Farming,Agriculture,Resources and Energy
+Energy,Energy,Resources and Energy
+Energy,Energy,Resources and Energy
+Energy Efficiency,Energy,Resources and Energy
+Energy Storage,Energy,Resources and Energy
+Science and Engineering,Science and Engineering,Resources and Energy
+Clean Energy,Sustainable Energy,Resources and Energy
+Renewable Energy,Sustainable Energy,Resources and Energy
+Sustainability,Sustainable Energy,Resources and Energy
+Wind Energy,Sustainable Energy,Resources and Energy
+Blogging Platforms,Social Media,Social Media
+Messaging,Social Media,Social Media
+Messaging and Telecommunications,Social Media,Social Media
+Photo Sharing,Social Media,Social Media
+Private Social Networking,Social Media,Social Media
+Social,Social Media,Social Media
+Social Bookmarking,Social Media,Social Media
+Social Media,Social Media,Social Media
+Social Media Management,Social Media,Social Media
+Social Network,Social Media,Social Media
+Social Recruiting,Social Media,Social Media
+Apps,Software and OS,Void
+Apps,Software and OS,Void
+Mobile Apps,Software and OS,Void
+Web Apps,Software and OS,Void
+Real Time,Software and OS,Void
+Virtualization,Software and OS,Void
+iOS,Software and OS,Void
+Operating Systems,Software and OS,Void
+Embedded Software,Software and OS,Void
+Software,Software and OS,Void
+Software,Software and OS,Void
+Software Engineering,Software and OS,Void
+Computer,Software and OS,Void
+Linux,Software and OS,Void
+Mobile,Mobile,Void
+Mobile,Mobile,Void
+Android,Void,Void
+Association,Void,Void
+Collaboration,Void,Void
+Facebook,Void,Void
+Gamification,Void,Void
+Google,Void,Void
+Internet,Void,Void
+Local,Void,Void
+Musical Instruments,Void,Void
+Open Source,Void,Void
+Other,Void,Void
+Platforms,Void,Void
+Printing,Void,Void
+Q&A,Void,Void
+QR Codes,Void,Void
+Test and Measurement,Void,Void
+Toys,Void,Void
+Training,Void,Void
+Twitter,Void,Void
+Wireless,Void,Void
+Web Browsers,Web Browser,Web Services
+Web Hosting,Web Hosting,Web Services
+Browser Extensions,Web Software,Web Services
+WebOS,Web Software,Web Services
+Content Syndication,Web Syndication,Web Services
