@@ -118,13 +118,13 @@ const MaterialsArticle = (props) => {
             display: "flex",
             width: "100%",
             flexDirection: "row",
-            justifyContent: "flex-end",
+            // justifyContent: "flex-end",
             marginTop: "4em",
           }}
         >
           {props.resUrl !== "" ? (
             <a href={props.resUrl} target={"_blank"} rel="noreferrer">
-              <StyledButton>Read More</StyledButton>
+              <StyledButton>Browse Materials</StyledButton>
             </a>
           ) : null}
         </div>

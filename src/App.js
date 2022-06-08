@@ -20,18 +20,18 @@ function App() {
         <Route path="/people" element={<People />} />
         <Route path="/research" element={<Research />} />
         <Route path="/materials" exact element={<Materials />} />
-        {materialsList.map((item) => (
+        {materialsList.map((item,i) => (
           <Route
             path={`/materials/${slugify(item.title)}`}
             element={<MaterialsArticle {...item} />}
-            key={item.key}
+            key={i}
           />
         ))}
-        {eventsList.map((item) => (
+        {eventsList.map((item,i) => (
           <Route
             path={ `/events/${item.customUrl ? item.customUrl : slugify(item.title)}`}
             element={<EventsArticle {...item} />}
-            key={item.key}
+            key={i}
           />
         ))}
         <Route path="/events" exact element={<Events />} />

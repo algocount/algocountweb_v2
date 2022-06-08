@@ -24,7 +24,7 @@ let cardsToShow = filterMaterialCards.concat(filterEventsCards)
 
 cardsToShow = cardsToShow.length > 3 ? cardsToShow.slice(0, 3) : cardsToShow
 
-cardsToShow.forEach((item, i)=>(item.key = i))
+cardsToShow.forEach((item, i)=>(item.index = i))
 
 const Home = () => {
   return (
@@ -66,8 +66,8 @@ const Home = () => {
 
             <CardsContainer>
               
-              {cardsToShow.map((item) => (
-                <MaterialCard {...item} />
+              {cardsToShow.map((item, i) => (
+                <MaterialCard key={i} {...item} />
               ))}
       
             </CardsContainer>

@@ -113,8 +113,8 @@ const People = () => {
       <PeopleResearchersBox col={5} researchers={ResUniMi_Pic} />
 
       <PeopleContainer col={5}>
-        {ResUniMi_NoPic.map((d) => (
-          <JustText name={d.name} role={d.role}></JustText>
+        {ResUniMi_NoPic.map((d,i) => (
+          <JustText key={i} name={d.name} role={d.role}></JustText>
         ))}
       </PeopleContainer>
 
