@@ -129,6 +129,10 @@ footer {
   color: #444;
 }
 
+button:hover{
+cursor: pointer;
+}
+
 /*Methodology > Button Styling*/
 
 .method-button {

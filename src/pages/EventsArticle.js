@@ -32,6 +32,7 @@ const Img = styled.div`
   background-image: url(${(props) => props.src});
   background-size: cover;
   background-position: center;
+  margin-bottom:2em;
 `;
 
 const StyledMarkdown = styled(Markdown)`
@@ -47,15 +48,14 @@ const StyledMarkdown = styled(Markdown)`
     font-size: 1.8em; 
     font-weight: 600;
     letter-spacing: -.8px;
-    padding-top: 2em;
   }
   h3{
     font-family: "Inter", sans-serif;
     font-size: 1em; 
     font-weight: 400; 
-    padding-top: 2.5em; 
     text-transform: uppercase;
     letter-spacing: 2px; 
+    margin-top:2em;
   }
   p {
     font-family: "EB Garamond", serif;
@@ -80,6 +80,14 @@ const StyledMarkdown = styled(Markdown)`
     list-style-type: square;
     list-style-position: outside;
   }
+
+  blockquote{
+    margin-left:1.5em;
+  }
+
+  .btn {
+    background-color:red;
+  }
 `;
 
 const Header = styled.h1`
@@ -103,6 +111,11 @@ const Article = (props) => {
         <span style={{ fontWeight: "600" }}>{` / ${props.title}`}</span>
       </Header>
         <Img src={"." + props.imgUrl} alt={props.title} />
+              
+      {props.res2Url !== "" ? (<a href={props.res2Url} target={"_blank"} rel="noreferrer">
+          <StyledButton>Register Here</StyledButton>
+        </a>) : null}
+
       <StyledMarkdown children={props.content} />
       <div
         style={{

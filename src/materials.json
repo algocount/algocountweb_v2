@@ -31,16 +31,6 @@
   },
   {
     "index": 4,
-    "title": "Interviews with experts",
-    "description": "A selection of interviews with researchers and experts",
-    "imgUrl": "./interviews.jpg",
-    "resUrl": "",
-    "content": "\n# Interviews",
-    "type": "forthcoming",
-    "pageName": "materials"
-  },
-  {
-    "index": 5,
     "title": "Glitch Cards",
     "description": "A collection of cards from algorithmic situations",
     "imgUrl": "./cards.jpg",
@@ -50,7 +40,7 @@
     "pageName": "materials"
   },
   {
-    "index": 6,
+    "index": 5,
     "title": "Data Sprint Results",
     "description": "A website collecting results of the \"Algocount Data Sprint\"",
     "imgUrl": "./datasprints.jpg",
@@ -60,7 +50,7 @@
     "pageName": "materials"
   },
   {
-    "index": 7,
+    "index": 6,
     "title": "Ideas for the algorithmic public opinion",
     "description": "No description given",
     "imgUrl": "./ideas.jpg",
@@ -70,22 +60,12 @@
     "pageName": "materials"
   },
   {
-    "index": 8,
+    "index": 7,
     "title": "Policy Report",
     "description": "A report on Policy",
     "imgUrl": "./policyreport.jpg",
     "resUrl": "",
     "content": "\n# Policy Report\n\n",
-    "type": "forthcoming",
-    "pageName": "materials"
-  },
-  {
-    "index": 9,
-    "title": "Ranking Score",
-    "description": "Social Media Platforms ranked according to their policies",
-    "imgUrl": "./ranking.jpg",
-    "resUrl": "",
-    "content": "\n# Ranking Score\n\n",
     "type": "forthcoming",
     "pageName": "materials"
   }
