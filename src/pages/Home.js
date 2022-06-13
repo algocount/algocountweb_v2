@@ -20,7 +20,7 @@ const filterMaterialCards = materialsList.filter(item =>
   item.type === "read more"
 )
 
-let cardsToShow = filterMaterialCards.concat(filterEventsCards)
+let cardsToShow = filterEventsCards.concat(filterMaterialCards)
 
 cardsToShow = cardsToShow.length > 3 ? cardsToShow.slice(0, 3) : cardsToShow
 
