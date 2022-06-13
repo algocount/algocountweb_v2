@@ -2,7 +2,7 @@
 title: Data Sprint Results
 description: A website collecting results of the "Algocount Data Sprint"
 imgUrl: ./datasprints.jpg
-resUrl: ./data-sprint
+resUrl: ./data-sprint/index.html
 type: read more
 pageName: materials
 ---
