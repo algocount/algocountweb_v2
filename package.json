@@ -32,10 +32,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf build && react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "rm -rf node_modules/.cache && npm run build",
+    "deploy": "npm run predeploy && gh-pages -d build -t true",
     "eject": "react-scripts eject",
     "compile-mtl-md": "node src/components/getMaterials.js",
     "compile-evnt-md": "node src/components/getEvents.js"
