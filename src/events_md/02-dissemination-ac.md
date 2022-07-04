@@ -115,21 +115,27 @@ Alessandro Gandini, Michele Mauri, Simona Casonato
 🇮🇹 *The event will be held in Italian*
 
 ### 17.30 - 📍 Auditorium
-
 ## *Guida galattica per gli algoritmi quotidiani*.
 Privacy, identity and transparency: what proposals for institutions?
 
+&nbsp;
+&nbsp;
+
 ## Introduction and Algocount project results
+Alessandro Gandini, scientific coordinator Algocount project and
+Simona Casonato, ICT & Digital Culture Collection Curator.
 
-- Alessandro Gandini, scientific coordinator Algocount project;
+&nbsp;
+&nbsp;
 
-- Simona Casonato, ICT & Digital Culture Collection Curator.
+## 5 proposals for the Algorithmic Public Opinion
 
-## 5 proposals for the algorithmic public opinion
+Urbano Reviglio, researcher
 
-- Urbano Reviglio, researcher.
+&nbsp;
+&nbsp;
 
-*Round Table§*
+## Round Table
 - Elisa Giomi, Media Sociology, Commissaria AgCom;
 
 - Stefano Quintarelli, Computer Scientist, expert in gitial identity;
@@ -138,10 +144,11 @@ Privacy, identity and transparency: what proposals for institutions?
 
 - Guido Scorza, lawyer, Garante Privacy member.
 
-## Conclusioni
-- Alessandro Gandini, scientific coordinator Algocount project;
+&nbsp;
+&nbsp;
 
-- Diletta Huyskes, activist and researcher in digital sociology.
+## Conclusions
+Alessandro Gandini, scientific coordinator Algocount project and Diletta Huyskes, activist and researcher in digital sociology.
 
 
 ### 19.00 - 📍 Chiostri
