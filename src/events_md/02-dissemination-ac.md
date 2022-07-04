@@ -12,7 +12,14 @@ pageName: events
 ### Programme
 # Everyday Algorithms
 
-*7 July 2022*
+*7th and 8th July 2022*
+
+-------
+
+*7th July 2022* 
+
+
+🇬🇧 *The event will be held in English*
 
 ### 9:00
 ## Introduction
@@ -100,3 +107,48 @@ Alessandro Gandini, Michele Mauri, Simona Casonato
 ## Informal Aperitivo
 📍 Bar Magenta Milano
 
+-------
+
+*8th July 2022*
+
+
+🇮🇹 *The event will be held in Italian*
+
+### 17.30 - 📍 Auditorium
+
+## *Guida galattica per gli algoritmi quotidiani*.
+Privacy, identity and transparency: what proposals for institutions?
+
+## Introduction and Algocount project results
+
+- Alessandro Gandini, scientific coordinator Algocount project;
+
+- Simona Casonato, ICT & Digital Culture Collection Curator.
+
+## 5 proposals for the algorithmic public opinion
+
+- Urbano Reviglio, researcher.
+
+*Round Table§*
+- Elisa Giomi, Media Sociology, Commissaria AgCom;
+
+- Stefano Quintarelli, Computer Scientist, expert in gitial identity;
+
+- Francesca Scapolo, content and editorial officer, Oversight Board;
+
+- Guido Scorza, lawyer, Garante Privacy member.
+
+## Conclusioni
+- Alessandro Gandini, scientific coordinator Algocount project;
+
+- Diletta Huyskes, activist and researcher in digital sociology.
+
+
+### 19.00 - 📍 Chiostri
+Aperitivo by *Gnoko on the road*.
+
+### 20.00 - 📍 Sala Colonne
+
+Interactive performance "Suggested for You" by and with *Larsen Effect*, curated by the MUST Museum and Algocount.
+Play along with us and discover how algorithms intervene in your opinions about other people and the world around you.
+During the panel discussion and performance discover the *Collection of Everyday Algorithms* made together with the Museum.
