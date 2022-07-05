@@ -16,6 +16,8 @@ If you would like to participate in the July 8 event, [visit this page](https://
 
 
 *7th July 2022* 
+
+
  *The event will be held in English*
 
 
