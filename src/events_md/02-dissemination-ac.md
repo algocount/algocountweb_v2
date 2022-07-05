@@ -1,6 +1,6 @@
 ---
 date: 7 July 2022
-title: Everyday algorithms
+title: Dissemination Event
 description: Conference, 7th July
 imgUrl: ./conf.jpeg
 resUrl: 
