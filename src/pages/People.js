@@ -77,7 +77,7 @@ const ResPoliMi = [
     src: "./briones1.jpg",
   },
   { key: 3, name: "Tommaso Elli", role: "Postdoctoral Research Fellow", src: "./elli.jpg" },
-  { key: 4, name: "Beatrice Gobbo", role: "PhD Candidate", src: "./gobbo.jpg" },
+  { key: 4, name: "Beatrice Gobbo", role: "Postdoctoral Research Fellow", src: "./gobbo.jpg" },
 ];
 
 const ResPoliMi_NoPic = [
