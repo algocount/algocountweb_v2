@@ -11,7 +11,7 @@ pageName: events
 
 ### Programme
 # Everyday Algorithms
-If you want to attend the event of the 8th of July [visit this page](https://algocount.org/events/algoritmi-quotidiani)
+If you would like to participate in the July 8 event, [visit this page](https://algocount.org/events/algoritmi-quotidiani)
 
 
 
