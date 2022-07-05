@@ -11,11 +11,13 @@ pageName: events
 
 ### Programme
 # Everyday Algorithms
+If you want to attend the event of the 8th of July [visit this page](https://algocount.org/events/algoritmi-quotidiani)
+
+
 
 *7th July 2022* 
-
-
  *The event will be held in English*
+
 
 ### 9:00
 ## Introduction
