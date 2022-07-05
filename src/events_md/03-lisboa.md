@@ -1,17 +1,66 @@
 ---
-date: January 2022
-title: Smart Data Sprint Lisboa
-description: Presentation of the PlacPlac tool at Inova Media Lab
-imgUrl: ./lisboa.jpg
+date: 8 July 2022
+title: Algoritmi Quotidiani
+description: Event, 8th July
+imgUrl: ./colonne.jpg
 resUrl: 
-type: forthcoming
+res2Url: https://www.eventbrite.it/e/biglietti-algoritmi-quotidiani-372622543057 
+type: read more
 pageName: events
 ---
 
-# Smart Data Sprint — Plac Plac presentation
+-------
 
-This international conference aims at exploring the role algorithms play in the formation of public opinion from a multi-disciplinary perspective. Set in the context of the Algocount project, which seeks to expand the current understanding of how recommendation and personalization algorithms are perceived as key mediators in the access to news and informational content by ordinary users, the conference welcomes contributions that critically reflect on the unfolding of what we define as the ‘algorithmic public opinion’. 
+### Programme
+# Everyday Algorithms
 
-With this term we intend to grasp the algorithmically-driven processes by which a certain issue becomes a salient matter of public opinion, and the central role recommendation and personalization algorithms play as gatekeeping infrastructures through which individuals access information, produce their opinions and consolidate their social and political views. From the the moment it comes into being, to when it reaches the wider public, information is prioritised, filtered and hidden across a thick mixture of elements that come together in the algorithmic infrastructure of social media and digital platforms (Moeller and Helberger, 2018; Bozdag and van der Hoven, 2015; Bozdag, 2013). This combines with the role played by third mediating parties - also known as data brokers. From the interaction among all of these elements, we contend, an algorithmic public opinion emerges – one that is unavoidably affected by the biased nature of technology (Friedman Kahn, Borning & Huldtgren, 2006) and its affordances; that concurs to the personalisation of online activity and the salience of issues of disinformation and misinformation; and may lead to the proliferation of partial or partisan information environments and situations of psychological and political polarisation (Settle, 2018; Dylko, Dolgov, Hoffman, Eckhart, Molina & Aaziz,, 2018). Personalization, eventually, is personalised too: as such, while most seem to benefit from more or less varied and personalised content recommendations, others may end up in self-reinforcing echo chambers where information becomes redundant. Similarly, some personalization algorithms threaten to exploit individuals' vulnerabilities and facilitate politically dangerous content discovery pathways, often merely for purposes of engagement maximisation, and even contribute to creating addictive behaviours (Tufekci, 2018).
+*8th July 2022* 
 
-End
+
+ *The event will be held in Italian*
+
+### 17.30 - 📍 Auditorium
+## *Guida galattica per gli algoritmi quotidiani*.
+Privacy, identity and transparency: what proposals for institutions?
+
+&nbsp;
+&nbsp;
+
+## Introduction and Algocount project results
+Alessandro Gandini, scientific coordinator Algocount project and
+Simona Casonato, ICT & Digital Culture Collection Curator.
+
+&nbsp;
+&nbsp;
+
+## 5 proposals for the Algorithmic Public Opinion
+
+Urbano Reviglio, researcher
+
+&nbsp;
+&nbsp;
+
+## Round Table
+- Elisa Giomi, Media Sociology, Commissaria AgCom;
+
+- Stefano Quintarelli, Computer Scientist, expert in gitial identity;
+
+- Francesca Scapolo, content and editorial officer, Oversight Board;
+
+- Guido Scorza, lawyer, Garante Privacy member.
+
+&nbsp;
+&nbsp;
+
+## Conclusions
+Alessandro Gandini, scientific coordinator Algocount project and Diletta Huyskes, activist and researcher in digital sociology.
+
+
+### 19.00 - 📍 Chiostri
+Aperitivo by *Gnoko on the road*.
+
+### 20.00 - 📍 Sala Colonne
+
+Interactive performance "Suggested for You" by and with *Larsen Effect*, curated by the MUST Museum and Algocount.
+Play along with us and discover how algorithms intervene in your opinions about other people and the world around you.
+During the panel discussion and performance discover the *Collection of Everyday Algorithms* made together with the Museum.

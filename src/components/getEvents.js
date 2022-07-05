@@ -120,6 +120,7 @@ const getEvents = () => {
       imgUrl: metadata.imgUrl ? metadata.imgUrl : "No image url given",
       resUrl: metadata.resUrl ? metadata.resUrl : "",
       res2Url: metadata.res2Url ? metadata.res2Url : "",
+      res3Url: metadata.res2Url ? metadata.res3Url : "",
       content: content ? content : "No content given",
       type:  metadata.type ? metadata.type : "No type given",
       pageName:  metadata.pageName ? metadata.pageName : "No content given",
