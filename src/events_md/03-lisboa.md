@@ -9,7 +9,6 @@ type: read more
 pageName: events
 ---
 
--------
 
 ### Programme
 # Everyday Algorithms
