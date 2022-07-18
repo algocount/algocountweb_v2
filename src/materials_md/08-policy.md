@@ -2,7 +2,8 @@
 title: Policy Report
 description: A report on Policy
 imgUrl: ./policyreport.jpg
-resUrl: https://github.com/algocount/algocountweb_v2/blob/3dfb2b254bcf095f9c7a8fcc22d799737a92d067/AlgocountD5.pdf
+resUrl: 
+file: ./algocountD5.pdf
 type: read more
 pageName: materials
 ---

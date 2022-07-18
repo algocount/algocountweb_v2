@@ -126,6 +126,7 @@ const getMaterials = () => {
 				: "No description given",
 			imgUrl: metadata.imgUrl ? metadata.imgUrl : "No image url given",
 			resUrl: metadata.resUrl ? metadata.resUrl : "",
+			file: metadata.file ? metadata.file : "",
 			content: content ? content : "No content given",
 			type: metadata.type ? metadata.type : "No content given",
 			pageName: metadata.pageName ? metadata.pageName : "No content given",

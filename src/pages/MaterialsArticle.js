@@ -1,6 +1,7 @@
 import Markdown from "react-markdown";
 import { Link } from "react-router-dom";
 import Layout from "../components/Layout/Layout";
+import { saveAs } from "file-saver";
 // import styles from "./markdown.module.css";
 import styled from "styled-components";
 
@@ -128,6 +129,21 @@ const MaterialsArticle = (props) => {
             </a>
           ) : null}
         </div>
+        <div
+        style={{
+          display: "flex",
+          width: "100%",
+          flexDirection: "row",
+          justifyContent: "flex-end",
+          marginTop: "4em",
+        }}
+      >
+      
+      {props.file !== "" ? (<a href={props.file} download target={"_blank"} rel="noreferrer">
+          <StyledButton>Download</StyledButton>
+        </a>) : null}
+        
+      </div>
       </div>
     </Layout>
   );
