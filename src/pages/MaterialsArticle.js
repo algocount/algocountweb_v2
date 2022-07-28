@@ -108,17 +108,18 @@ const MaterialsArticle = (props) => {
         alt={props.title}
         style={{ width: "100%" }}
       />
-      <div style={{ marginTop: "2.5em" }}>
+      <div style={{ marginTop: "2.5em"}}>
         <StyledMarkdown
           children={props.content}
           style={{ marginTop: "1.5em" }}
         />
+       </div>
+
         <div
           style={{
             display: "flex",
             width: "100%",
             flexDirection: "row",
-            // justifyContent: "flex-end",
             marginTop: "4em",
           }}
         >
@@ -128,6 +129,7 @@ const MaterialsArticle = (props) => {
             </a>
           ) : null}
         </div>
+
         <div
         style={{
           display: "flex",
@@ -142,7 +144,6 @@ const MaterialsArticle = (props) => {
           <StyledButton>Download</StyledButton>
         </a>) : null}
         
-      </div>
       </div>
     </Layout>
   );

@@ -1,7 +1,7 @@
 ---
 title: Policy Report
 description: A report on Policy
-imgUrl: ./policyreport.jpg
+imgUrl: ./policyReport.jpg
 resUrl: 
 file: ./algocountD5.pdf
 type: read more
