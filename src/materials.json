@@ -40,6 +40,19 @@
   },
   {
     "index": 4,
+    "title": "Guida Galattica per Algoritmi Quotidiani 🇮🇹",
+    "description": "",
+    "imgUrl": "./guida.png",
+    "imgUrl2": "",
+    "imgDida": "",
+    "resUrl": "",
+    "file": "",
+    "content": "\n# Guida Galattica per Algoritmi Quotidiani \n\n\n\n\n\n",
+    "type": "read more",
+    "pageName": "materials"
+  },
+  {
+    "index": 5,
     "title": "Le collezione dei glitch algoritmici 🇮🇹",
     "description": "",
     "imgUrl": "./cards.jpg",
@@ -52,7 +65,7 @@
     "pageName": "materials"
   },
   {
-    "index": 5,
+    "index": 6,
     "title": "Data Sprint Results",
     "description": "A website collecting results of the \"Algocount Data Sprint\"",
     "imgUrl": "./datasprints.jpg",
@@ -65,7 +78,7 @@
     "pageName": "materials"
   },
   {
-    "index": 6,
+    "index": 7,
     "title": "Ideas for the algorithmic public opinion 🇮🇹",
     "description": "Proposte di Policy per l’Opinione Pubblica Algoritmica",
     "imgUrl": "./ideas.jpg",
@@ -78,7 +91,7 @@
     "pageName": "materials"
   },
   {
-    "index": 7,
+    "index": 8,
     "title": "Policy Report",
     "description": "A report on Policy",
     "imgUrl": "./policyreport.jpg",
@@ -91,7 +104,7 @@
     "pageName": "materials"
   },
   {
-    "index": 8,
+    "index": 9,
     "title": "Le tracce algoritmiche di Anastasio F. 🇮🇹",
     "description": "",
     "imgUrl": "./tracce.png",
