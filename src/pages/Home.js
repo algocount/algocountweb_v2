@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Logop5 from "../components/p5/Logop5";
 import Parallax from "../components/Parallax";
+import styled from "styled-components";
 import { Intro, Body, ListItem, SubHead } from "../components/typeComponents";
 import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
@@ -11,6 +12,12 @@ import {
 import materialsList from "../materials.json";
 import eventsList from "../events.json";
 
+const Linka = styled.a`
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  color: #000;`;
 
 const filterEventsCards = eventsList.filter(item => 
   item.type === "read more"
@@ -71,6 +78,17 @@ const Home = () => {
               ))}
       
             </CardsContainer>
+
+            <SubHead style={{paddingTop:"3.5em"}}>Press Review</SubHead>
+
+            <ul>
+                <ListItem>15th July, 2022. Wired Italia. 
+                <Linka href="https://www.wired.it/article/algoritmi-influenza-dibattito-pubblico-italia-fake-news/">Uno studio calcola quanto gli algoritmi influenzano il dibattito pubblico in Italia</Linka>.
+                </ListItem>
+              </ul>
+
+
+              <SubHead style={{paddingTop:"3.5em"}}>The project</SubHead>
 
             <div style={{ marginTop: "4em" }}>
               <Body>
@@ -135,6 +153,7 @@ const Home = () => {
                   the formation of public opinion?
                 </ListItem>
               </ul>
+
             </div>
           </Col>
         </Row>
